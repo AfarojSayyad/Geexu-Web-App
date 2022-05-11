@@ -4,7 +4,7 @@ import Image from 'next/image'
 import styled from 'styled-components'
 import Hero from '../pages/home';
 import styles from './styles.module.css';
-import Toggle from './Toggle';
+
 
 
 const Nav = styled.nav`
@@ -35,6 +35,7 @@ const Navbar = () =>
 
   
   
+  
     return(
    <>
    {/* <div className="m-0 p-0 box-border transition-all duration-300"> */}
@@ -60,9 +61,9 @@ const Navbar = () =>
             />
           </a>
         </div>
-        <nav className="navbar block md:hidden opacity-100">
+        <nav className=" pl-60  navbar block md:hidden opacity-100 ">
         <button
-              className=' inline-flex p-3 bg-black rounded lg:hidden text-white ml-auto hover:text-white outline-none'
+              className=' inline-flex p-3  bg-black rounded lg:hidden text-white ml-auto hover:text-white outline-none'
               onClick={handleClick}
             >
               <svg
@@ -164,9 +165,9 @@ const Navbar = () =>
           
           
               <div className='lg:inline-flex h-screen absolute top-0 right-0 px-3 w-[350px] py-2 rounded text-white font-bold items-center justify-center bg-black hover:text-white '>
-                <p class="ml-auto mt-5 text-56 text-white text-right mr-10" >
+                <p className="ml-auto mt-5 text-56 text-white text-right mr-10" >
                   <button onClick={handleClick}>
-                  <i class="fa-solid fa-xmark" ></i>
+                  <i className="fa-solid fa-xmark" ></i>
                   </button>
                 </p>
                 <ul>
@@ -215,14 +216,14 @@ export default Navbar;
 //             <img
 //               src="/header-img/logo.png"
 //               alt="Tighten Logo"
-//               class="logo 2xl:w-[11.325rem] xl:w-44 lg:w-[11.5rem] md:w-[10rem] sm:w-[9.2rem] w-[9.2rem] md:pt-0 sm:pt-[0.125rem]"
+//               className="logo 2xl:w-[11.325rem] xl:w-44 lg:w-[11.5rem] md:w-[10rem] sm:w-[9.2rem] w-[9.2rem] md:pt-0 sm:pt-[0.125rem]"
 //             />
 //             {/* <Image
 //             width={164.8}
 //             height={50}
 //               src="/header-img/logo.png"
 //               alt="Tighten Logo"
-//               class="sticky-logo 2xl:w-[11.325rem] xl:w-44 lg:w-[11.5rem] md:w-[10rem] sm:w-[9.2rem] w-[9.2rem] "
+//               className="sticky-logo 2xl:w-[11.325rem] xl:w-44 lg:w-[11.5rem] md:w-[10rem] sm:w-[9.2rem] w-[9.2rem] "
 //             /> */}
 //          </a> 
 //         </div>
@@ -272,28 +273,28 @@ export default Navbar;
 //             </Link>
 //             </button>
 //         </div> */}
-//         {/* <div class="nav-link h-full flex relative z-50"> */}
-//          <div class="nav-link h-full flex relative z-50">
-//             <ul class="bg-[#1A1A1A] list-none md:flex items-center 2xl:space-x-[3.563rem] xl:space-x-[3.580rem] lg:space-x-[2.570rem] md:space-x-[20px] md:static absolute w-full -top-[500px] left-0 duration-1000 text-white hover:text-gray-400 text-right md:text-center pb-[2.5rem] sm:pb-[2.625rem] md:pb-0 pr-8 md:pr-0 lg:mr-7 2xl:mr-10 2xl:-mt-0 mt-0 lg:h-full">
-//               <li class="h-full md:mt-0 mt-7">
-//                 <a href="/method" class="h-full font-mono font-bold hover:text-white uppercase border-b-[5px] border-t-[5px] border-t-transparent border-t-transparent border-b-transparent hover:border-b-[#65b722] lg:text-[1rem] lg:leading-[0.710rem] md:text-sm text-[1.125rem] leading-[1.75rem] tracking-[3px] pb-0 lg:flex lg:items-center md:flex md:items-center">Method</a>
+//         {/* <div className="nav-link h-full flex relative z-50"> */}
+//          <div className="nav-link h-full flex relative z-50">
+//             <ul className="bg-[#1A1A1A] list-none md:flex items-center 2xl:space-x-[3.563rem] xl:space-x-[3.580rem] lg:space-x-[2.570rem] md:space-x-[20px] md:static absolute w-full -top-[500px] left-0 duration-1000 text-white hover:text-gray-400 text-right md:text-center pb-[2.5rem] sm:pb-[2.625rem] md:pb-0 pr-8 md:pr-0 lg:mr-7 2xl:mr-10 2xl:-mt-0 mt-0 lg:h-full">
+//               <li className="h-full md:mt-0 mt-7">
+//                 <a href="/method" className="h-full font-mono font-bold hover:text-white uppercase border-b-[5px] border-t-[5px] border-t-transparent border-t-transparent border-b-transparent hover:border-b-[#65b722] lg:text-[1rem] lg:leading-[0.710rem] md:text-sm text-[1.125rem] leading-[1.75rem] tracking-[3px] pb-0 lg:flex lg:items-center md:flex md:items-center">Method</a>
 //               </li>
-//               <li class="h-full md:mt-0 mt-7">
-//                 <a href="/work" class="h-full font-mono font-bold hover:text-white uppercase border-b-[5px] border-t-[5px] border-t-transparent border-t-transparent border-b-transparent hover:border-b-[#65b722] lg:text-[1rem] lg:leading-[0.710rem] md:text-sm text-[1.125rem] leading-[1.75rem] tracking-[3px] pb-0 lg:flex lg:items-center md:flex md:items-center">WORK</a>
+//               <li className="h-full md:mt-0 mt-7">
+//                 <a href="/work" className="h-full font-mono font-bold hover:text-white uppercase border-b-[5px] border-t-[5px] border-t-transparent border-t-transparent border-b-transparent hover:border-b-[#65b722] lg:text-[1rem] lg:leading-[0.710rem] md:text-sm text-[1.125rem] leading-[1.75rem] tracking-[3px] pb-0 lg:flex lg:items-center md:flex md:items-center">WORK</a>
 //               </li>
-//               <li class="h-full md:mt-0 mt-7">
-//                 <a href="/blog" class="h-full font-mono font-bold hover:text-white uppercase border-b-[5px] border-t-[5px] border-t-transparent border-t-transparent border-b-transparent hover:border-b-[#65b722] lg:text-[1rem] lg:leading-[0.710rem] md:text-sm text-[1.125rem] leading-[1.75rem] tracking-[3px] pb-0 lg:flex lg:items-center md:flex md:items-center">BLOG</a>
-//               </li>
-
-//               <li class="h-full md:mt-0 mt-7">
-//                 <a href="/team" class="h-full font-mono font-bold hover:text-white uppercase border-b-[5px] border-t-[5px] border-t-transparent border-t-transparent border-b-transparent hover:border-b-[#65b722] lg:text-[1rem] lg:leading-[0.710rem] md:text-sm text-[1.125rem] leading-[1.75rem] tracking-[3px] pb-0 lg:flex lg:items-center md:flex md:items-center">TEAM</a>
+//               <li className="h-full md:mt-0 mt-7">
+//                 <a href="/blog" className="h-full font-mono font-bold hover:text-white uppercase border-b-[5px] border-t-[5px] border-t-transparent border-t-transparent border-b-transparent hover:border-b-[#65b722] lg:text-[1rem] lg:leading-[0.710rem] md:text-sm text-[1.125rem] leading-[1.75rem] tracking-[3px] pb-0 lg:flex lg:items-center md:flex md:items-center">BLOG</a>
 //               </li>
 
-//               <li class="h-full md:mt-0 mt-7">
-//                 <a href="/about" class="h-full font-mono font-bold hover:text-white uppercase border-b-[5px] border-t-[5px] border-t-transparent border-t-transparent border-b-transparent hover:border-b-[#65b722] lg:text-[1rem] lg:leading-[0.710rem] md:text-sm text-[1.125rem] leading-[1.75rem] tracking-[3px] pb-0 lg:flex lg:items-center md:flex md:items-center">ABOUT</a>
+//               <li className="h-full md:mt-0 mt-7">
+//                 <a href="/team" className="h-full font-mono font-bold hover:text-white uppercase border-b-[5px] border-t-[5px] border-t-transparent border-t-transparent border-b-transparent hover:border-b-[#65b722] lg:text-[1rem] lg:leading-[0.710rem] md:text-sm text-[1.125rem] leading-[1.75rem] tracking-[3px] pb-0 lg:flex lg:items-center md:flex md:items-center">TEAM</a>
 //               </li>
 
-//               <a href="/contact" class="mt-7 md:mt-0 btn  inline-block  border border-white rounded-full text-white font-mono font-bold lg:text-[1rem] lg:leading-[1.5rem] lg:font-[700] md:text-[14px] text-[0.875rem] leading-[0.875rem] tracking-[4px] hover:bg-gradient-to-r from-[#68ccd9] to-[#62bd64] hover:text-white hover:border-transparent shadow-button-inner-gray border-white bg-origin-border hover:border-transparent
+//               <li className="h-full md:mt-0 mt-7">
+//                 <a href="/about" className="h-full font-mono font-bold hover:text-white uppercase border-b-[5px] border-t-[5px] border-t-transparent border-t-transparent border-b-transparent hover:border-b-[#65b722] lg:text-[1rem] lg:leading-[0.710rem] md:text-sm text-[1.125rem] leading-[1.75rem] tracking-[3px] pb-0 lg:flex lg:items-center md:flex md:items-center">ABOUT</a>
+//               </li>
+
+//               <a href="/contact" className="mt-7 md:mt-0 btn  inline-block  border border-white rounded-full text-white font-mono font-bold lg:text-[1rem] lg:leading-[1.5rem] lg:font-[700] md:text-[14px] text-[0.875rem] leading-[0.875rem] tracking-[4px] hover:bg-gradient-to-r from-[#68ccd9] to-[#62bd64] hover:text-white hover:border-transparent shadow-button-inner-gray border-white bg-origin-border hover:border-transparent
 //               py-3 lg:py-2.5 px-5 uppercase text-white border ">CONTACT</a>
 //             </ul>
 //           </div> 

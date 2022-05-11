@@ -63,32 +63,32 @@ export default function Team() {
       </Head>
       
       {/* <!-- Hero Section Start Here --> */}
-      <div class="container-fluid bg-black px-6 md:px-16 lg:px-28 2xl:px-0">
+      <div className="container-fluid bg-black px-6 md:px-16 lg:px-28 2xl:px-0">
           <div
-            class="container mx-auto bg-black pt-0 sm:-mt-24 -m-20 sm:pt-36 pt-14 pb-28 min-h-[490px] md:min-h-[877px]"
+            className="container mx-auto bg-black pt-0 sm:-mt-24 -m-20 sm:pt-36 pt-14 pb-28 min-h-[490px] md:min-h-[877px]"
           >
             {/* <!-- Hero Section Start Here --> */}
-            <div class="md:mt-[0px] box-border">
-              <div class="main heading mt-36">
+            <div className="md:mt-[0px] box-border">
+              <div className="main heading mt-36">
                 <h1
-                  class="xl:text-[17rem] xl:font-[270] xl:leading-[17rem] mt-5 lg:text-[22rem] lg:leading-[22rem] md:text-[12rem] md:leading-[12rem] sm:text-[10rem] sm:leading-[10rem] text-[4rem] leading-[4rem] text-white font-[Signifier] font-[300] sm:mb-8 sm:pb-0 pb-4"
+                  className="xl:text-[17rem] xl:font-[270] xl:leading-[17rem] mt-5 lg:text-[22rem] lg:leading-[22rem] md:text-[12rem] md:leading-[12rem] sm:text-[10rem] sm:leading-[10rem] text-[4rem] leading-[4rem] text-white font-[Signifier] font-[300] sm:mb-8 sm:pb-0 pb-4"
                 >
                   Team
                 </h1>
               </div>
               <div
-                class="text-white lg:text-4xl lg:leading-[3.125rem] text-2xl leading-normal font-[signifier] font-[100] sm:pt-2 pt-0"
+                className="text-white lg:text-4xl lg:leading-[3.125rem] text-2xl leading-normal font-[signifier] font-[100] sm:pt-2 pt-0"
               >
                 <p>
                   The best development team at any agency on the planet. 
-                  <br class="hidden lg:block" />
+                  <br className="hidden lg:block" />
                   No, we aren't joking.
                 </p>
               </div>
-              <div class="mt-20">
+              <div className="mt-20">
                 <a
                   href="/workWithUs"
-                  class="lg:px-8 lg:py-[14px] lg:text-base sm:px-4 sm:py-3 px-5 py-2 hover:bg-white hover:text-black bg-[#65b722] uppercase text-white sm:font-semibold rounded-full font-mono tracking-widest leading-normal"
+                  className="lg:px-8 lg:py-[14px] lg:text-base sm:px-4 sm:py-3 px-5 py-2 hover:bg-white hover:text-black bg-[#65b722] uppercase text-white sm:font-semibold rounded-full font-mono tracking-widest leading-normal"
                   >COLLABORATE WITH US</a>
                 
               </div>
@@ -98,113 +98,113 @@ export default function Team() {
         </div>
         {/* <!-- Hero Section End Here --> */}
         {/* second team section starts here */}
-        <div class="container-fluid bg-black text-white px-6 md:px-16 lg:px-28 lg:pt-40 pt-10 pb-10 md:pb-16 lg:pb-32">
-          <div class="container mx-auto">
-            <div class="gap-[20px] grid 2xl:grid-cols-4 xl:grid-cols-3 lg:grid-cols-2 md:grid-cols-2 sm:grid-cols-1">
+        <div className="container-fluid bg-black text-white px-6 md:px-16 lg:px-28 lg:pt-40 pt-10 pb-10 md:pb-16 lg:pb-32">
+          <div className="container mx-auto">
+            <div className="gap-[20px] grid 2xl:grid-cols-4 xl:grid-cols-3 lg:grid-cols-2 md:grid-cols-2 sm:grid-cols-1">
 
               {/* 1 member starts here */}
-              <div class="relative group cursor-pointer">
+              <div className="relative group cursor-pointer">
 
-                <div class="img">
+                <div className="img">
                 <img
                   src="/Team-Page-img/1.jpg"
                   alt="Dan Sheetz"
                   title="PARTNER + TECHNICAL DIRECTOR"
-                  class="sm:w-11/12 w-full grayscale hover:grayscale-0 cursor-pointer"
+                  className="sm:w-11/12 w-full grayscale hover:grayscale-0 cursor-pointer"
                 />
               </div>
 
-              <div class="info">
-                <div class="flex justify-end mr-14 absolute top-4 right-0">
+              <div className="info">
+                <div className="flex justify-end mr-14 absolute top-4 right-0">
                   <img
                     src="/header-img/favicon.png"
                     alt="favicon img"
-                    class="w-8"
+                    className="w-8"
                   />
                 </div>
                 <div
-                  class="absolute bottom-0 left-0 right-0 pl-8 pb-6 bg-gradient-to-t from-black to-transperent"
+                  className="absolute bottom-0 left-0 right-0 pl-8 pb-6 bg-gradient-to-t from-black to-transperent"
                 >
                   <h4
-                    class="text-3xl leading-tight-2 2xl:text-4xl 2xl:leading-tight-2 font-[serif] font-[100] mb-2"
+                    className="text-3xl leading-tight-2 2xl:text-4xl 2xl:leading-tight-2 font-[serif] font-[100] mb-2"
                   >
                     Dan <br />
                     Sheetz
                   </h4>
                   <p
-                    class="uppercase text-yellow-600 font-mono font-bold tracking-[0.1rem] text-[#65b722] text-sm"
+                    className="uppercase text-yellow-600 font-mono font-bold tracking-[0.1rem] text-[#65b722] text-sm"
                   >
                     partner + MANAGING DIRECTOR
                   </p>
                 </div>
               </div>
 
-              <div class="absolute -top-96 left-96 group-hover:block group-hover:top-0 group-hover:left-0 sm:w-[93%] w-full h-full transition-top duration-1000 right-8 bg-[#FFBC00] hidden group-hover:block">
-                <div class="w-4/5 mx-auto uppercase text-slate-600 font-sans text-sm py-4 overflow-hidden">
+              <div className="absolute -top-96 left-96 group-hover:block group-hover:top-0 group-hover:left-0 sm:w-[93%] w-full h-full transition-top duration-1000 right-8 bg-[#FFBC00] hidden group-hover:block">
+                <div className="w-4/5 mx-auto uppercase text-slate-600 font-sans text-sm py-4 overflow-hidden">
                   <h5>featured contributions</h5>
                 </div>
                 <a href="https://tighten.com/blog/the-great-tighten-experiment/">
                   <div
-                    class="border border-2 border-[#C97F09] w-4/5 mx-auto flex items-center"
+                    className="border border-2 border-[#C97F09] w-4/5 mx-auto flex items-center"
                   >
                     <div
-                      class="text-black text-2xl px-2 py-2 font-[100] border-r border-r-2 border-r-black"
+                      className="text-black text-2xl px-2 py-2 font-[100] border-r border-r-2 border-r-black"
                     >
-                      <i class="fa-solid fa-pen-to-square"></i>
+                      <i className="fa-solid fa-pen-to-square"></i>
                     </div>
-                    <div class="py-2 text-black pl-2">
-                      <h5 class="font-[pitch-sans] font-semibold tracking-widest">
+                    <div className="py-2 text-black pl-2">
+                      <h5 className="font-[pitch-sans] font-semibold tracking-widest">
                         The Great Tighten Ex...
                       </h5>
-                      <p class="uppercase text-xs text-gray-700">writter</p>
+                      <p className="uppercase text-xs text-gray-700">writter</p>
                     </div>
                   </div>
                 </a>
                 <a href="https://tighten.com/blog/the-great-tighten-experiment/">
                   <div
-                    class="border border-2 border-[#C97F09] w-4/5 mx-auto flex items-center my-4"
+                    className="border border-2 border-[#C97F09] w-4/5 mx-auto flex items-center my-4"
                   >
                     <div
-                      class="text-black text-2xl px-2 py-2 font-[100] border-r border-r-2 border-r-black"
+                      className="text-black text-2xl px-2 py-2 font-[100] border-r border-r-2 border-r-black"
                     >
-                      <i class="fa-solid fa-pen-to-square"></i>
+                      <i className="fa-solid fa-pen-to-square"></i>
                     </div>
-                    <div class="py-2 text-black pl-2">
-                      <h5 class="font-[pitch-sans] font-semibold tracking-widest">
+                    <div className="py-2 text-black pl-2">
+                      <h5 className="font-[pitch-sans] font-semibold tracking-widest">
                         Tighten Manifesto
                       </h5>
-                      <p class="uppercase text-xs text-gray-700">writter</p>
+                      <p className="uppercase text-xs text-gray-700">writter</p>
                     </div>
                   </div>
                 </a>
                 <a href="https://tighten.com/blog/the-great-tighten-experiment/">
                   <div
-                    class="border border-2 border-[#C97F09] w-4/5 mx-auto flex items-center"
+                    className="border border-2 border-[#C97F09] w-4/5 mx-auto flex items-center"
                   >
                     <div
-                      class="text-black text-2xl px-2 py-2 font-[100] border-r border-r-2 border-r-black"
+                      className="text-black text-2xl px-2 py-2 font-[100] border-r border-r-2 border-r-black"
                     >
-                      <i class="fa-solid fa-bars"></i>
+                      <i className="fa-solid fa-bars"></i>
                     </div>
-                    <div class="py-2 text-black pl-2">
-                      <h5 class="font-[pitch-sans] font-semibold tracking-widest">
+                    <div className="py-2 text-black pl-2">
+                      <h5 className="font-[pitch-sans] font-semibold tracking-widest">
                         Filed Goal
                       </h5>
-                      <p class="uppercase text-xs text-gray-700 tracking-widest">
+                      <p className="uppercase text-xs text-gray-700 tracking-widest">
                         contributor
                       </p>
                     </div>
                   </div>
                 </a>
-                <div class="mt-4 ml-8">
+                <div className="mt-4 ml-8">
                   <h4
-                    class="text-black text-3xl leading-tight-2 2xl:text-4xl 2xl:leading-tight-2 font-[serif] font-[100]"
+                    className="text-black text-3xl leading-tight-2 2xl:text-4xl 2xl:leading-tight-2 font-[serif] font-[100]"
                   >
                     Dan <br />
                     Sheetz
                   </h4>
                   <p
-                    class="uppercase text-gray-600 font-mono font-bold tracking-[0.1rem] text-[#65b722] text-sm"
+                    className="uppercase text-gray-600 font-mono font-bold tracking-[0.1rem] text-[#65b722] text-sm"
                   >
                     partner + MANAGING DIRECTOR
                   </p>
@@ -214,34 +214,34 @@ export default function Team() {
               </div>
               {/* 1 member ends here */}
               {/* 2 member starts here */}
-              <div class="relative group cursor-pointer">
-                <div class="img">
+              <div className="relative group cursor-pointer">
+                <div className="img">
                   <img
                     src="/Team-Page-img/2.jpg"
                     alt="Dan Sheetz"
                     title="PARTNER + TECHNICAL DIRECTOR"
-                    class="w-[100%] grayscale hover:grayscale-0 cursor-pointer"
+                    className="w-[100%] grayscale hover:grayscale-0 cursor-pointer"
                   />
                 </div>
-                <div class="info">
-                  <div class="flex justify-end mr-14 absolute top-4 right-0">
+                <div className="info">
+                  <div className="flex justify-end mr-14 absolute top-4 right-0">
                     <img
                       src="/header-img/favicon.png"
                       alt="favicon img"
-                      class="w-8"
+                      className="w-8"
                     />
                   </div>
                   <div
-                    class="absolute bottom-0 left-0 right-0 pl-8 pb-6 bg-gradient-to-t from-black to-transperent"
+                    className="absolute bottom-0 left-0 right-0 pl-8 pb-6 bg-gradient-to-t from-black to-transperent"
                   >
                     <h4
-                      class="text-3xl leading-tight-2 2xl:text-4xl 2xl:leading-tight-2 font-[serif] font-[100] mb-2"
+                      className="text-3xl leading-tight-2 2xl:text-4xl 2xl:leading-tight-2 font-[serif] font-[100] mb-2"
                     >
                       Matt <br />
                       Stauffer
                     </h4>
                     <p
-                      class="uppercase text-yellow-600 font-mono font-bold tracking-[0.1rem] text-[#65b722] text-sm"
+                      className="uppercase text-yellow-600 font-mono font-bold tracking-[0.1rem] text-[#65b722] text-sm"
                     >
                       partner + TECHNICAL DIRECTOR
                     </p>
@@ -249,75 +249,75 @@ export default function Team() {
                 </div>
                 
                 <div
-                  class="absolute -top-96 left-96 group-hover:block group-hover:top-0 group-hover:left-0 w-[100%] h-full transition-top duration-1000 right-8 bg-[#FFBC00] hidden group-hover:block"
+                  className="absolute -top-96 left-96 group-hover:block group-hover:top-0 group-hover:left-0 w-[100%] h-full transition-top duration-1000 right-8 bg-[#FFBC00] hidden group-hover:block"
                 >
                   <div
-                    class="w-4/5 mx-auto uppercase text-slate-600 font-sans text-sm py-4 overflow-hidden"
+                    className="w-4/5 mx-auto uppercase text-slate-600 font-sans text-sm py-4 overflow-hidden"
                   >
                     <h5>featured contributions</h5>
                   </div>
                   <a href="https://tighten.com/blog/the-great-tighten-experiment/">
                     <div
-                      class="border border-2 border-[#C97F09] w-4/5 mx-auto flex items-center"
+                      className="border border-2 border-[#C97F09] w-4/5 mx-auto flex items-center"
                     >
                       <div
-                        class="text-black text-2xl px-2 py-2 font-[100] border-r border-r-2 border-r-black"
+                        className="text-black text-2xl px-2 py-2 font-[100] border-r border-r-2 border-r-black"
                       >
-                        <i class="fa-solid fa-pen-to-square"></i>
+                        <i className="fa-solid fa-pen-to-square"></i>
                       </div>
-                      <div class="py-2 text-black pl-2">
-                        <h5 class="font-[pitch-sans] font-semibold tracking-widest">
+                      <div className="py-2 text-black pl-2">
+                        <h5 className="font-[pitch-sans] font-semibold tracking-widest">
                           The Great Tighten Ex...
                         </h5>
-                        <p class="uppercase text-xs text-gray-700">writter</p>
+                        <p className="uppercase text-xs text-gray-700">writter</p>
                       </div>
                     </div>
                   </a>
                   <a href="https://tighten.com/blog/the-great-tighten-experiment/">
                     <div
-                      class="border border-2 border-[#C97F09] w-4/5 mx-auto flex items-center my-4"
+                      className="border border-2 border-[#C97F09] w-4/5 mx-auto flex items-center my-4"
                     >
                       <div
-                        class="text-black text-2xl px-2 py-2 font-[100] border-r border-r-2 border-r-black"
+                        className="text-black text-2xl px-2 py-2 font-[100] border-r border-r-2 border-r-black"
                       >
-                        <i class="fa-solid fa-pen-to-square"></i>
+                        <i className="fa-solid fa-pen-to-square"></i>
                       </div>
-                      <div class="py-2 text-black pl-2">
-                        <h5 class="font-[pitch-sans] font-semibold tracking-widest">
+                      <div className="py-2 text-black pl-2">
+                        <h5 className="font-[pitch-sans] font-semibold tracking-widest">
                           Tighten Manifesto
                         </h5>
-                        <p class="uppercase text-xs text-gray-700">writter</p>
+                        <p className="uppercase text-xs text-gray-700">writter</p>
                       </div>
                     </div>
                   </a>
                   <a href="https://tighten.com/blog/the-great-tighten-experiment/">
                     <div
-                      class="border border-2 border-[#C97F09] w-4/5 mx-auto flex items-center"
+                      className="border border-2 border-[#C97F09] w-4/5 mx-auto flex items-center"
                     >
                       <div
-                        class="text-black text-2xl px-2 py-2 font-[100] border-r border-r-2 border-r-black"
+                        className="text-black text-2xl px-2 py-2 font-[100] border-r border-r-2 border-r-black"
                       >
-                        <i class="fa-solid fa-bars"></i>
+                        <i className="fa-solid fa-bars"></i>
                       </div>
-                      <div class="py-2 text-black pl-2">
-                        <h5 class="font-[pitch-sans] font-semibold tracking-widest">
+                      <div className="py-2 text-black pl-2">
+                        <h5 className="font-[pitch-sans] font-semibold tracking-widest">
                           Filed Goal
                         </h5>
-                        <p class="uppercase text-xs text-gray-700 tracking-widest">
+                        <p className="uppercase text-xs text-gray-700 tracking-widest">
                           contributor
                         </p>
                       </div>
                     </div>
                   </a>
-                  <div class="mt-4 ml-8">
+                  <div className="mt-4 ml-8">
                     <h4
-                      class="text-black text-3xl leading-tight-2 2xl:text-4xl 2xl:leading-tight-2 font-[serif] font-[100]"
+                      className="text-black text-3xl leading-tight-2 2xl:text-4xl 2xl:leading-tight-2 font-[serif] font-[100]"
                     >
                       Matt <br />
                       Stauffer
                     </h4>
                     <p
-                      class="uppercase text-gray-600 font-mono font-bold tracking-[0.1rem] text-[#65b722] text-sm"
+                      className="uppercase text-gray-600 font-mono font-bold tracking-[0.1rem] text-[#65b722] text-sm"
                     >
                       partner + TECHNICAL DIRECTOR
                     </p>
@@ -326,91 +326,91 @@ export default function Team() {
           </div>
           {/* 2 ends here */}
           {/* 3 starts here */}
-          <div class="relative group cursor-pointer">
-            <div class="img">
+          <div className="relative group cursor-pointer">
+            <div className="img">
               <img
                 src="/Team-Page-img/3.jpg"
                 alt="Dan Sheetz"
                 title="PARTNER + TECHNICAL DIRECTOR"
-                class="w-[100%] grayscale hover:grayscale-0 cursor-pointer"
+                className="w-[100%] grayscale hover:grayscale-0 cursor-pointer"
               />
             </div>
-            <div class="info">
-              <div class="flex justify-end mr-14 absolute top-4 right-0">
+            <div className="info">
+              <div className="flex justify-end mr-14 absolute top-4 right-0">
                 <img
                   src="/header-img/favicon.png"
                   alt="favicon img"
-                  class="w-8"
+                  className="w-8"
                 />
               </div>
               <div
-                class="absolute bottom-0 left-0 right-0 pl-8 pb-6 bg-gradient-to-t from-black to-transperent"
+                className="absolute bottom-0 left-0 right-0 pl-8 pb-6 bg-gradient-to-t from-black to-transperent"
               >
                 <h4
-                  class="text-3xl leading-tight-2 2xl:text-4xl 2xl:leading-tight-2 font-[serif] font-[100] mb-2"
+                  className="text-3xl leading-tight-2 2xl:text-4xl 2xl:leading-tight-2 font-[serif] font-[100] mb-2"
                 >
                   Alison <br />
                   Krik
                 </h4>
                 <p
-                  class="uppercase text-yellow-600 font-mono font-bold tracking-[0.1rem] text-[#65b722] text-sm"
+                  className="uppercase text-yellow-600 font-mono font-bold tracking-[0.1rem] text-[#65b722] text-sm"
                 >
                   Programer
                 </p>
               </div>
             </div>
             <div
-              class="absolute -top-96 left-96 group-hover:block group-hover:top-0 group-hover:left-0 w-[100%] h-full transition-top duration-1000 right-8 bg-[#FFBC00] hidden group-hover:block"
+              className="absolute -top-96 left-96 group-hover:block group-hover:top-0 group-hover:left-0 w-[100%] h-full transition-top duration-1000 right-8 bg-[#FFBC00] hidden group-hover:block"
             >
               <div
-                class="w-4/5 mx-auto uppercase text-slate-600 font-sans text-sm py-4 overflow-hidden"
+                className="w-4/5 mx-auto uppercase text-slate-600 font-sans text-sm py-4 overflow-hidden"
               >
                 <h5>featured contributions</h5>
               </div>
               <a href="https://tighten.com/blog/the-great-tighten-experiment/">
                 <div
-                  class="border border-2 border-[#C97F09] w-4/5 mx-auto flex items-center"
+                  className="border border-2 border-[#C97F09] w-4/5 mx-auto flex items-center"
                 >
                   <div
-                    class="text-black text-2xl px-2 py-2 font-[100] border-r border-r-2 border-r-black"
+                    className="text-black text-2xl px-2 py-2 font-[100] border-r border-r-2 border-r-black"
                   >
-                    <i class="fa-brands fa-github"></i>
+                    <i className="fa-brands fa-github"></i>
                   </div>
-                  <div class="py-2 text-black pl-2">
-                    <h5 class="font-[pitch-sans] font-semibold tracking-widest">
+                  <div className="py-2 text-black pl-2">
+                    <h5 className="font-[pitch-sans] font-semibold tracking-widest">
                       Nova Stripe
                     </h5>
-                    <p class="uppercase text-xs text-gray-700">contributor</p>
+                    <p className="uppercase text-xs text-gray-700">contributor</p>
                   </div>
                 </div>
               </a>
               <a href="https://tighten.com/blog/the-great-tighten-experiment/">
                 <div
-                  class="border border-2 border-[#C97F09] w-4/5 mx-auto flex items-center my-4"
+                  className="border border-2 border-[#C97F09] w-4/5 mx-auto flex items-center my-4"
                 >
                   <div
-                    class="text-black text-2xl px-2 py-2 font-[100] border-r border-r-2 border-r-black"
+                    className="text-black text-2xl px-2 py-2 font-[100] border-r border-r-2 border-r-black"
                   >
-                    <i class="fa-brands fa-github"></i>
+                    <i className="fa-brands fa-github"></i>
                   </div>
-                  <div class="py-2 text-black pl-2">
-                    <h5 class="font-[pitch-sans] font-semibold tracking-widest">
+                  <div className="py-2 text-black pl-2">
+                    <h5 className="font-[pitch-sans] font-semibold tracking-widest">
                       PHP Release
                     </h5>
-                    <p class="uppercase text-xs text-gray-700">contributor</p>
+                    <p className="uppercase text-xs text-gray-700">contributor</p>
                   </div>
                 </div>
               </a>
 
-              <div class="mt-1 ml-8">
+              <div className="mt-1 ml-8">
                 <h4
-                  class="text-black text-3xl leading-tight-2 2xl:text-4xl 2xl:leading-tight-2 font-[serif] font-[100] pb-2"
+                  className="text-black text-3xl leading-tight-2 2xl:text-4xl 2xl:leading-tight-2 font-[serif] font-[100] pb-2"
                 >
                   Alison <br />
                   Kirk
                 </h4>
                 <p
-                  class="uppercase text-gray-600 font-mono font-bold tracking-[0.1rem] text-[#65b722] text-sm"
+                  className="uppercase text-gray-600 font-mono font-bold tracking-[0.1rem] text-[#65b722] text-sm"
                 >
                   Programer
                 </p>
@@ -419,91 +419,91 @@ export default function Team() {
           </div>
           {/* 3 ends here */}
           {/* 4 starts here */}
-          <div class="relative group cursor-pointer 2xl:mt-0 mt-8">
-            <div class="img">
+          <div className="relative group cursor-pointer 2xl:mt-0 mt-8">
+            <div className="img">
               <img
                 src="/Team-Page-img/4.jpg"
                 alt="Dan Sheetz"
                 title="PARTNER + TECHNICAL DIRECTOR"
-                class="w-[100%] grayscale hover:grayscale-0 cursor-pointer"
+                className="w-[100%] grayscale hover:grayscale-0 cursor-pointer"
               />
             </div>
-            <div class="info">
-              <div class="flex justify-end mr-14 absolute top-4 right-0">
+            <div className="info">
+              <div className="flex justify-end mr-14 absolute top-4 right-0">
                 <img
                   src="/header-img/favicon.png"
                   alt="favicon img"
-                  class="w-8"
+                  className="w-8"
                 />
               </div>
               <div
-                class="absolute bottom-0 left-0 right-0 pl-8 pb-6 bg-gradient-to-t from-black to-transperent"
+                className="absolute bottom-0 left-0 right-0 pl-8 pb-6 bg-gradient-to-t from-black to-transperent"
               >
                 <h4
-                  class="text-3xl leading-tight-2 2xl:text-4xl 2xl:leading-tight-2 font-[serif] font-[100] mb-2"
+                  className="text-3xl leading-tight-2 2xl:text-4xl 2xl:leading-tight-2 font-[serif] font-[100] mb-2"
                 >
                   Andrew <br />
                   Morgen
                 </h4>
                 <p
-                  class="uppercase text-yellow-600 font-mono font-bold tracking-[0.1rem] text-[#65b722] text-sm"
+                  className="uppercase text-yellow-600 font-mono font-bold tracking-[0.1rem] text-[#65b722] text-sm"
                 >
                   Lead Programer
                 </p>
               </div>
             </div>
             <div
-              class="absolute -top-96 left-96 group-hover:block group-hover:top-0 group-hover:left-0 w-[100%] h-full transition-top duration-1000 right-8 bg-[#FFBC00] hidden group-hover:block"
+              className="absolute -top-96 left-96 group-hover:block group-hover:top-0 group-hover:left-0 w-[100%] h-full transition-top duration-1000 right-8 bg-[#FFBC00] hidden group-hover:block"
             >
               <div
-                class="w-4/5 mx-auto uppercase text-slate-600 font-sans text-sm py-4 overflow-hidden"
+                className="w-4/5 mx-auto uppercase text-slate-600 font-sans text-sm py-4 overflow-hidden"
               >
                 <h5>featured contributions</h5>
               </div>
               <a href="https://tighten.com/blog/the-great-tighten-experiment/">
                 <div
-                  class="border border-2 border-[#C97F09] w-4/5 mx-auto flex items-center"
+                  className="border border-2 border-[#C97F09] w-4/5 mx-auto flex items-center"
                 >
                   <div
-                    class="text-black text-2xl px-2 py-2 font-[100] border-r border-r-2 border-r-black"
+                    className="text-black text-2xl px-2 py-2 font-[100] border-r border-r-2 border-r-black"
                   >
-                    <i class="fa-brands fa-github"></i>
+                    <i className="fa-brands fa-github"></i>
                   </div>
-                  <div class="py-2 text-black pl-2">
-                    <h5 class="font-[pitch-sans] font-semibold tracking-widest">
+                  <div className="py-2 text-black pl-2">
+                    <h5 className="font-[pitch-sans] font-semibold tracking-widest">
                       Nova Stripe
                     </h5>
-                    <p class="uppercase text-xs text-gray-700">contributor</p>
+                    <p className="uppercase text-xs text-gray-700">contributor</p>
                   </div>
                 </div>
               </a>
               <a href="https://tighten.com/blog/the-great-tighten-experiment/">
                 <div
-                  class="border border-2 border-[#C97F09] w-4/5 mx-auto flex items-center my-4"
+                  className="border border-2 border-[#C97F09] w-4/5 mx-auto flex items-center my-4"
                 >
                   <div
-                    class="text-black text-2xl px-2 py-2 font-[100] border-r border-r-2 border-r-black"
+                    className="text-black text-2xl px-2 py-2 font-[100] border-r border-r-2 border-r-black"
                   >
-                    <i class="fa-brands fa-github"></i>
+                    <i className="fa-brands fa-github"></i>
                   </div>
-                  <div class="py-2 text-black pl-2">
-                    <h5 class="font-[pitch-sans] font-semibold tracking-widest">
+                  <div className="py-2 text-black pl-2">
+                    <h5 className="font-[pitch-sans] font-semibold tracking-widest">
                       PHP Release
                     </h5>
-                    <p class="uppercase text-xs text-gray-700">contributor</p>
+                    <p className="uppercase text-xs text-gray-700">contributor</p>
                   </div>
                 </div>
               </a>
 
-              <div class="mt-1 ml-8">
+              <div className="mt-1 ml-8">
                 <h4
-                  class="text-black text-3xl leading-tight-2 2xl:text-4xl 2xl:leading-tight-2 font-[serif] font-[100] pb-2"
+                  className="text-black text-3xl leading-tight-2 2xl:text-4xl 2xl:leading-tight-2 font-[serif] font-[100] pb-2"
                 >
                   Andrew <br />
                   Morgan
                 </h4>
                 <p
-                  class="uppercase text-gray-600 font-mono font-bold tracking-[0.1rem] text-[#65b722] text-sm"
+                  className="uppercase text-gray-600 font-mono font-bold tracking-[0.1rem] text-[#65b722] text-sm"
                 >
                   Lead Programer
                 </p>
@@ -512,91 +512,91 @@ export default function Team() {
           </div>
           {/* 4 ends here */}
           {/* <!-- 5 Member start --> */}
-          <div class="relative group cursor-pointer mt-8">
-            <div class="img">
+          <div className="relative group cursor-pointer mt-8">
+            <div className="img">
               <img
                 src="/Team-Page-img/5.jpg"
                 alt="Dan Sheetz"
                 title="PARTNER + TECHNICAL DIRECTOR"
-                class="w-[100%] grayscale hover:grayscale-0 cursor-pointer"
+                className="w-[100%] grayscale hover:grayscale-0 cursor-pointer"
               />
             </div>
-            <div class="info">
-              <div class="flex justify-end mr-14 absolute top-4 right-0">
+            <div className="info">
+              <div className="flex justify-end mr-14 absolute top-4 right-0">
                 <img
                   src="/header-img/favicon.png"
                   alt="favicon img"
-                  class="w-8"
+                  className="w-8"
                 />
               </div>
               <div
-                class="absolute bottom-0 left-0 right-0 pl-8 pb-6 bg-gradient-to-t from-black to-transperent"
+                className="absolute bottom-0 left-0 right-0 pl-8 pb-6 bg-gradient-to-t from-black to-transperent"
               >
                 <h4
-                  class="text-3xl leading-tight-2 2xl:text-4xl 2xl:leading-tight-2 font-[serif] font-[100] mb-2"
+                  className="text-3xl leading-tight-2 2xl:text-4xl 2xl:leading-tight-2 font-[serif] font-[100] mb-2"
                 >
                   Anna <br />
                   Youngyeun
                 </h4>
                 <p
-                  class="uppercase text-yellow-600 font-mono font-bold tracking-[0.1rem] text-[#65b722] text-sm"
+                  className="uppercase text-yellow-600 font-mono font-bold tracking-[0.1rem] text-[#65b722] text-sm"
                 >
                   Apprentice Programer
                 </p>
               </div>
             </div>
             <div
-              class="absolute -top-96 left-96 group-hover:block group-hover:top-0 group-hover:left-0 w-[100%] h-full transition-top duration-1000 right-8 bg-[#FFBC00] hidden group-hover:block"
+              className="absolute -top-96 left-96 group-hover:block group-hover:top-0 group-hover:left-0 w-[100%] h-full transition-top duration-1000 right-8 bg-[#FFBC00] hidden group-hover:block"
             >
               <div
-                class="w-4/5 mx-auto uppercase text-slate-600 font-sans text-sm py-4 overflow-hidden"
+                className="w-4/5 mx-auto uppercase text-slate-600 font-sans text-sm py-4 overflow-hidden"
               >
                 <h5>featured contributions</h5>
               </div>
               <a href="https://tighten.com/blog/the-great-tighten-experiment/">
                 <div
-                  class="border border-2 border-[#C97F09] w-4/5 mx-auto flex items-center"
+                  className="border border-2 border-[#C97F09] w-4/5 mx-auto flex items-center"
                 >
                   <div
-                    class="text-black text-2xl px-2 py-2 font-[100] border-r border-r-2 border-r-black"
+                    className="text-black text-2xl px-2 py-2 font-[100] border-r border-r-2 border-r-black"
                   >
-                    <i class="fa-brands fa-github"></i>
+                    <i className="fa-brands fa-github"></i>
                   </div>
-                  <div class="py-2 text-black pl-2">
-                    <h5 class="font-[pitch-sans] font-semibold tracking-widest">
+                  <div className="py-2 text-black pl-2">
+                    <h5 className="font-[pitch-sans] font-semibold tracking-widest">
                       Nova Stripe
                     </h5>
-                    <p class="uppercase text-xs text-gray-700">contributor</p>
+                    <p className="uppercase text-xs text-gray-700">contributor</p>
                   </div>
                 </div>
               </a>
               <a href="https://tighten.com/blog/the-great-tighten-experiment/">
                 <div
-                  class="border border-2 border-[#C97F09] w-4/5 mx-auto flex items-center my-4"
+                  className="border border-2 border-[#C97F09] w-4/5 mx-auto flex items-center my-4"
                 >
                   <div
-                    class="text-black text-2xl px-2 py-2 font-[100] border-r border-r-2 border-r-black"
+                    className="text-black text-2xl px-2 py-2 font-[100] border-r border-r-2 border-r-black"
                   >
-                    <i class="fa-brands fa-github"></i>
+                    <i className="fa-brands fa-github"></i>
                   </div>
-                  <div class="py-2 text-black pl-2">
-                    <h5 class="font-[pitch-sans] font-semibold tracking-widest">
+                  <div className="py-2 text-black pl-2">
+                    <h5 className="font-[pitch-sans] font-semibold tracking-widest">
                       PHP Release
                     </h5>
-                    <p class="uppercase text-xs text-gray-700">contributor</p>
+                    <p className="uppercase text-xs text-gray-700">contributor</p>
                   </div>
                 </div>
               </a>
 
-              <div class="mt-1 ml-8">
+              <div className="mt-1 ml-8">
                 <h4
-                  class="text-black text-3xl leading-tight-2 2xl:text-4xl 2xl:leading-tight-2 font-[serif] font-[100] pb-2"
+                  className="text-black text-3xl leading-tight-2 2xl:text-4xl 2xl:leading-tight-2 font-[serif] font-[100] pb-2"
                 >
                   Anna <br />
                   Youngyeun
                 </h4>
                 <p
-                  class="uppercase text-gray-600 font-mono font-bold tracking-[0.1rem] text-[#65b722] text-sm"
+                  className="uppercase text-gray-600 font-mono font-bold tracking-[0.1rem] text-[#65b722] text-sm"
                 >
                   Apprentice Programer
                 </p>
@@ -606,91 +606,91 @@ export default function Team() {
           {/* <!-- 5 Member end -->
 
           <!-- 6 Member start --> */}
-          <div class="relative group cursor-pointer mt-8">
-            <div class="img">
+          <div className="relative group cursor-pointer mt-8">
+            <div className="img">
               <img
                 src="/Team-Page-img/6.jpg"
                 alt="Dan Sheetz"
                 title="PARTNER + TECHNICAL DIRECTOR"
-                class="w-[100%] grayscale hover:grayscale-0 cursor-pointer"
+                className="w-[100%] grayscale hover:grayscale-0 cursor-pointer"
               />
             </div>
-            <div class="info">
-              <div class="flex justify-end mr-14 absolute top-4 right-0">
+            <div className="info">
+              <div className="flex justify-end mr-14 absolute top-4 right-0">
                 <img
                   src="/header-img/favicon.png"
                   alt="favicon img"
-                  class="w-8"
+                  className="w-8"
                 />
               </div>
               <div
-                class="absolute bottom-0 left-0 right-0 pl-8 pb-6 bg-gradient-to-t from-black to-transperent"
+                className="absolute bottom-0 left-0 right-0 pl-8 pb-6 bg-gradient-to-t from-black to-transperent"
               >
                 <h4
-                  class="text-3xl leading-tight-2 2xl:text-4xl 2xl:leading-tight-2 font-[serif] font-[100] mb-2"
+                  className="text-3xl leading-tight-2 2xl:text-4xl 2xl:leading-tight-2 font-[serif] font-[100] mb-2"
                 >
                   Anna <br />
                   Shevlin
                 </h4>
                 <p
-                  class="uppercase text-yellow-600 font-mono font-bold tracking-[0.1rem] text-[#65b722] text-sm"
+                  className="uppercase text-yellow-600 font-mono font-bold tracking-[0.1rem] text-[#65b722] text-sm"
                 >
                   Operation Coordinatior
                 </p>
               </div>
             </div>
             <div
-              class="absolute -top-96 left-96 group-hover:block group-hover:top-0 group-hover:left-0 w-[100%] h-full transition-top duration-1000 right-8 bg-[#FFBC00] hidden group-hover:block"
+              className="absolute -top-96 left-96 group-hover:block group-hover:top-0 group-hover:left-0 w-[100%] h-full transition-top duration-1000 right-8 bg-[#FFBC00] hidden group-hover:block"
             >
               <div
-                class="w-4/5 mx-auto uppercase text-slate-600 font-sans text-sm py-4 overflow-hidden"
+                className="w-4/5 mx-auto uppercase text-slate-600 font-sans text-sm py-4 overflow-hidden"
               >
                 <h5>featured contributions</h5>
               </div>
               <a href="https://tighten.com/blog/the-great-tighten-experiment/">
                 <div
-                  class="border border-2 border-[#C97F09] w-4/5 mx-auto flex items-center"
+                  className="border border-2 border-[#C97F09] w-4/5 mx-auto flex items-center"
                 >
                   <div
-                    class="text-black text-2xl px-2 py-2 font-[100] border-r border-r-2 border-r-black"
+                    className="text-black text-2xl px-2 py-2 font-[100] border-r border-r-2 border-r-black"
                   >
-                    <i class="fa-brands fa-github"></i>
+                    <i className="fa-brands fa-github"></i>
                   </div>
-                  <div class="py-2 text-black pl-2">
-                    <h5 class="font-[pitch-sans] font-semibold tracking-widest">
+                  <div className="py-2 text-black pl-2">
+                    <h5 className="font-[pitch-sans] font-semibold tracking-widest">
                       Nova Stripe
                     </h5>
-                    <p class="uppercase text-xs text-gray-700">contributor</p>
+                    <p className="uppercase text-xs text-gray-700">contributor</p>
                   </div>
                 </div>
               </a>
               <a href="https://tighten.com/blog/the-great-tighten-experiment/">
                 <div
-                  class="border border-2 border-[#C97F09] w-4/5 mx-auto flex items-center my-4"
+                  className="border border-2 border-[#C97F09] w-4/5 mx-auto flex items-center my-4"
                 >
                   <div
-                    class="text-black text-2xl px-2 py-2 font-[100] border-r border-r-2 border-r-black"
+                    className="text-black text-2xl px-2 py-2 font-[100] border-r border-r-2 border-r-black"
                   >
-                    <i class="fa-brands fa-github"></i>
+                    <i className="fa-brands fa-github"></i>
                   </div>
-                  <div class="py-2 text-black pl-2">
-                    <h5 class="font-[pitch-sans] font-semibold tracking-widest">
+                  <div className="py-2 text-black pl-2">
+                    <h5 className="font-[pitch-sans] font-semibold tracking-widest">
                       PHP Release
                     </h5>
-                    <p class="uppercase text-xs text-gray-700">contributor</p>
+                    <p className="uppercase text-xs text-gray-700">contributor</p>
                   </div>
                 </div>
               </a>
 
-              <div class="mt-1 ml-8">
+              <div className="mt-1 ml-8">
                 <h4
-                  class="text-black text-3xl leading-tight-2 2xl:text-4xl 2xl:leading-tight-2 font-[serif] font-[100] pb-2"
+                  className="text-black text-3xl leading-tight-2 2xl:text-4xl 2xl:leading-tight-2 font-[serif] font-[100] pb-2"
                 >
                   Anna <br />
                   Shevlin
                 </h4>
                 <p
-                  class="uppercase text-gray-600 font-mono font-bold tracking-[0.1rem] text-[#65b722] text-sm"
+                  className="uppercase text-gray-600 font-mono font-bold tracking-[0.1rem] text-[#65b722] text-sm"
                 >
                   Operation Coordinatior
                 </p>
@@ -700,91 +700,91 @@ export default function Team() {
           {/* <!-- 6 Member end --> */}
 
           {/* <!-- 7 Member start --> */}
-          <div class="relative group cursor-pointer mt-8">
-            <div class="img">
+          <div className="relative group cursor-pointer mt-8">
+            <div className="img">
               <img
                 src="/Team-Page-img/7.jpg"
                 alt="Dan Sheetz"
                 title="PARTNER + TECHNICAL DIRECTOR"
-                class="w-[100%] grayscale hover:grayscale-0 cursor-pointer"
+                className="w-[100%] grayscale hover:grayscale-0 cursor-pointer"
               />
             </div>
-            <div class="info">
-              <div class="flex justify-end mr-14 absolute top-4 right-0">
+            <div className="info">
+              <div className="flex justify-end mr-14 absolute top-4 right-0">
                 <img
                   src="/header-img/favicon.png"
                   alt="favicon img"
-                  class="w-8"
+                  className="w-8"
                 />
               </div>
               <div
-                class="absolute bottom-0 left-0 right-0 pl-8 pb-6 bg-gradient-to-t from-black to-transperent"
+                className="absolute bottom-0 left-0 right-0 pl-8 pb-6 bg-gradient-to-t from-black to-transperent"
               >
                 <h4
-                  class="text-3xl leading-tight-2 2xl:text-4xl 2xl:leading-tight-2 font-[serif] font-[100] mb-2"
+                  className="text-3xl leading-tight-2 2xl:text-4xl 2xl:leading-tight-2 font-[serif] font-[100] mb-2"
                 >
                   Anthony <br />
                   Clark
                 </h4>
                 <p
-                  class="uppercase text-yellow-600 font-mono font-bold tracking-[0.1rem] text-[#65b722] text-sm"
+                  className="uppercase text-yellow-600 font-mono font-bold tracking-[0.1rem] text-[#65b722] text-sm"
                 >
                   Programer
                 </p>
               </div>
             </div>
             <div
-              class="absolute -top-96 left-96 group-hover:block group-hover:top-0 group-hover:left-0 w-[100%] h-full transition-top duration-1000 right-8 bg-[#FFBC00] hidden group-hover:block"
+              className="absolute -top-96 left-96 group-hover:block group-hover:top-0 group-hover:left-0 w-[100%] h-full transition-top duration-1000 right-8 bg-[#FFBC00] hidden group-hover:block"
             >
               <div
-                class="w-4/5 mx-auto uppercase text-slate-600 font-sans text-sm py-4 overflow-hidden"
+                className="w-4/5 mx-auto uppercase text-slate-600 font-sans text-sm py-4 overflow-hidden"
               >
                 <h5>featured contributions</h5>
               </div>
               <a href="https://tighten.com/blog/the-great-tighten-experiment/">
                 <div
-                  class="border border-2 border-[#C97F09] w-4/5 mx-auto flex items-center"
+                  className="border border-2 border-[#C97F09] w-4/5 mx-auto flex items-center"
                 >
                   <div
-                    class="text-black text-2xl px-2 py-2 font-[100] border-r border-r-2 border-r-black"
+                    className="text-black text-2xl px-2 py-2 font-[100] border-r border-r-2 border-r-black"
                   >
-                    <i class="fa-brands fa-github"></i>
+                    <i className="fa-brands fa-github"></i>
                   </div>
-                  <div class="py-2 text-black pl-2">
-                    <h5 class="font-[pitch-sans] font-semibold tracking-widest">
+                  <div className="py-2 text-black pl-2">
+                    <h5 className="font-[pitch-sans] font-semibold tracking-widest">
                       Nova Stripe
                     </h5>
-                    <p class="uppercase text-xs text-gray-700">contributor</p>
+                    <p className="uppercase text-xs text-gray-700">contributor</p>
                   </div>
                 </div>
               </a>
               <a href="https://tighten.com/blog/the-great-tighten-experiment/">
                 <div
-                  class="border border-2 border-[#C97F09] w-4/5 mx-auto flex items-center my-4"
+                  className="border border-2 border-[#C97F09] w-4/5 mx-auto flex items-center my-4"
                 >
                   <div
-                    class="text-black text-2xl px-2 py-2 font-[100] border-r border-r-2 border-r-black"
+                    className="text-black text-2xl px-2 py-2 font-[100] border-r border-r-2 border-r-black"
                   >
-                    <i class="fa-brands fa-github"></i>
+                    <i className="fa-brands fa-github"></i>
                   </div>
-                  <div class="py-2 text-black pl-2">
-                    <h5 class="font-[pitch-sans] font-semibold tracking-widest">
+                  <div className="py-2 text-black pl-2">
+                    <h5 className="font-[pitch-sans] font-semibold tracking-widest">
                       PHP Release
                     </h5>
-                    <p class="uppercase text-xs text-gray-700">contributor</p>
+                    <p className="uppercase text-xs text-gray-700">contributor</p>
                   </div>
                 </div>
               </a>
 
-              <div class="mt-1 ml-8">
+              <div className="mt-1 ml-8">
                 <h4
-                  class="text-black text-3xl leading-tight-2 2xl:text-4xl 2xl:leading-tight-2 font-[serif] font-[100] pb-2"
+                  className="text-black text-3xl leading-tight-2 2xl:text-4xl 2xl:leading-tight-2 font-[serif] font-[100] pb-2"
                 >
                   Anthony <br />
                   Clark
                 </h4>
                 <p
-                  class="uppercase text-gray-600 font-mono font-bold tracking-[0.1rem] text-[#65b722] text-sm"
+                  className="uppercase text-gray-600 font-mono font-bold tracking-[0.1rem] text-[#65b722] text-sm"
                 >
                   Programer
                 </p>
@@ -794,91 +794,91 @@ export default function Team() {
           {/* <!-- 7 Member end --> */}
 
           {/* <!-- 8 Member start --> */}
-          <div class="relative group cursor-pointer mt-8">
-            <div class="img">
+          <div className="relative group cursor-pointer mt-8">
+            <div className="img">
               <img
                 src="/Team-Page-img/8.jpg"
                 alt="Dan Sheetz"
                 title="PARTNER + TECHNICAL DIRECTOR"
-                class="w-[100%] grayscale hover:grayscale-0 cursor-pointer"
+                className="w-[100%] grayscale hover:grayscale-0 cursor-pointer"
               />
             </div>
-            <div class="info">
-              <div class="flex justify-end mr-14 absolute top-4 right-0">
+            <div className="info">
+              <div className="flex justify-end mr-14 absolute top-4 right-0">
                 <img
                   src="/header-img/favicon.png"
                   alt="favicon img"
-                  class="w-8"
+                  className="w-8"
                 />
               </div>
               <div
-                class="absolute bottom-0 left-0 right-0 pl-8 pb-6 bg-gradient-to-t from-black to-transperent"
+                className="absolute bottom-0 left-0 right-0 pl-8 pb-6 bg-gradient-to-t from-black to-transperent"
               >
                 <h4
-                  class="text-3xl leading-tight-2 2xl:text-4xl 2xl:leading-tight-2 font-[serif] font-[100] mb-2"
+                  className="text-3xl leading-tight-2 2xl:text-4xl 2xl:leading-tight-2 font-[serif] font-[100] mb-2"
                 >
                   Cenitoria <br />
                   Melton
                 </h4>
                 <p
-                  class="uppercase text-yellow-600 font-mono font-bold tracking-[0.1rem] text-[#65b722] text-sm"
+                  className="uppercase text-yellow-600 font-mono font-bold tracking-[0.1rem] text-[#65b722] text-sm"
                 >
                   Programer
                 </p>
               </div>
             </div>
             <div
-              class="absolute -top-96 left-96 group-hover:block group-hover:top-0 group-hover:left-0 w-[100%] h-full transition-top duration-1000 right-8 bg-[#FFBC00] hidden group-hover:block"
+              className="absolute -top-96 left-96 group-hover:block group-hover:top-0 group-hover:left-0 w-[100%] h-full transition-top duration-1000 right-8 bg-[#FFBC00] hidden group-hover:block"
             >
               <div
-                class="w-4/5 mx-auto uppercase text-slate-600 font-sans text-sm py-4 overflow-hidden"
+                className="w-4/5 mx-auto uppercase text-slate-600 font-sans text-sm py-4 overflow-hidden"
               >
                 <h5>featured contributions</h5>
               </div>
               <a href="https://tighten.com/blog/the-great-tighten-experiment/">
                 <div
-                  class="border border-2 border-[#C97F09] w-4/5 mx-auto flex items-center"
+                  className="border border-2 border-[#C97F09] w-4/5 mx-auto flex items-center"
                 >
                   <div
-                    class="text-black text-2xl px-2 py-2 font-[100] border-r border-r-2 border-r-black"
+                    className="text-black text-2xl px-2 py-2 font-[100] border-r border-r-2 border-r-black"
                   >
-                    <i class="fa-brands fa-github"></i>
+                    <i className="fa-brands fa-github"></i>
                   </div>
-                  <div class="py-2 text-black pl-2">
-                    <h5 class="font-[pitch-sans] font-semibold tracking-widest">
+                  <div className="py-2 text-black pl-2">
+                    <h5 className="font-[pitch-sans] font-semibold tracking-widest">
                       Nova Stripe
                     </h5>
-                    <p class="uppercase text-xs text-gray-700">contributor</p>
+                    <p className="uppercase text-xs text-gray-700">contributor</p>
                   </div>
                 </div>
               </a>
               <a href="https://tighten.com/blog/the-great-tighten-experiment/">
                 <div
-                  class="border border-2 border-[#C97F09] w-4/5 mx-auto flex items-center my-4"
+                  className="border border-2 border-[#C97F09] w-4/5 mx-auto flex items-center my-4"
                 >
                   <div
-                    class="text-black text-2xl px-2 py-2 font-[100] border-r border-r-2 border-r-black"
+                    className="text-black text-2xl px-2 py-2 font-[100] border-r border-r-2 border-r-black"
                   >
-                    <i class="fa-brands fa-github"></i>
+                    <i className="fa-brands fa-github"></i>
                   </div>
-                  <div class="py-2 text-black pl-2">
-                    <h5 class="font-[pitch-sans] font-semibold tracking-widest">
+                  <div className="py-2 text-black pl-2">
+                    <h5 className="font-[pitch-sans] font-semibold tracking-widest">
                       PHP Release
                     </h5>
-                    <p class="uppercase text-xs text-gray-700">contributor</p>
+                    <p className="uppercase text-xs text-gray-700">contributor</p>
                   </div>
                 </div>
               </a>
 
-              <div class="mt-1 ml-8">
+              <div className="mt-1 ml-8">
                 <h4
-                  class="text-black text-3xl leading-tight-2 2xl:text-4xl 2xl:leading-tight-2 font-[serif] font-[100] pb-2"
+                  className="text-black text-3xl leading-tight-2 2xl:text-4xl 2xl:leading-tight-2 font-[serif] font-[100] pb-2"
                 >
                   Cenitoria <br />
                   Melton
                 </h4>
                 <p
-                  class="uppercase text-gray-600 font-mono font-bold tracking-[0.1rem] text-[#65b722] text-sm"
+                  className="uppercase text-gray-600 font-mono font-bold tracking-[0.1rem] text-[#65b722] text-sm"
                 >
                   Programer
                 </p>
@@ -888,91 +888,91 @@ export default function Team() {
           {/* <!-- 8 Member end --> */}
 
           {/* <!-- 9 Member start --> */}
-          <div class="relative group cursor-pointer mt-8">
-            <div class="img">
+          <div className="relative group cursor-pointer mt-8">
+            <div className="img">
               <img
                 src="/Team-Page-img/9.jpg"
                 alt="Dan Sheetz"
                 title="PARTNER + TECHNICAL DIRECTOR"
-                class="w-[100%] grayscale hover:grayscale-0 cursor-pointer"
+                className="w-[100%] grayscale hover:grayscale-0 cursor-pointer"
               />
             </div>
-            <div class="info">
-              <div class="flex justify-end mr-14 absolute top-4 right-0">
+            <div className="info">
+              <div className="flex justify-end mr-14 absolute top-4 right-0">
                 <img
                   src="/header-img/favicon.png"
                   alt="favicon img"
-                  class="w-8"
+                  className="w-8"
                 />
               </div>
               <div
-                class="absolute bottom-0 left-0 right-0 pl-8 pb-6 bg-gradient-to-t from-black to-transperent"
+                className="absolute bottom-0 left-0 right-0 pl-8 pb-6 bg-gradient-to-t from-black to-transperent"
               >
                 <h4
-                  class="text-3xl leading-tight-2 2xl:text-4xl 2xl:leading-tight-2 font-[serif] font-[100] mb-2"
+                  className="text-3xl leading-tight-2 2xl:text-4xl 2xl:leading-tight-2 font-[serif] font-[100] mb-2"
                 >
                   Chirs <br />
                   Trombley
                 </h4>
                 <p
-                  class="uppercase text-yellow-600 font-mono font-bold tracking-[0.1rem] text-[#65b722] text-sm"
+                  className="uppercase text-yellow-600 font-mono font-bold tracking-[0.1rem] text-[#65b722] text-sm"
                 >
                   Programer
                 </p>
               </div>
             </div>
             <div
-              class="absolute -top-96 left-96 group-hover:block group-hover:top-0 group-hover:left-0 w-[100%] h-full transition-top duration-1000 right-8 bg-[#FFBC00] hidden group-hover:block"
+              className="absolute -top-96 left-96 group-hover:block group-hover:top-0 group-hover:left-0 w-[100%] h-full transition-top duration-1000 right-8 bg-[#FFBC00] hidden group-hover:block"
             >
               <div
-                class="w-4/5 mx-auto uppercase text-slate-600 font-sans text-sm py-4 overflow-hidden"
+                className="w-4/5 mx-auto uppercase text-slate-600 font-sans text-sm py-4 overflow-hidden"
               >
                 <h5>featured contributions</h5>
               </div>
               <a href="https://tighten.com/blog/the-great-tighten-experiment/">
                 <div
-                  class="border border-2 border-[#C97F09] w-4/5 mx-auto flex items-center"
+                  className="border border-2 border-[#C97F09] w-4/5 mx-auto flex items-center"
                 >
                   <div
-                    class="text-black text-2xl px-2 py-2 font-[100] border-r border-r-2 border-r-black"
+                    className="text-black text-2xl px-2 py-2 font-[100] border-r border-r-2 border-r-black"
                   >
-                    <i class="fa-brands fa-github"></i>
+                    <i className="fa-brands fa-github"></i>
                   </div>
-                  <div class="py-2 text-black pl-2">
-                    <h5 class="font-[pitch-sans] font-semibold tracking-widest">
+                  <div className="py-2 text-black pl-2">
+                    <h5 className="font-[pitch-sans] font-semibold tracking-widest">
                       Nova Stripe
                     </h5>
-                    <p class="uppercase text-xs text-gray-700">contributor</p>
+                    <p className="uppercase text-xs text-gray-700">contributor</p>
                   </div>
                 </div>
               </a>
               <a href="https://tighten.com/blog/the-great-tighten-experiment/">
                 <div
-                  class="border border-2 border-[#C97F09] w-4/5 mx-auto flex items-center my-4"
+                  className="border border-2 border-[#C97F09] w-4/5 mx-auto flex items-center my-4"
                 >
                   <div
-                    class="text-black text-2xl px-2 py-2 font-[100] border-r border-r-2 border-r-black"
+                    className="text-black text-2xl px-2 py-2 font-[100] border-r border-r-2 border-r-black"
                   >
-                    <i class="fa-brands fa-github"></i>
+                    <i className="fa-brands fa-github"></i>
                   </div>
-                  <div class="py-2 text-black pl-2">
-                    <h5 class="font-[pitch-sans] font-semibold tracking-widest">
+                  <div className="py-2 text-black pl-2">
+                    <h5 className="font-[pitch-sans] font-semibold tracking-widest">
                       PHP Release
                     </h5>
-                    <p class="uppercase text-xs text-gray-700">contributor</p>
+                    <p className="uppercase text-xs text-gray-700">contributor</p>
                   </div>
                 </div>
               </a>
 
-              <div class="mt-1 ml-8">
+              <div className="mt-1 ml-8">
                 <h4
-                  class="text-black text-3xl leading-tight-2 2xl:text-4xl 2xl:leading-tight-2 font-[serif] font-[100] pb-2"
+                  className="text-black text-3xl leading-tight-2 2xl:text-4xl 2xl:leading-tight-2 font-[serif] font-[100] pb-2"
                 >
                   Chris <br />
                   Trombley
                 </h4>
                 <p
-                  class="uppercase text-gray-600 font-mono font-bold tracking-[0.1rem] text-[#65b722] text-sm"
+                  className="uppercase text-gray-600 font-mono font-bold tracking-[0.1rem] text-[#65b722] text-sm"
                 >
                   Programer
                 </p>
@@ -982,91 +982,91 @@ export default function Team() {
           {/* <!-- 9 Member end --> */}
 
           {/* <!-- 10 Member start --> */}
-          <div class="relative group cursor-pointer mt-8">
-            <div class="img">
+          <div className="relative group cursor-pointer mt-8">
+            <div className="img">
               <img
                 src="/Team-Page-img/10.jpg"
                 alt="Dan Sheetz"
                 title="PARTNER + TECHNICAL DIRECTOR"
-                class="w-[100%] grayscale hover:grayscale-0 cursor-pointer"
+                className="w-[100%] grayscale hover:grayscale-0 cursor-pointer"
               />
             </div>
-            <div class="info">
-              <div class="flex justify-end mr-14 absolute top-4 right-0">
+            <div className="info">
+              <div className="flex justify-end mr-14 absolute top-4 right-0">
                 <img
                   src="/header-img/favicon.png"
                   alt="favicon img"
-                  class="w-8"
+                  className="w-8"
                 />
               </div>
               <div
-                class="absolute bottom-0 left-0 right-0 pl-8 pb-6 bg-gradient-to-t from-black to-transperent"
+                className="absolute bottom-0 left-0 right-0 pl-8 pb-6 bg-gradient-to-t from-black to-transperent"
               >
                 <h4
-                  class="text-3xl leading-tight-2 2xl:text-4xl 2xl:leading-tight-2 font-[serif] font-[100] mb-2"
+                  className="text-3xl leading-tight-2 2xl:text-4xl 2xl:leading-tight-2 font-[serif] font-[100] mb-2"
                 >
                   Dave <br />
                   Hicking
                 </h4>
                 <p
-                  class="uppercase text-yellow-600 font-mono font-bold tracking-[0.1rem] text-[#65b722] text-sm"
+                  className="uppercase text-yellow-600 font-mono font-bold tracking-[0.1rem] text-[#65b722] text-sm"
                 >
                   Head of Client Service
                 </p>
               </div>
             </div>
             <div
-              class="absolute -top-96 left-96 group-hover:block group-hover:top-0 group-hover:left-0 w-[100%] h-full transition-top duration-1000 right-8 bg-[#FFBC00] hidden group-hover:block"
+              className="absolute -top-96 left-96 group-hover:block group-hover:top-0 group-hover:left-0 w-[100%] h-full transition-top duration-1000 right-8 bg-[#FFBC00] hidden group-hover:block"
             >
               <div
-                class="w-4/5 mx-auto uppercase text-slate-600 font-sans text-sm py-4 overflow-hidden"
+                className="w-4/5 mx-auto uppercase text-slate-600 font-sans text-sm py-4 overflow-hidden"
               >
                 <h5>featured contributions</h5>
               </div>
               <a href="https://tighten.com/blog/the-great-tighten-experiment/">
                 <div
-                  class="border border-2 border-[#C97F09] w-4/5 mx-auto flex items-center"
+                  className="border border-2 border-[#C97F09] w-4/5 mx-auto flex items-center"
                 >
                   <div
-                    class="text-black text-2xl px-2 py-2 font-[100] border-r border-r-2 border-r-black"
+                    className="text-black text-2xl px-2 py-2 font-[100] border-r border-r-2 border-r-black"
                   >
-                    <i class="fa-brands fa-github"></i>
+                    <i className="fa-brands fa-github"></i>
                   </div>
-                  <div class="py-2 text-black pl-2">
-                    <h5 class="font-[pitch-sans] font-semibold tracking-widest">
+                  <div className="py-2 text-black pl-2">
+                    <h5 className="font-[pitch-sans] font-semibold tracking-widest">
                       Nova Stripe
                     </h5>
-                    <p class="uppercase text-xs text-gray-700">contributor</p>
+                    <p className="uppercase text-xs text-gray-700">contributor</p>
                   </div>
                 </div>
               </a>
               <a href="https://tighten.com/blog/the-great-tighten-experiment/">
                 <div
-                  class="border border-2 border-[#C97F09] w-4/5 mx-auto flex items-center my-4"
+                  className="border border-2 border-[#C97F09] w-4/5 mx-auto flex items-center my-4"
                 >
                   <div
-                    class="text-black text-2xl px-2 py-2 font-[100] border-r border-r-2 border-r-black"
+                    className="text-black text-2xl px-2 py-2 font-[100] border-r border-r-2 border-r-black"
                   >
-                    <i class="fa-brands fa-github"></i>
+                    <i className="fa-brands fa-github"></i>
                   </div>
-                  <div class="py-2 text-black pl-2">
-                    <h5 class="font-[pitch-sans] font-semibold tracking-widest">
+                  <div className="py-2 text-black pl-2">
+                    <h5 className="font-[pitch-sans] font-semibold tracking-widest">
                       PHP Release
                     </h5>
-                    <p class="uppercase text-xs text-gray-700">contributor</p>
+                    <p className="uppercase text-xs text-gray-700">contributor</p>
                   </div>
                 </div>
               </a>
 
-              <div class="mt-1 ml-8">
+              <div className="mt-1 ml-8">
                 <h4
-                  class="text-black text-3xl leading-tight-2 2xl:text-4xl 2xl:leading-tight-2 font-[serif] font-[100] pb-2"
+                  className="text-black text-3xl leading-tight-2 2xl:text-4xl 2xl:leading-tight-2 font-[serif] font-[100] pb-2"
                 >
                   Dave <br />
                   Hicking
                 </h4>
                 <p
-                  class="uppercase text-gray-600 font-mono font-bold tracking-[0.1rem] text-[#65b722] text-sm tracking-widest"
+                  className="uppercase text-gray-600 font-mono font-bold tracking-[0.1rem] text-[#65b722] text-sm tracking-widest"
                 >
                   Head of Client Service
                 </p>
@@ -1076,91 +1076,91 @@ export default function Team() {
           {/* <!-- 10 Member end --> */}
 
           {/* <!-- 11 Member start --> */}
-          <div class="relative group cursor-pointer mt-8">
-            <div class="img">
+          <div className="relative group cursor-pointer mt-8">
+            <div className="img">
               <img
                 src="/Team-Page-img/11.jpg"
                 alt="Jacob Baker-Kretzmer"
                 title="Lead Programer"
-                class="w-[100%] grayscale hover:grayscale-0 cursor-pointer"
+                className="w-[100%] grayscale hover:grayscale-0 cursor-pointer"
               />
             </div>
-            <div class="info">
-              <div class="flex justify-end mr-14 absolute top-4 right-0">
+            <div className="info">
+              <div className="flex justify-end mr-14 absolute top-4 right-0">
                 <img
                   src="/header-img/favicon.png"
                   alt="favicon img"
-                  class="w-8"
+                  className="w-8"
                 />
               </div>
               <div
-                class="absolute bottom-0 left-0 right-0 pl-8 pb-6 bg-gradient-to-t from-black to-transperent"
+                className="absolute bottom-0 left-0 right-0 pl-8 pb-6 bg-gradient-to-t from-black to-transperent"
               >
                 <h4
-                  class="text-3xl leading-tight-2 2xl:text-4xl 2xl:leading-tight-2 font-[serif] font-[100] mb-2"
+                  className="text-3xl leading-tight-2 2xl:text-4xl 2xl:leading-tight-2 font-[serif] font-[100] mb-2"
                 >
                   Jacob <br />
                   Baker-Kretzmer
                 </h4>
                 <p
-                  class="uppercase text-yellow-600 font-mono font-bold tracking-[0.1rem] text-[#65b722] text-sm"
+                  className="uppercase text-yellow-600 font-mono font-bold tracking-[0.1rem] text-[#65b722] text-sm"
                 >
                   Lead Programer
                 </p>
               </div>
             </div>
             <div
-              class="absolute -top-96 left-96 group-hover:block group-hover:top-0 group-hover:left-0 w-[100%] h-full transition-top duration-1000 right-8 bg-[#FFBC00] hidden group-hover:block"
+              className="absolute -top-96 left-96 group-hover:block group-hover:top-0 group-hover:left-0 w-[100%] h-full transition-top duration-1000 right-8 bg-[#FFBC00] hidden group-hover:block"
             >
               <div
-                class="w-4/5 mx-auto uppercase text-slate-600 font-sans text-sm py-4 overflow-hidden"
+                className="w-4/5 mx-auto uppercase text-slate-600 font-sans text-sm py-4 overflow-hidden"
               >
                 <h5>featured contributions</h5>
               </div>
               <a href="https://tighten.com/blog/the-great-tighten-experiment/">
                 <div
-                  class="border border-2 border-[#C97F09] w-4/5 mx-auto flex items-center"
+                  className="border border-2 border-[#C97F09] w-4/5 mx-auto flex items-center"
                 >
                   <div
-                    class="text-black text-2xl px-2 py-2 font-[100] border-r border-r-2 border-r-black"
+                    className="text-black text-2xl px-2 py-2 font-[100] border-r border-r-2 border-r-black"
                   >
-                    <i class="fa-brands fa-github"></i>
+                    <i className="fa-brands fa-github"></i>
                   </div>
-                  <div class="py-2 text-black pl-2">
-                    <h5 class="font-[pitch-sans] font-semibold tracking-widest">
+                  <div className="py-2 text-black pl-2">
+                    <h5 className="font-[pitch-sans] font-semibold tracking-widest">
                       Nova Stripe
                     </h5>
-                    <p class="uppercase text-xs text-gray-700">contributor</p>
+                    <p className="uppercase text-xs text-gray-700">contributor</p>
                   </div>
                 </div>
               </a>
               <a href="https://tighten.com/blog/the-great-tighten-experiment/">
                 <div
-                  class="border border-2 border-[#C97F09] w-4/5 mx-auto flex items-center my-4"
+                  className="border border-2 border-[#C97F09] w-4/5 mx-auto flex items-center my-4"
                 >
                   <div
-                    class="text-black text-2xl px-2 py-2 font-[100] border-r border-r-2 border-r-black"
+                    className="text-black text-2xl px-2 py-2 font-[100] border-r border-r-2 border-r-black"
                   >
-                    <i class="fa-brands fa-github"></i>
+                    <i className="fa-brands fa-github"></i>
                   </div>
-                  <div class="py-2 text-black pl-2">
-                    <h5 class="font-[pitch-sans] font-semibold tracking-widest">
+                  <div className="py-2 text-black pl-2">
+                    <h5 className="font-[pitch-sans] font-semibold tracking-widest">
                       PHP Release
                     </h5>
-                    <p class="uppercase text-xs text-gray-700">contributor</p>
+                    <p className="uppercase text-xs text-gray-700">contributor</p>
                   </div>
                 </div>
               </a>
 
-              <div class="mt-1 ml-8">
+              <div className="mt-1 ml-8">
                 <h4
-                  class="text-black text-3xl leading-tight-2 2xl:text-4xl 2xl:leading-tight-2 font-[serif] font-[100] pb-2"
+                  className="text-black text-3xl leading-tight-2 2xl:text-4xl 2xl:leading-tight-2 font-[serif] font-[100] pb-2"
                 >
                   Jacob <br />
                   Baker-Kretzmer
                 </h4>
                 <p
-                  class="uppercase text-gray-600 font-mono font-bold tracking-[0.1rem] text-[#65b722] text-sm tracking-widest"
+                  className="uppercase text-gray-600 font-mono font-bold tracking-[0.1rem] text-[#65b722] text-sm tracking-widest"
                 >
                   Lead Programer
                 </p>
@@ -1170,91 +1170,91 @@ export default function Team() {
           {/* <!-- 11 Member end --> */}
 
           {/* <!-- 12 Member start --> */}
-          <div class="relative group cursor-pointer mt-8">
-            <div class="img">
+          <div className="relative group cursor-pointer mt-8">
+            <div className="img">
               <img
                 src="/Team-Page-img/12.jpg"
                 alt="Jack Bathman"
                 title="Programer"
-                class="w-[100%] grayscale hover:grayscale-0 cursor-pointer"
+                className="w-[100%] grayscale hover:grayscale-0 cursor-pointer"
               />
             </div>
-            <div class="info">
-              <div class="flex justify-end mr-14 absolute top-4 right-0">
+            <div className="info">
+              <div className="flex justify-end mr-14 absolute top-4 right-0">
                 <img
                   src="/header-img/favicon.png"
                   alt="favicon img"
-                  class="w-8"
+                  className="w-8"
                 />
               </div>
               <div
-                class="absolute bottom-0 left-0 right-0 pl-8 pb-6 bg-gradient-to-t from-black to-transperent"
+                className="absolute bottom-0 left-0 right-0 pl-8 pb-6 bg-gradient-to-t from-black to-transperent"
               >
                 <h4
-                  class="text-3xl leading-tight-2 2xl:text-4xl 2xl:leading-tight-2 font-[serif] font-[100] mb-2"
+                  className="text-3xl leading-tight-2 2xl:text-4xl 2xl:leading-tight-2 font-[serif] font-[100] mb-2"
                 >
                   Jack <br />
                   Bathman
                 </h4>
                 <p
-                  class="uppercase text-yellow-600 font-mono font-bold tracking-[0.1rem] text-[#65b722] text-sm"
+                  className="uppercase text-yellow-600 font-mono font-bold tracking-[0.1rem] text-[#65b722] text-sm"
                 >
                   Programer
                 </p>
               </div>
             </div>
             <div
-              class="absolute -top-96 left-96 group-hover:block group-hover:top-0 group-hover:left-0 w-[100%] h-full transition-top duration-1000 right-8 bg-[#FFBC00] hidden group-hover:block"
+              className="absolute -top-96 left-96 group-hover:block group-hover:top-0 group-hover:left-0 w-[100%] h-full transition-top duration-1000 right-8 bg-[#FFBC00] hidden group-hover:block"
             >
               <div
-                class="w-4/5 mx-auto uppercase text-slate-600 font-sans text-sm py-4 overflow-hidden"
+                className="w-4/5 mx-auto uppercase text-slate-600 font-sans text-sm py-4 overflow-hidden"
               >
                 <h5>featured contributions</h5>
               </div>
               <a href="https://tighten.com/blog/the-great-tighten-experiment/">
                 <div
-                  class="border border-2 border-[#C97F09] w-4/5 mx-auto flex items-center"
+                  className="border border-2 border-[#C97F09] w-4/5 mx-auto flex items-center"
                 >
                   <div
-                    class="text-black text-2xl px-2 py-2 font-[100] border-r border-r-2 border-r-black"
+                    className="text-black text-2xl px-2 py-2 font-[100] border-r border-r-2 border-r-black"
                   >
-                    <i class="fa-brands fa-github"></i>
+                    <i className="fa-brands fa-github"></i>
                   </div>
-                  <div class="py-2 text-black pl-2">
-                    <h5 class="font-[pitch-sans] font-semibold tracking-widest">
+                  <div className="py-2 text-black pl-2">
+                    <h5 className="font-[pitch-sans] font-semibold tracking-widest">
                       Nova Stripe
                     </h5>
-                    <p class="uppercase text-xs text-gray-700">contributor</p>
+                    <p className="uppercase text-xs text-gray-700">contributor</p>
                   </div>
                 </div>
               </a>
               <a href="https://tighten.com/blog/the-great-tighten-experiment/">
                 <div
-                  class="border border-2 border-[#C97F09] w-4/5 mx-auto flex items-center my-4"
+                  className="border border-2 border-[#C97F09] w-4/5 mx-auto flex items-center my-4"
                 >
                   <div
-                    class="text-black text-2xl px-2 py-2 font-[100] border-r border-r-2 border-r-black"
+                    className="text-black text-2xl px-2 py-2 font-[100] border-r border-r-2 border-r-black"
                   >
-                    <i class="fa-brands fa-github"></i>
+                    <i className="fa-brands fa-github"></i>
                   </div>
-                  <div class="py-2 text-black pl-2">
-                    <h5 class="font-[pitch-sans] font-semibold tracking-widest">
+                  <div className="py-2 text-black pl-2">
+                    <h5 className="font-[pitch-sans] font-semibold tracking-widest">
                       PHP Release
                     </h5>
-                    <p class="uppercase text-xs text-gray-700">contributor</p>
+                    <p className="uppercase text-xs text-gray-700">contributor</p>
                   </div>
                 </div>
               </a>
 
-              <div class="mt-1 ml-8">
+              <div className="mt-1 ml-8">
                 <h4
-                  class="text-black text-3xl leading-tight-2 2xl:text-4xl 2xl:leading-tight-2 font-[serif] font-[100] pb-2"
+                  className="text-black text-3xl leading-tight-2 2xl:text-4xl 2xl:leading-tight-2 font-[serif] font-[100] pb-2"
                 >
                   Jack <br />
                   Bathman
                 </h4>
                 <p
-                  class="uppercase text-gray-600 font-mono font-bold tracking-[0.1rem] text-[#65b722] text-sm tracking-widest"
+                  className="uppercase text-gray-600 font-mono font-bold tracking-[0.1rem] text-[#65b722] text-sm tracking-widest"
                 >
                   Programer
                 </p>
@@ -1264,91 +1264,91 @@ export default function Team() {
           {/* <!-- 12 Member end --> */}
 
           {/* <!-- 13 Member start --> */}
-          <div class="relative group cursor-pointer mt-8">
-            <div class="img">
+          <div className="relative group cursor-pointer mt-8">
+            <div className="img">
               <img
                 src="/Team-Page-img/13.jpg"
                 alt="Jamison"
                 title="Programer"
-                class="w-[100%] grayscale hover:grayscale-0 cursor-pointer"
+                className="w-[100%] grayscale hover:grayscale-0 cursor-pointer"
               />
             </div>
-            <div class="info">
-              <div class="flex justify-end mr-14 absolute top-4 right-0">
+            <div className="info">
+              <div className="flex justify-end mr-14 absolute top-4 right-0">
                 <img
                   src="/header-img/favicon.png"
                   alt="favicon img"
-                  class="w-8"
+                  className="w-8"
                 />
               </div>
               <div
-                class="absolute bottom-0 left-0 right-0 pl-8 pb-6 bg-gradient-to-t from-black to-transperent"
+                className="absolute bottom-0 left-0 right-0 pl-8 pb-6 bg-gradient-to-t from-black to-transperent"
               >
                 <h4
-                  class="text-3xl leading-tight-2 2xl:text-4xl 2xl:leading-tight-2 font-[serif] font-[100] mb-2"
+                  className="text-3xl leading-tight-2 2xl:text-4xl 2xl:leading-tight-2 font-[serif] font-[100] mb-2"
                 >
                   Jamison <br />
                   valenta
                 </h4>
                 <p
-                  class="uppercase text-yellow-600 font-mono font-bold tracking-[0.1rem] text-[#65b722] text-sm"
+                  className="uppercase text-yellow-600 font-mono font-bold tracking-[0.1rem] text-[#65b722] text-sm"
                 >
                   Programer
                 </p>
               </div>
             </div>
             <div
-              class="absolute -top-96 left-96 group-hover:block group-hover:top-0 group-hover:left-0 w-[100%] h-full transition-top duration-1000 right-8 bg-[#FFBC00] hidden group-hover:block"
+              className="absolute -top-96 left-96 group-hover:block group-hover:top-0 group-hover:left-0 w-[100%] h-full transition-top duration-1000 right-8 bg-[#FFBC00] hidden group-hover:block"
             >
               <div
-                class="w-4/5 mx-auto uppercase text-slate-600 font-sans text-sm py-4 overflow-hidden"
+                className="w-4/5 mx-auto uppercase text-slate-600 font-sans text-sm py-4 overflow-hidden"
               >
                 <h5>featured contributions</h5>
               </div>
               <a href="https://tighten.com/blog/the-great-tighten-experiment/">
                 <div
-                  class="border border-2 border-[#C97F09] w-4/5 mx-auto flex items-center"
+                  className="border border-2 border-[#C97F09] w-4/5 mx-auto flex items-center"
                 >
                   <div
-                    class="text-black text-2xl px-2 py-2 font-[100] border-r border-r-2 border-r-black"
+                    className="text-black text-2xl px-2 py-2 font-[100] border-r border-r-2 border-r-black"
                   >
-                    <i class="fa-brands fa-github"></i>
+                    <i className="fa-brands fa-github"></i>
                   </div>
-                  <div class="py-2 text-black pl-2">
-                    <h5 class="font-[pitch-sans] font-semibold tracking-widest">
+                  <div className="py-2 text-black pl-2">
+                    <h5 className="font-[pitch-sans] font-semibold tracking-widest">
                       Nova Stripe
                     </h5>
-                    <p class="uppercase text-xs text-gray-700">contributor</p>
+                    <p className="uppercase text-xs text-gray-700">contributor</p>
                   </div>
                 </div>
               </a>
               <a href="https://tighten.com/blog/the-great-tighten-experiment/">
                 <div
-                  class="border border-2 border-[#C97F09] w-4/5 mx-auto flex items-center my-4"
+                  className="border border-2 border-[#C97F09] w-4/5 mx-auto flex items-center my-4"
                 >
                   <div
-                    class="text-black text-2xl px-2 py-2 font-[100] border-r border-r-2 border-r-black"
+                    className="text-black text-2xl px-2 py-2 font-[100] border-r border-r-2 border-r-black"
                   >
-                    <i class="fa-brands fa-github"></i>
+                    <i className="fa-brands fa-github"></i>
                   </div>
-                  <div class="py-2 text-black pl-2">
-                    <h5 class="font-[pitch-sans] font-semibold tracking-widest">
+                  <div className="py-2 text-black pl-2">
+                    <h5 className="font-[pitch-sans] font-semibold tracking-widest">
                       PHP Release
                     </h5>
-                    <p class="uppercase text-xs text-gray-700">contributor</p>
+                    <p className="uppercase text-xs text-gray-700">contributor</p>
                   </div>
                 </div>
               </a>
 
-              <div class="mt-1 ml-8">
+              <div className="mt-1 ml-8">
                 <h4
-                  class="text-black text-3xl leading-tight-2 2xl:text-4xl 2xl:leading-tight-2 font-[serif] font-[100] pb-2"
+                  className="text-black text-3xl leading-tight-2 2xl:text-4xl 2xl:leading-tight-2 font-[serif] font-[100] pb-2"
                 >
                   Jamison <br />
                   valenta
                 </h4>
                 <p
-                  class="uppercase text-gray-600 font-mono font-bold tracking-[0.1rem] text-[#65b722] text-sm tracking-widest"
+                  className="uppercase text-gray-600 font-mono font-bold tracking-[0.1rem] text-[#65b722] text-sm tracking-widest"
                 >
                   Programer
                 </p>
@@ -1358,91 +1358,91 @@ export default function Team() {
           {/* <!-- 13 Member end --> */}
 
           {/* <!-- 14 Member start --> */}
-          <div class="relative group cursor-pointer mt-8">
-            <div class="img">
+          <div className="relative group cursor-pointer mt-8">
+            <div className="img">
               <img
                 src="/Team-Page-img/14.jpg"
                 alt="Jeanne"
                 title="Programer"
-                class="w-[100%] grayscale hover:grayscale-0 cursor-pointer"
+                className="w-[100%] grayscale hover:grayscale-0 cursor-pointer"
               />
             </div>
-            <div class="info">
-              <div class="flex justify-end mr-14 absolute top-4 right-0">
+            <div className="info">
+              <div className="flex justify-end mr-14 absolute top-4 right-0">
                 <img
                   src="/header-img/favicon.png"
                   alt="favicon img"
-                  class="w-8"
+                  className="w-8"
                 />
               </div>
               <div
-                class="absolute bottom-0 left-0 right-0 pl-8 pb-6 bg-gradient-to-t from-black to-transperent"
+                className="absolute bottom-0 left-0 right-0 pl-8 pb-6 bg-gradient-to-t from-black to-transperent"
               >
                 <h4
-                  class="text-3xl leading-tight-2 2xl:text-4xl 2xl:leading-tight-2 font-[serif] font-[100] mb-2"
+                  className="text-3xl leading-tight-2 2xl:text-4xl 2xl:leading-tight-2 font-[serif] font-[100] mb-2"
                 >
                   Jeanne <br />
                   Henry
                 </h4>
                 <p
-                  class="uppercase text-yellow-600 font-mono font-bold tracking-[0.1rem] text-[#65b722] text-sm"
+                  className="uppercase text-yellow-600 font-mono font-bold tracking-[0.1rem] text-[#65b722] text-sm"
                 >
                   Senior Project Programer
                 </p>
               </div>
             </div>
             <div
-              class="absolute -top-96 left-96 group-hover:block group-hover:top-0 group-hover:left-0 w-[100%] h-full transition-top duration-1000 right-8 bg-[#FFBC00] hidden group-hover:block"
+              className="absolute -top-96 left-96 group-hover:block group-hover:top-0 group-hover:left-0 w-[100%] h-full transition-top duration-1000 right-8 bg-[#FFBC00] hidden group-hover:block"
             >
               <div
-                class="w-4/5 mx-auto uppercase text-slate-600 font-sans text-sm py-4 overflow-hidden"
+                className="w-4/5 mx-auto uppercase text-slate-600 font-sans text-sm py-4 overflow-hidden"
               >
                 <h5>featured contributions</h5>
               </div>
               <a href="https://tighten.com/blog/the-great-tighten-experiment/">
                 <div
-                  class="border border-2 border-[#C97F09] w-4/5 mx-auto flex items-center"
+                  className="border border-2 border-[#C97F09] w-4/5 mx-auto flex items-center"
                 >
                   <div
-                    class="text-black text-2xl px-2 py-2 font-[100] border-r border-r-2 border-r-black"
+                    className="text-black text-2xl px-2 py-2 font-[100] border-r border-r-2 border-r-black"
                   >
-                    <i class="fa-brands fa-github"></i>
+                    <i className="fa-brands fa-github"></i>
                   </div>
-                  <div class="py-2 text-black pl-2">
-                    <h5 class="font-[pitch-sans] font-semibold tracking-widest">
+                  <div className="py-2 text-black pl-2">
+                    <h5 className="font-[pitch-sans] font-semibold tracking-widest">
                       Nova Stripe
                     </h5>
-                    <p class="uppercase text-xs text-gray-700">contributor</p>
+                    <p className="uppercase text-xs text-gray-700">contributor</p>
                   </div>
                 </div>
               </a>
               <a href="https://tighten.com/blog/the-great-tighten-experiment/">
                 <div
-                  class="border border-2 border-[#C97F09] w-4/5 mx-auto flex items-center my-4"
+                  className="border border-2 border-[#C97F09] w-4/5 mx-auto flex items-center my-4"
                 >
                   <div
-                    class="text-black text-2xl px-2 py-2 font-[100] border-r border-r-2 border-r-black"
+                    className="text-black text-2xl px-2 py-2 font-[100] border-r border-r-2 border-r-black"
                   >
-                    <i class="fa-brands fa-github"></i>
+                    <i className="fa-brands fa-github"></i>
                   </div>
-                  <div class="py-2 text-black pl-2">
-                    <h5 class="font-[pitch-sans] font-semibold tracking-widest">
+                  <div className="py-2 text-black pl-2">
+                    <h5 className="font-[pitch-sans] font-semibold tracking-widest">
                       PHP Release
                     </h5>
-                    <p class="uppercase text-xs text-gray-700">contributor</p>
+                    <p className="uppercase text-xs text-gray-700">contributor</p>
                   </div>
                 </div>
               </a>
 
-              <div class="mt-1 ml-8">
+              <div className="mt-1 ml-8">
                 <h4
-                  class="text-black text-3xl leading-tight-2 2xl:text-4xl 2xl:leading-tight-2 font-[serif] font-[100] pb-2"
+                  className="text-black text-3xl leading-tight-2 2xl:text-4xl 2xl:leading-tight-2 font-[serif] font-[100] pb-2"
                 >
                   Jeanne <br />
                   Henry
                 </h4>
                 <p
-                  class="uppercase text-gray-600 font-mono font-bold tracking-[0.1rem] text-[#65b722] text-sm tracking-widest"
+                  className="uppercase text-gray-600 font-mono font-bold tracking-[0.1rem] text-[#65b722] text-sm tracking-widest"
                 >
                   Senior Project Programer
                 </p>
@@ -1452,90 +1452,90 @@ export default function Team() {
           {/* <!-- 14 Member end --> */}
 
           {/* <!-- 15 Member start --> */}
-          <div class="relative group cursor-pointer mt-8">
-            <div class="img">
+          <div className="relative group cursor-pointer mt-8">
+            <div className="img">
               <img
                 src="/Team-Page-img/15.jpg"
                 alt="Jeanne"
                 title="Programer"
-                class="w-[100%] grayscale hover:grayscale-0 cursor-pointer"
+                className="w-[100%] grayscale hover:grayscale-0 cursor-pointer"
               />
             </div>
-            <div class="info">
-              <div class="flex justify-end mr-14 absolute top-4 right-0">
+            <div className="info">
+              <div className="flex justify-end mr-14 absolute top-4 right-0">
                 <img
                   src="/header-img/favicon.png"
                   alt="favicon img"
-                  class="w-8"
+                  className="w-8"
                 />
               </div>
               <div
-                class="absolute bottom-0 left-0 right-0 pl-8 pb-6 bg-gradient-to-t from-black to-transperent"
+                className="absolute bottom-0 left-0 right-0 pl-8 pb-6 bg-gradient-to-t from-black to-transperent"
               >
                 <h4
-                  class="text-3xl leading-tight-2 2xl:text-4xl 2xl:leading-tight-2 font-[serif] font-[100] mb-2"
+                  className="text-3xl leading-tight-2 2xl:text-4xl 2xl:leading-tight-2 font-[serif] font-[100] mb-2"
                 >
                   John <br />
                   Bonaccorsi
                 </h4>
                 <p
-                  class="uppercase text-yellow-600 font-mono font-bold tracking-[0.1rem] text-[#65b722] text-sm"
+                  className="uppercase text-yellow-600 font-mono font-bold tracking-[0.1rem] text-[#65b722] text-sm"
                 >
                   Lead Programer
                 </p>
               </div>
             </div>
             <div
-              class="absolute -top-96 left-96 group-hover:block group-hover:top-0 group-hover:left-0 w-[100%] h-full transition-top duration-1000 right-8 bg-[#FFBC00] hidden group-hover:block"
+              className="absolute -top-96 left-96 group-hover:block group-hover:top-0 group-hover:left-0 w-[100%] h-full transition-top duration-1000 right-8 bg-[#FFBC00] hidden group-hover:block"
             >
               <div
-                class="w-4/5 mx-auto uppercase text-slate-600 font-sans text-sm py-4 overflow-hidden"
+                className="w-4/5 mx-auto uppercase text-slate-600 font-sans text-sm py-4 overflow-hidden"
               >
                 <h5>featured contributions</h5>
               </div>
               <a href="https://tighten.com/blog/the-great-tighten-experiment/">
                 <div
-                  class="border border-2 border-[#C97F09] w-4/5 mx-auto flex items-center"
+                  className="border border-2 border-[#C97F09] w-4/5 mx-auto flex items-center"
                 >
                   <div
-                    class="text-black text-2xl px-2 py-2 font-[100] border-r border-r-2 border-r-black"
+                    className="text-black text-2xl px-2 py-2 font-[100] border-r border-r-2 border-r-black"
                   >
-                    <i class="fa-brands fa-github"></i>
+                    <i className="fa-brands fa-github"></i>
                   </div>
-                  <div class="py-2 text-black pl-2">
-                    <h5 class="font-[pitch-sans] font-semibold tracking-widest">
+                  <div className="py-2 text-black pl-2">
+                    <h5 className="font-[pitch-sans] font-semibold tracking-widest">
                       Nova Stripe
                     </h5>
-                    <p class="uppercase text-xs text-gray-700">contributor</p>
+                    <p className="uppercase text-xs text-gray-700">contributor</p>
                   </div>
                 </div>
               </a>
               <a href="https://tighten.com/blog/the-great-tighten-experiment/">
                 <div
-                  class="border border-2 border-[#C97F09] w-4/5 mx-auto flex items-center my-4"
+                  className="border border-2 border-[#C97F09] w-4/5 mx-auto flex items-center my-4"
                 >
                   <div
-                    class="text-black text-2xl px-2 py-2 font-[100] border-r border-r-2 border-r-black"
+                    className="text-black text-2xl px-2 py-2 font-[100] border-r border-r-2 border-r-black"
                   >
-                    <i class="fa-brands fa-github"></i>
+                    <i className="fa-brands fa-github"></i>
                   </div>
-                  <div class="py-2 text-black pl-2">
-                    <h5 class="font-[pitch-sans] font-semibold tracking-widest">
+                  <div className="py-2 text-black pl-2">
+                    <h5 className="font-[pitch-sans] font-semibold tracking-widest">
                       PHP Release
                     </h5>
-                    <p class="uppercase text-xs text-gray-700">contributor</p>
+                    <p className="uppercase text-xs text-gray-700">contributor</p>
                   </div>
                 </div>
               </a>
 
-              <div class="mt-1 ml-8">
+              <div className="mt-1 ml-8">
                 <h4
-                  class="text-black text-3xl leading-tight-2 2xl:text-4xl 2xl:leading-tight-2 font-[serif] font-[100] pb-2"
+                  className="text-black text-3xl leading-tight-2 2xl:text-4xl 2xl:leading-tight-2 font-[serif] font-[100] pb-2"
                 >
                   John <br />Bonaccorsi
                 </h4>
                 <p
-                  class="uppercase text-gray-600 font-mono font-bold tracking-[0.1rem] text-[#65b722] text-sm tracking-widest"
+                  className="uppercase text-gray-600 font-mono font-bold tracking-[0.1rem] text-[#65b722] text-sm tracking-widest"
                 >
                   Lead Programer
                 </p>
@@ -1545,90 +1545,90 @@ export default function Team() {
           {/* <!-- 15 Member end --> */}
 
           {/* <!-- 16 Member start --> */}
-          <div class="relative group cursor-pointer mt-8">
-            <div class="img">
+          <div className="relative group cursor-pointer mt-8">
+            <div className="img">
               <img
                 src="/Team-Page-img/16.jpg"
                 alt="Jeanne"
                 title="Programer"
-                class="w-[100%] grayscale hover:grayscale-0 cursor-pointer"
+                className="w-[100%] grayscale hover:grayscale-0 cursor-pointer"
               />
             </div>
-            <div class="info">
-              <div class="flex justify-end mr-14 absolute top-4 right-0">
+            <div className="info">
+              <div className="flex justify-end mr-14 absolute top-4 right-0">
                 <img
                   src="/header-img/favicon.png"
                   alt="favicon img"
-                  class="w-8"
+                  className="w-8"
                 />
               </div>
               <div
-                class="absolute bottom-0 left-0 right-0 pl-8 pb-6 bg-gradient-to-t from-black to-transperent"
+                className="absolute bottom-0 left-0 right-0 pl-8 pb-6 bg-gradient-to-t from-black to-transperent"
               >
                 <h4
-                  class="text-3xl leading-tight-2 2xl:text-4xl 2xl:leading-tight-2 font-[serif] font-[100] mb-2"
+                  className="text-3xl leading-tight-2 2xl:text-4xl 2xl:leading-tight-2 font-[serif] font-[100] mb-2"
                 >
                   Keith <br />
                   Damiani
                 </h4>
                 <p
-                  class="uppercase text-yellow-600 font-mono font-bold tracking-[0.1rem] text-[#65b722] text-sm"
+                  className="uppercase text-yellow-600 font-mono font-bold tracking-[0.1rem] text-[#65b722] text-sm"
                 >
                   Principal Programer
                 </p>
               </div>
             </div>
             <div
-              class="absolute -top-96 left-96 group-hover:block group-hover:top-0 group-hover:left-0 w-[100%] h-full transition-top duration-1000 right-8 bg-[#FFBC00] hidden group-hover:block"
+              className="absolute -top-96 left-96 group-hover:block group-hover:top-0 group-hover:left-0 w-[100%] h-full transition-top duration-1000 right-8 bg-[#FFBC00] hidden group-hover:block"
             >
               <div
-                class="w-4/5 mx-auto uppercase text-slate-600 font-sans text-sm py-4 overflow-hidden"
+                className="w-4/5 mx-auto uppercase text-slate-600 font-sans text-sm py-4 overflow-hidden"
               >
                 <h5>featured contributions</h5>
               </div>
               <a href="https://tighten.com/blog/the-great-tighten-experiment/">
                 <div
-                  class="border border-2 border-[#C97F09] w-4/5 mx-auto flex items-center"
+                  className="border border-2 border-[#C97F09] w-4/5 mx-auto flex items-center"
                 >
                   <div
-                    class="text-black text-2xl px-2 py-2 font-[100] border-r border-r-2 border-r-black"
+                    className="text-black text-2xl px-2 py-2 font-[100] border-r border-r-2 border-r-black"
                   >
-                    <i class="fa-brands fa-github"></i>
+                    <i className="fa-brands fa-github"></i>
                   </div>
-                  <div class="py-2 text-black pl-2">
-                    <h5 class="font-[pitch-sans] font-semibold tracking-widest">
+                  <div className="py-2 text-black pl-2">
+                    <h5 className="font-[pitch-sans] font-semibold tracking-widest">
                       Nova Stripe
                     </h5>
-                    <p class="uppercase text-xs text-gray-700">contributor</p>
+                    <p className="uppercase text-xs text-gray-700">contributor</p>
                   </div>
                 </div>
               </a>
               <a href="https://tighten.com/blog/the-great-tighten-experiment/">
                 <div
-                  class="border border-2 border-[#C97F09] w-4/5 mx-auto flex items-center my-4"
+                  className="border border-2 border-[#C97F09] w-4/5 mx-auto flex items-center my-4"
                 >
                   <div
-                    class="text-black text-2xl px-2 py-2 font-[100] border-r border-r-2 border-r-black"
+                    className="text-black text-2xl px-2 py-2 font-[100] border-r border-r-2 border-r-black"
                   >
-                    <i class="fa-brands fa-github"></i>
+                    <i className="fa-brands fa-github"></i>
                   </div>
-                  <div class="py-2 text-black pl-2">
-                    <h5 class="font-[pitch-sans] font-semibold tracking-widest">
+                  <div className="py-2 text-black pl-2">
+                    <h5 className="font-[pitch-sans] font-semibold tracking-widest">
                       PHP Release
                     </h5>
-                    <p class="uppercase text-xs text-gray-700">contributor</p>
+                    <p className="uppercase text-xs text-gray-700">contributor</p>
                   </div>
                 </div>
               </a>
 
-              <div class="mt-1 ml-8">
+              <div className="mt-1 ml-8">
                 <h4
-                  class="text-black text-3xl leading-tight-2 2xl:text-4xl 2xl:leading-tight-2 font-[serif] font-[100] pb-2"
+                  className="text-black text-3xl leading-tight-2 2xl:text-4xl 2xl:leading-tight-2 font-[serif] font-[100] pb-2"
                 >
                   Keith <br />Damiani
                 </h4>
                 <p
-                  class="uppercase text-gray-600 font-mono font-bold tracking-[0.1rem] text-[#65b722] text-sm tracking-widest"
+                  className="uppercase text-gray-600 font-mono font-bold tracking-[0.1rem] text-[#65b722] text-sm tracking-widest"
                 >
                   Principal Programer
                 </p>
@@ -1638,90 +1638,90 @@ export default function Team() {
           {/* <!-- 16 Member end --> */}
 
           {/* <!-- 17 Member start --> */}
-          <div class="relative group cursor-pointer mt-8">
-            <div class="img">
+          <div className="relative group cursor-pointer mt-8">
+            <div className="img">
               <img
                 src="/Team-Page-img/17.jpg"
                 alt="Jeanne"
                 title="Programer"
-                class="w-[100%] grayscale hover:grayscale-0 cursor-pointer"
+                className="w-[100%] grayscale hover:grayscale-0 cursor-pointer"
               />
             </div>
-            <div class="info">
-              <div class="flex justify-end mr-14 absolute top-4 right-0">
+            <div className="info">
+              <div className="flex justify-end mr-14 absolute top-4 right-0">
                 <img
                   src="/header-img/favicon.png"
                   alt="favicon img"
-                  class="w-8"
+                  className="w-8"
                 />
               </div>
               <div
-                class="absolute bottom-0 left-0 right-0 pl-8 pb-6 bg-gradient-to-t from-black to-transperent"
+                className="absolute bottom-0 left-0 right-0 pl-8 pb-6 bg-gradient-to-t from-black to-transperent"
               >
                 <h4
-                  class="text-3xl leading-tight-2 2xl:text-4xl 2xl:leading-tight-2 font-[serif] font-[100] mb-2"
+                  className="text-3xl leading-tight-2 2xl:text-4xl 2xl:leading-tight-2 font-[serif] font-[100] mb-2"
                 >
                   Kristin <br />
                   Collins
                 </h4>
                 <p
-                  class="uppercase text-yellow-600 font-mono font-bold tracking-[0.1rem] text-[#65b722] text-sm"
+                  className="uppercase text-yellow-600 font-mono font-bold tracking-[0.1rem] text-[#65b722] text-sm"
                 >
                   Lead Programer
                 </p>
               </div>
             </div>
             <div
-              class="absolute -top-96 left-96 group-hover:block group-hover:top-0 group-hover:left-0 w-[100%] h-full transition-top duration-1000 right-8 bg-[#FFBC00] hidden group-hover:block"
+              className="absolute -top-96 left-96 group-hover:block group-hover:top-0 group-hover:left-0 w-[100%] h-full transition-top duration-1000 right-8 bg-[#FFBC00] hidden group-hover:block"
             >
               <div
-                class="w-4/5 mx-auto uppercase text-slate-600 font-sans text-sm py-4 overflow-hidden"
+                className="w-4/5 mx-auto uppercase text-slate-600 font-sans text-sm py-4 overflow-hidden"
               >
                 <h5>featured contributions</h5>
               </div>
               <a href="https://tighten.com/blog/the-great-tighten-experiment/">
                 <div
-                  class="border border-2 border-[#C97F09] w-4/5 mx-auto flex items-center"
+                  className="border border-2 border-[#C97F09] w-4/5 mx-auto flex items-center"
                 >
                   <div
-                    class="text-black text-2xl px-2 py-2 font-[100] border-r border-r-2 border-r-black"
+                    className="text-black text-2xl px-2 py-2 font-[100] border-r border-r-2 border-r-black"
                   >
-                    <i class="fa-brands fa-github"></i>
+                    <i className="fa-brands fa-github"></i>
                   </div>
-                  <div class="py-2 text-black pl-2">
-                    <h5 class="font-[pitch-sans] font-semibold tracking-widest">
+                  <div className="py-2 text-black pl-2">
+                    <h5 className="font-[pitch-sans] font-semibold tracking-widest">
                       Nova Stripe
                     </h5>
-                    <p class="uppercase text-xs text-gray-700">contributor</p>
+                    <p className="uppercase text-xs text-gray-700">contributor</p>
                   </div>
                 </div>
               </a>
               <a href="https://tighten.com/blog/the-great-tighten-experiment/">
                 <div
-                  class="border border-2 border-[#C97F09] w-4/5 mx-auto flex items-center my-4"
+                  className="border border-2 border-[#C97F09] w-4/5 mx-auto flex items-center my-4"
                 >
                   <div
-                    class="text-black text-2xl px-2 py-2 font-[100] border-r border-r-2 border-r-black"
+                    className="text-black text-2xl px-2 py-2 font-[100] border-r border-r-2 border-r-black"
                   >
-                    <i class="fa-brands fa-github"></i>
+                    <i className="fa-brands fa-github"></i>
                   </div>
-                  <div class="py-2 text-black pl-2">
-                    <h5 class="font-[pitch-sans] font-semibold tracking-widest">
+                  <div className="py-2 text-black pl-2">
+                    <h5 className="font-[pitch-sans] font-semibold tracking-widest">
                       PHP Release
                     </h5>
-                    <p class="uppercase text-xs text-gray-700">contributor</p>
+                    <p className="uppercase text-xs text-gray-700">contributor</p>
                   </div>
                 </div>
               </a>
 
-              <div class="mt-1 ml-8">
+              <div className="mt-1 ml-8">
                 <h4
-                  class="text-black text-3xl leading-tight-2 2xl:text-4xl 2xl:leading-tight-2 font-[serif] font-[100] pb-2"
+                  className="text-black text-3xl leading-tight-2 2xl:text-4xl 2xl:leading-tight-2 font-[serif] font-[100] pb-2"
                 >
                   Kristin <br />Collins
                 </h4>
                 <p
-                  class="uppercase text-gray-600 font-mono font-bold tracking-[0.1rem] text-[#65b722] text-sm tracking-widest"
+                  className="uppercase text-gray-600 font-mono font-bold tracking-[0.1rem] text-[#65b722] text-sm tracking-widest"
                 >
                   Lead Programer
                 </p>
@@ -1731,90 +1731,90 @@ export default function Team() {
           {/* <!-- 17 Member end --> */}
 
           {/* <!-- 17 Member start --> */}
-          <div class="relative group cursor-pointer mt-8">
-            <div class="img">
+          <div className="relative group cursor-pointer mt-8">
+            <div className="img">
               <img
                 src="/Team-Page-img/18.jpg"
                 alt="Jeanne"
                 title="Programer"
-                class="w-[100%] grayscale hover:grayscale-0 cursor-pointer"
+                className="w-[100%] grayscale hover:grayscale-0 cursor-pointer"
               />
             </div>
-            <div class="info">
-              <div class="flex justify-end mr-14 absolute top-4 right-0">
+            <div className="info">
+              <div className="flex justify-end mr-14 absolute top-4 right-0">
                 <img
                   src="/header-img/favicon.png"
                   alt="favicon img"
-                  class="w-8"
+                  className="w-8"
                 />
               </div>
               <div
-                class="absolute bottom-0 left-0 right-0 pl-8 pb-6 bg-gradient-to-t from-black to-transperent"
+                className="absolute bottom-0 left-0 right-0 pl-8 pb-6 bg-gradient-to-t from-black to-transperent"
               >
                 <h4
-                  class="text-3xl leading-tight-2 2xl:text-4xl 2xl:leading-tight-2 font-[serif] font-[100] mb-2"
+                  className="text-3xl leading-tight-2 2xl:text-4xl 2xl:leading-tight-2 font-[serif] font-[100] mb-2"
                 >
                   Marcus <br />
                   Moore
                 </h4>
                 <p
-                  class="uppercase text-yellow-600 font-mono font-bold tracking-[0.1rem] text-[#65b722] text-sm"
+                  className="uppercase text-yellow-600 font-mono font-bold tracking-[0.1rem] text-[#65b722] text-sm"
                 >
                   Programer
                 </p>
               </div>
             </div>
             <div
-              class="absolute -top-96 left-96 group-hover:block group-hover:top-0 group-hover:left-0 w-[100%] h-full transition-top duration-1000 right-8 bg-[#FFBC00] hidden group-hover:block"
+              className="absolute -top-96 left-96 group-hover:block group-hover:top-0 group-hover:left-0 w-[100%] h-full transition-top duration-1000 right-8 bg-[#FFBC00] hidden group-hover:block"
             >
               <div
-                class="w-4/5 mx-auto uppercase text-slate-600 font-sans text-sm py-4 overflow-hidden"
+                className="w-4/5 mx-auto uppercase text-slate-600 font-sans text-sm py-4 overflow-hidden"
               >
                 <h5>featured contributions</h5>
               </div>
               <a href="https://tighten.com/blog/the-great-tighten-experiment/">
                 <div
-                  class="border border-2 border-[#C97F09] w-4/5 mx-auto flex items-center"
+                  className="border border-2 border-[#C97F09] w-4/5 mx-auto flex items-center"
                 >
                   <div
-                    class="text-black text-2xl px-2 py-2 font-[100] border-r border-r-2 border-r-black"
+                    className="text-black text-2xl px-2 py-2 font-[100] border-r border-r-2 border-r-black"
                   >
-                    <i class="fa-brands fa-github"></i>
+                    <i className="fa-brands fa-github"></i>
                   </div>
-                  <div class="py-2 text-black pl-2">
-                    <h5 class="font-[pitch-sans] font-semibold tracking-widest">
+                  <div className="py-2 text-black pl-2">
+                    <h5 className="font-[pitch-sans] font-semibold tracking-widest">
                       Nova Stripe
                     </h5>
-                    <p class="uppercase text-xs text-gray-700">contributor</p>
+                    <p className="uppercase text-xs text-gray-700">contributor</p>
                   </div>
                 </div>
               </a>
               <a href="https://tighten.com/blog/the-great-tighten-experiment/">
                 <div
-                  class="border border-2 border-[#C97F09] w-4/5 mx-auto flex items-center my-4"
+                  className="border border-2 border-[#C97F09] w-4/5 mx-auto flex items-center my-4"
                 >
                   <div
-                    class="text-black text-2xl px-2 py-2 font-[100] border-r border-r-2 border-r-black"
+                    className="text-black text-2xl px-2 py-2 font-[100] border-r border-r-2 border-r-black"
                   >
-                    <i class="fa-brands fa-github"></i>
+                    <i className="fa-brands fa-github"></i>
                   </div>
-                  <div class="py-2 text-black pl-2">
-                    <h5 class="font-[pitch-sans] font-semibold tracking-widest">
+                  <div className="py-2 text-black pl-2">
+                    <h5 className="font-[pitch-sans] font-semibold tracking-widest">
                       PHP Release
                     </h5>
-                    <p class="uppercase text-xs text-gray-700">contributor</p>
+                    <p className="uppercase text-xs text-gray-700">contributor</p>
                   </div>
                 </div>
               </a>
 
-              <div class="mt-1 ml-8">
+              <div className="mt-1 ml-8">
                 <h4
-                  class="text-black text-3xl leading-tight-2 2xl:text-4xl 2xl:leading-tight-2 font-[serif] font-[100] pb-2"
+                  className="text-black text-3xl leading-tight-2 2xl:text-4xl 2xl:leading-tight-2 font-[serif] font-[100] pb-2"
                 >
                   Marcus <br />Moore
                 </h4>
                 <p
-                  class="uppercase text-gray-600 font-mono font-bold tracking-[0.1rem] text-[#65b722] text-sm tracking-widest"
+                  className="uppercase text-gray-600 font-mono font-bold tracking-[0.1rem] text-[#65b722] text-sm tracking-widest"
                 >
                   Programer
                 </p>
@@ -1824,90 +1824,90 @@ export default function Team() {
           {/* <!-- 18 Member end --> */}
 
           {/* <!-- 19 Member start --> */}
-          <div class="relative group cursor-pointer mt-8">
-            <div class="img">
+          <div className="relative group cursor-pointer mt-8">
+            <div className="img">
               <img
                 src="/Team-Page-img/19.jpg"
                 alt="Marcy"
                 title="Programer"
-                class="w-[100%] grayscale hover:grayscale-0 cursor-pointer"
+                className="w-[100%] grayscale hover:grayscale-0 cursor-pointer"
               />
             </div>
-            <div class="info">
-              <div class="flex justify-end mr-14 absolute top-4 right-0">
+            <div className="info">
+              <div className="flex justify-end mr-14 absolute top-4 right-0">
                 <img
                   src="/header-img/favicon.png"
                   alt="favicon img"
-                  class="w-8"
+                  className="w-8"
                 />
               </div>
               <div
-                class="absolute bottom-0 left-0 right-0 pl-8 pb-6 bg-gradient-to-t from-black to-transperent"
+                className="absolute bottom-0 left-0 right-0 pl-8 pb-6 bg-gradient-to-t from-black to-transperent"
               >
                 <h4
-                  class="text-3xl leading-tight-2 2xl:text-4xl 2xl:leading-tight-2 font-[serif] font-[100] mb-2"
+                  className="text-3xl leading-tight-2 2xl:text-4xl 2xl:leading-tight-2 font-[serif] font-[100] mb-2"
                 >
                   Marcus <br />
                   Moore
                 </h4>
                 <p
-                  class="uppercase text-yellow-600 font-mono font-bold tracking-[0.1rem] text-[#65b722] text-sm"
+                  className="uppercase text-yellow-600 font-mono font-bold tracking-[0.1rem] text-[#65b722] text-sm"
                 >
                   Associate Programer
                 </p>
               </div>
             </div>
             <div
-              class="absolute -top-96 left-96 group-hover:block group-hover:top-0 group-hover:left-0 w-[100%] h-full transition-top duration-1000 right-8 bg-[#FFBC00] hidden group-hover:block"
+              className="absolute -top-96 left-96 group-hover:block group-hover:top-0 group-hover:left-0 w-[100%] h-full transition-top duration-1000 right-8 bg-[#FFBC00] hidden group-hover:block"
             >
               <div
-                class="w-4/5 mx-auto uppercase text-slate-600 font-sans text-sm py-4 overflow-hidden"
+                className="w-4/5 mx-auto uppercase text-slate-600 font-sans text-sm py-4 overflow-hidden"
               >
                 <h5>featured contributions</h5>
               </div>
               <a href="https://tighten.com/blog/the-great-tighten-experiment/">
                 <div
-                  class="border border-2 border-[#C97F09] w-4/5 mx-auto flex items-center"
+                  className="border border-2 border-[#C97F09] w-4/5 mx-auto flex items-center"
                 >
                   <div
-                    class="text-black text-2xl px-2 py-2 font-[100] border-r border-r-2 border-r-black"
+                    className="text-black text-2xl px-2 py-2 font-[100] border-r border-r-2 border-r-black"
                   >
-                    <i class="fa-brands fa-github"></i>
+                    <i className="fa-brands fa-github"></i>
                   </div>
-                  <div class="py-2 text-black pl-2">
-                    <h5 class="font-[pitch-sans] font-semibold tracking-widest">
+                  <div className="py-2 text-black pl-2">
+                    <h5 className="font-[pitch-sans] font-semibold tracking-widest">
                       Nova Stripe
                     </h5>
-                    <p class="uppercase text-xs text-gray-700">contributor</p>
+                    <p className="uppercase text-xs text-gray-700">contributor</p>
                   </div>
                 </div>
               </a>
               <a href="https://tighten.com/blog/the-great-tighten-experiment/">
                 <div
-                  class="border border-2 border-[#C97F09] w-4/5 mx-auto flex items-center my-4"
+                  className="border border-2 border-[#C97F09] w-4/5 mx-auto flex items-center my-4"
                 >
                   <div
-                    class="text-black text-2xl px-2 py-2 font-[100] border-r border-r-2 border-r-black"
+                    className="text-black text-2xl px-2 py-2 font-[100] border-r border-r-2 border-r-black"
                   >
-                    <i class="fa-brands fa-github"></i>
+                    <i className="fa-brands fa-github"></i>
                   </div>
-                  <div class="py-2 text-black pl-2">
-                    <h5 class="font-[pitch-sans] font-semibold tracking-widest">
+                  <div className="py-2 text-black pl-2">
+                    <h5 className="font-[pitch-sans] font-semibold tracking-widest">
                       PHP Release
                     </h5>
-                    <p class="uppercase text-xs text-gray-700">contributor</p>
+                    <p className="uppercase text-xs text-gray-700">contributor</p>
                   </div>
                 </div>
               </a>
 
-              <div class="mt-1 ml-8">
+              <div className="mt-1 ml-8">
                 <h4
-                  class="text-black text-3xl leading-tight-2 2xl:text-4xl 2xl:leading-tight-2 font-[serif] font-[100] pb-2"
+                  className="text-black text-3xl leading-tight-2 2xl:text-4xl 2xl:leading-tight-2 font-[serif] font-[100] pb-2"
                 >
                   Marcy <br />Acevedo
                 </h4>
                 <p
-                  class="uppercase text-gray-600 font-mono font-bold tracking-[0.1rem] text-[#65b722] text-sm tracking-widest"
+                  className="uppercase text-gray-600 font-mono font-bold tracking-[0.1rem] text-[#65b722] text-sm tracking-widest"
                 >
                   Associate Programer
                 </p>
@@ -1917,90 +1917,90 @@ export default function Team() {
           {/* <!-- 19 Member end --> */}
 
           {/* <!-- 20 Member start --> */}
-          <div class="relative group cursor-pointer mt-8">
-            <div class="img">
+          <div className="relative group cursor-pointer mt-8">
+            <div className="img">
               <img
                 src="/Team-Page-img/20.jpg"
                 alt="Marcy"
                 title="Programer"
-                class="w-[100%] grayscale hover:grayscale-0 cursor-pointer"
+                className="w-[100%] grayscale hover:grayscale-0 cursor-pointer"
               />
             </div>
-            <div class="info">
-              <div class="flex justify-end mr-14 absolute top-4 right-0">
+            <div className="info">
+              <div className="flex justify-end mr-14 absolute top-4 right-0">
                 <img
                   src="/header-img/favicon.png"
                   alt="favicon img"
-                  class="w-8"
+                  className="w-8"
                 />
               </div>
               <div
-                class="absolute bottom-0 left-0 right-0 pl-8 pb-6 bg-gradient-to-t from-black to-transperent"
+                className="absolute bottom-0 left-0 right-0 pl-8 pb-6 bg-gradient-to-t from-black to-transperent"
               >
                 <h4
-                  class="text-3xl leading-tight-2 2xl:text-4xl 2xl:leading-tight-2 font-[serif] font-[100] mb-2"
+                  className="text-3xl leading-tight-2 2xl:text-4xl 2xl:leading-tight-2 font-[serif] font-[100] mb-2"
                 >
                   Marje <br />
                   Holmstrom-Sabo
                 </h4>
                 <p
-                  class="uppercase text-yellow-600 font-mono font-bold tracking-[0.1rem] text-[#65b722] text-sm"
+                  className="uppercase text-yellow-600 font-mono font-bold tracking-[0.1rem] text-[#65b722] text-sm"
                 >
                   Associate Programer
                 </p>
               </div>
             </div>
             <div
-              class="absolute -top-96 left-96 group-hover:block group-hover:top-0 group-hover:left-0 w-[100%] h-full transition-top duration-1000 right-8 bg-[#FFBC00] hidden group-hover:block"
+              className="absolute -top-96 left-96 group-hover:block group-hover:top-0 group-hover:left-0 w-[100%] h-full transition-top duration-1000 right-8 bg-[#FFBC00] hidden group-hover:block"
             >
               <div
-                class="w-4/5 mx-auto uppercase text-slate-600 font-sans text-sm py-4 overflow-hidden"
+                className="w-4/5 mx-auto uppercase text-slate-600 font-sans text-sm py-4 overflow-hidden"
               >
                 <h5>featured contributions</h5>
               </div>
               <a href="https://tighten.com/blog/the-great-tighten-experiment/">
                 <div
-                  class="border border-2 border-[#C97F09] w-4/5 mx-auto flex items-center"
+                  className="border border-2 border-[#C97F09] w-4/5 mx-auto flex items-center"
                 >
                   <div
-                    class="text-black text-2xl px-2 py-2 font-[100] border-r border-r-2 border-r-black"
+                    className="text-black text-2xl px-2 py-2 font-[100] border-r border-r-2 border-r-black"
                   >
-                    <i class="fa-brands fa-github"></i>
+                    <i className="fa-brands fa-github"></i>
                   </div>
-                  <div class="py-2 text-black pl-2">
-                    <h5 class="font-[pitch-sans] font-semibold tracking-widest">
+                  <div className="py-2 text-black pl-2">
+                    <h5 className="font-[pitch-sans] font-semibold tracking-widest">
                       Nova Stripe
                     </h5>
-                    <p class="uppercase text-xs text-gray-700">contributor</p>
+                    <p className="uppercase text-xs text-gray-700">contributor</p>
                   </div>
                 </div>
               </a>
               <a href="https://tighten.com/blog/the-great-tighten-experiment/">
                 <div
-                  class="border border-2 border-[#C97F09] w-4/5 mx-auto flex items-center my-4"
+                  className="border border-2 border-[#C97F09] w-4/5 mx-auto flex items-center my-4"
                 >
                   <div
-                    class="text-black text-2xl px-2 py-2 font-[100] border-r border-r-2 border-r-black"
+                    className="text-black text-2xl px-2 py-2 font-[100] border-r border-r-2 border-r-black"
                   >
-                    <i class="fa-brands fa-github"></i>
+                    <i className="fa-brands fa-github"></i>
                   </div>
-                  <div class="py-2 text-black pl-2">
-                    <h5 class="font-[pitch-sans] font-semibold tracking-widest">
+                  <div className="py-2 text-black pl-2">
+                    <h5 className="font-[pitch-sans] font-semibold tracking-widest">
                       PHP Release
                     </h5>
-                    <p class="uppercase text-xs text-gray-700">contributor</p>
+                    <p className="uppercase text-xs text-gray-700">contributor</p>
                   </div>
                 </div>
               </a>
 
-              <div class="mt-1 ml-8">
+              <div className="mt-1 ml-8">
                 <h4
-                  class="text-black text-3xl leading-tight-2 2xl:text-4xl 2xl:leading-tight-2 font-[serif] font-[100] pb-2"
+                  className="text-black text-3xl leading-tight-2 2xl:text-4xl 2xl:leading-tight-2 font-[serif] font-[100] pb-2"
                 >
                   Marje <br />Holmstrom-Sabo
                 </h4>
                 <p
-                  class="uppercase text-gray-600 font-mono font-bold tracking-[0.1rem] text-[#65b722] text-sm tracking-widest"
+                  className="uppercase text-gray-600 font-mono font-bold tracking-[0.1rem] text-[#65b722] text-sm tracking-widest"
                 >
                   Operation + Content Manager
                 </p>
@@ -2010,91 +2010,91 @@ export default function Team() {
           {/* <!-- 20 Member end --> */}
 
           {/* <!-- 21 Member end --> */}
-          <div class="relative group cursor-pointer mt-8">
-            <div class="img">
+          <div className="relative group cursor-pointer mt-8">
+            <div className="img">
               <img
                 src="/Team-Page-img/21.jpg"
                 alt="Marcy"
                 title="Programer"
-                class="w-[100%] grayscale hover:grayscale-0 cursor-pointer"
+                className="w-[100%] grayscale hover:grayscale-0 cursor-pointer"
               />
             </div>
-            <div class="info">
-              <div class="flex justify-end mr-14 absolute top-4 right-0">
+            <div className="info">
+              <div className="flex justify-end mr-14 absolute top-4 right-0">
                 <img
                   src="/header-img/favicon.png"
                   alt="favicon img"
-                  class="w-8"
+                  className="w-8"
                 />
               </div>
               <div
-                class="absolute bottom-0 left-0 right-0 pl-8 pb-6 bg-gradient-to-t from-black to-transperent"
+                className="absolute bottom-0 left-0 right-0 pl-8 pb-6 bg-gradient-to-t from-black to-transperent"
               >
                 <h4
-                  class="text-3xl leading-tight-2 2xl:text-4xl 2xl:leading-tight-2 font-[serif] font-[100] mb-2"
+                  className="text-3xl leading-tight-2 2xl:text-4xl 2xl:leading-tight-2 font-[serif] font-[100] mb-2"
                 >
                   Nathan <br />
                   Morgen
                 </h4>
                 <p
-                  class="uppercase text-yellow-600 font-mono font-bold tracking-[0.1rem] text-[#65b722] text-sm"
+                  className="uppercase text-yellow-600 font-mono font-bold tracking-[0.1rem] text-[#65b722] text-sm"
                 >
                   Programer
                 </p>
               </div>
             </div>
             <div
-              class="absolute -top-96 left-96 group-hover:block group-hover:top-0 group-hover:left-0 w-[100%] h-full transition-top duration-1000 right-8 bg-[#FFBC00] hidden group-hover:block"
+              className="absolute -top-96 left-96 group-hover:block group-hover:top-0 group-hover:left-0 w-[100%] h-full transition-top duration-1000 right-8 bg-[#FFBC00] hidden group-hover:block"
             >
               <div
-                class="w-4/5 mx-auto uppercase text-slate-600 font-sans text-sm py-4 overflow-hidden"
+                className="w-4/5 mx-auto uppercase text-slate-600 font-sans text-sm py-4 overflow-hidden"
               >
                 <h5>featured contributions</h5>
               </div>
               <a href="https://tighten.com/blog/the-great-tighten-experiment/">
                 <div
-                  class="border border-2 border-[#C97F09] w-4/5 mx-auto flex items-center"
+                  className="border border-2 border-[#C97F09] w-4/5 mx-auto flex items-center"
                 >
                   <div
-                    class="text-black text-2xl px-2 py-2 font-[100] border-r border-r-2 border-r-black"
+                    className="text-black text-2xl px-2 py-2 font-[100] border-r border-r-2 border-r-black"
                   >
-                    <i class="fa-brands fa-github"></i>
+                    <i className="fa-brands fa-github"></i>
                   </div>
-                  <div class="py-2 text-black pl-2">
-                    <h5 class="font-[pitch-sans] font-semibold tracking-widest">
+                  <div className="py-2 text-black pl-2">
+                    <h5 className="font-[pitch-sans] font-semibold tracking-widest">
                       Nova Stripe
                     </h5>
-                    <p class="uppercase text-xs text-gray-700">contributor</p>
+                    <p className="uppercase text-xs text-gray-700">contributor</p>
                   </div>
                 </div>
               </a>
               <a href="https://tighten.com/blog/the-great-tighten-experiment/">
                 <div
-                  class="border border-2 border-[#C97F09] w-4/5 mx-auto flex items-center my-4"
+                  className="border border-2 border-[#C97F09] w-4/5 mx-auto flex items-center my-4"
                 >
                   <div
-                    class="text-black text-2xl px-2 py-2 font-[100] border-r border-r-2 border-r-black"
+                    className="text-black text-2xl px-2 py-2 font-[100] border-r border-r-2 border-r-black"
                   >
-                    <i class="fa-brands fa-github"></i>
+                    <i className="fa-brands fa-github"></i>
                   </div>
-                  <div class="py-2 text-black pl-2">
-                    <h5 class="font-[pitch-sans] font-semibold tracking-widest">
+                  <div className="py-2 text-black pl-2">
+                    <h5 className="font-[pitch-sans] font-semibold tracking-widest">
                       PHP Release
                     </h5>
-                    <p class="uppercase text-xs text-gray-700">contributor</p>
+                    <p className="uppercase text-xs text-gray-700">contributor</p>
                   </div>
                 </div>
               </a>
 
-              <div class="mt-1 ml-8">
+              <div className="mt-1 ml-8">
                 <h4
-                  class="text-black text-3xl leading-tight-2 2xl:text-4xl 2xl:leading-tight-2 font-[serif] font-[100] pb-2"
+                  className="text-black text-3xl leading-tight-2 2xl:text-4xl 2xl:leading-tight-2 font-[serif] font-[100] pb-2"
                 >
                   Nathan <br />
                   Morgen
                 </h4>
                 <p
-                  class="uppercase text-gray-600 font-mono font-bold tracking-[0.1rem] text-[#65b722] text-sm tracking-widest"
+                  className="uppercase text-gray-600 font-mono font-bold tracking-[0.1rem] text-[#65b722] text-sm tracking-widest"
                 >
                   Programer
                 </p>
@@ -2104,90 +2104,90 @@ export default function Team() {
           {/* <!-- 21 Member end -->
 
           <!-- 22 Member start --> */}
-          <div class="relative group cursor-pointer mt-8">
-            <div class="img">
+          <div className="relative group cursor-pointer mt-8">
+            <div className="img">
               <img
                 src="/Team-Page-img/22.jpg"
                 alt="Marcy"
                 title="Programer"
-                class="w-[100%] grayscale hover:grayscale-0 cursor-pointer"
+                className="w-[100%] grayscale hover:grayscale-0 cursor-pointer"
               />
             </div>
-            <div class="info">
-              <div class="flex justify-end mr-14 absolute top-4 right-0">
+            <div className="info">
+              <div className="flex justify-end mr-14 absolute top-4 right-0">
                 <img
                   src="/header-img/favicon.png"
                   alt="favicon img"
-                  class="w-8"
+                  className="w-8"
                 />
               </div>
               <div
-                class="absolute bottom-0 left-0 right-0 pl-8 pb-6 bg-gradient-to-t from-black to-transperent"
+                className="absolute bottom-0 left-0 right-0 pl-8 pb-6 bg-gradient-to-t from-black to-transperent"
               >
                 <h4
-                  class="text-3xl leading-tight-2 2xl:text-4xl 2xl:leading-tight-2 font-[serif] font-[100] mb-2"
+                  className="text-3xl leading-tight-2 2xl:text-4xl 2xl:leading-tight-2 font-[serif] font-[100] mb-2"
                 >
                   Nohemi <br />
                   Olvera
                 </h4>
                 <p
-                  class="uppercase text-yellow-600 font-mono font-bold tracking-[0.1rem] text-[#65b722] text-sm"
+                  className="uppercase text-yellow-600 font-mono font-bold tracking-[0.1rem] text-[#65b722] text-sm"
                 >
                   Designer
                 </p>
               </div>
             </div>
             <div
-              class="absolute -top-96 left-96 group-hover:block group-hover:top-0 group-hover:left-0 w-[100%] h-full transition-top duration-1000 right-8 bg-[#FFBC00] hidden group-hover:block"
+              className="absolute -top-96 left-96 group-hover:block group-hover:top-0 group-hover:left-0 w-[100%] h-full transition-top duration-1000 right-8 bg-[#FFBC00] hidden group-hover:block"
             >
               <div
-                class="w-4/5 mx-auto uppercase text-slate-600 font-sans text-sm py-4 overflow-hidden"
+                className="w-4/5 mx-auto uppercase text-slate-600 font-sans text-sm py-4 overflow-hidden"
               >
                 <h5>featured contributions</h5>
               </div>
               <a href="https://tighten.com/blog/the-great-tighten-experiment/">
                 <div
-                  class="border border-2 border-[#C97F09] w-4/5 mx-auto flex items-center"
+                  className="border border-2 border-[#C97F09] w-4/5 mx-auto flex items-center"
                 >
                   <div
-                    class="text-black text-2xl px-2 py-2 font-[100] border-r border-r-2 border-r-black"
+                    className="text-black text-2xl px-2 py-2 font-[100] border-r border-r-2 border-r-black"
                   >
-                    <i class="fa-brands fa-github"></i>
+                    <i className="fa-brands fa-github"></i>
                   </div>
-                  <div class="py-2 text-black pl-2">
-                    <h5 class="font-[pitch-sans] font-semibold tracking-widest">
+                  <div className="py-2 text-black pl-2">
+                    <h5 className="font-[pitch-sans] font-semibold tracking-widest">
                       Nova Stripe
                     </h5>
-                    <p class="uppercase text-xs text-gray-700">contributor</p>
+                    <p className="uppercase text-xs text-gray-700">contributor</p>
                   </div>
                 </div>
               </a>
               <a href="https://tighten.com/blog/the-great-tighten-experiment/">
                 <div
-                  class="border border-2 border-[#C97F09] w-4/5 mx-auto flex items-center my-4"
+                  className="border border-2 border-[#C97F09] w-4/5 mx-auto flex items-center my-4"
                 >
                   <div
-                    class="text-black text-2xl px-2 py-2 font-[100] border-r border-r-2 border-r-black"
+                    className="text-black text-2xl px-2 py-2 font-[100] border-r border-r-2 border-r-black"
                   >
-                    <i class="fa-brands fa-github"></i>
+                    <i className="fa-brands fa-github"></i>
                   </div>
-                  <div class="py-2 text-black pl-2">
-                    <h5 class="font-[pitch-sans] font-semibold tracking-widest">
+                  <div className="py-2 text-black pl-2">
+                    <h5 className="font-[pitch-sans] font-semibold tracking-widest">
                       PHP Release
                     </h5>
-                    <p class="uppercase text-xs text-gray-700">contributor</p>
+                    <p className="uppercase text-xs text-gray-700">contributor</p>
                   </div>
                 </div>
               </a>
 
-              <div class="mt-1 ml-8">
+              <div className="mt-1 ml-8">
                 <h4
-                  class="text-black text-3xl leading-tight-2 2xl:text-4xl 2xl:leading-tight-2 font-[serif] font-[100] pb-2"
+                  className="text-black text-3xl leading-tight-2 2xl:text-4xl 2xl:leading-tight-2 font-[serif] font-[100] pb-2"
                 >
                   Nohemi <br />Olvera
                 </h4>
                 <p
-                  class="uppercase text-gray-600 font-mono font-bold tracking-[0.1rem] text-[#65b722] text-sm tracking-widest"
+                  className="uppercase text-gray-600 font-mono font-bold tracking-[0.1rem] text-[#65b722] text-sm tracking-widest"
                 >
                   designer
                 </p>
@@ -2197,90 +2197,90 @@ export default function Team() {
           {/* <!-- 22 Member end -->
 
           <!-- 23 Member start --> */}
-          <div class="relative group cursor-pointer mt-8">
-            <div class="img">
+          <div className="relative group cursor-pointer mt-8">
+            <div className="img">
               <img
                 src="/Team-Page-img/23.jpg"
                 alt="Marcy"
                 title="Programer"
-                class="w-[100%] grayscale hover:grayscale-0 cursor-pointer"
+                className="w-[100%] grayscale hover:grayscale-0 cursor-pointer"
               />
             </div>
-            <div class="info">
-              <div class="flex justify-end mr-14 absolute top-4 right-0">
+            <div className="info">
+              <div className="flex justify-end mr-14 absolute top-4 right-0">
                 <img
                   src="/header-img/favicon.png"
                   alt="favicon img"
-                  class="w-8"
+                  className="w-8"
                 />
               </div>
               <div
-                class="absolute bottom-0 left-0 right-0 pl-8 pb-6 bg-gradient-to-t from-black to-transperent"
+                className="absolute bottom-0 left-0 right-0 pl-8 pb-6 bg-gradient-to-t from-black to-transperent"
               >
                 <h4
-                  class="text-3xl leading-tight-2 2xl:text-4xl 2xl:leading-tight-2 font-[serif] font-[100] mb-2"
+                  className="text-3xl leading-tight-2 2xl:text-4xl 2xl:leading-tight-2 font-[serif] font-[100] mb-2"
                 >
                   Rissa <br />
                   Jackson
                 </h4>
                 <p
-                  class="uppercase text-yellow-600 font-mono font-bold tracking-[0.1rem] text-[#65b722] text-sm"
+                  className="uppercase text-yellow-600 font-mono font-bold tracking-[0.1rem] text-[#65b722] text-sm"
                 >
                   Apprentice Programer
                 </p>
               </div>
             </div>
             <div
-              class="absolute -top-96 left-96 group-hover:block group-hover:top-0 group-hover:left-0 w-[100%] h-full transition-top duration-1000 right-8 bg-[#FFBC00] hidden group-hover:block"
+              className="absolute -top-96 left-96 group-hover:block group-hover:top-0 group-hover:left-0 w-[100%] h-full transition-top duration-1000 right-8 bg-[#FFBC00] hidden group-hover:block"
             >
               <div
-                class="w-4/5 mx-auto uppercase text-slate-600 font-sans text-sm py-4 overflow-hidden"
+                className="w-4/5 mx-auto uppercase text-slate-600 font-sans text-sm py-4 overflow-hidden"
               >
                 <h5>featured contributions</h5>
               </div>
               <a href="https://tighten.com/blog/the-great-tighten-experiment/">
                 <div
-                  class="border border-2 border-[#C97F09] w-4/5 mx-auto flex items-center"
+                  className="border border-2 border-[#C97F09] w-4/5 mx-auto flex items-center"
                 >
                   <div
-                    class="text-black text-2xl px-2 py-2 font-[100] border-r border-r-2 border-r-black"
+                    className="text-black text-2xl px-2 py-2 font-[100] border-r border-r-2 border-r-black"
                   >
-                    <i class="fa-brands fa-github"></i>
+                    <i className="fa-brands fa-github"></i>
                   </div>
-                  <div class="py-2 text-black pl-2">
-                    <h5 class="font-[pitch-sans] font-semibold tracking-widest">
+                  <div className="py-2 text-black pl-2">
+                    <h5 className="font-[pitch-sans] font-semibold tracking-widest">
                       Nova Stripe
                     </h5>
-                    <p class="uppercase text-xs text-gray-700">contributor</p>
+                    <p className="uppercase text-xs text-gray-700">contributor</p>
                   </div>
                 </div>
               </a>
               <a href="https://tighten.com/blog/the-great-tighten-experiment/">
                 <div
-                  class="border border-2 border-[#C97F09] w-4/5 mx-auto flex items-center my-4"
+                  className="border border-2 border-[#C97F09] w-4/5 mx-auto flex items-center my-4"
                 >
                   <div
-                    class="text-black text-2xl px-2 py-2 font-[100] border-r border-r-2 border-r-black"
+                    className="text-black text-2xl px-2 py-2 font-[100] border-r border-r-2 border-r-black"
                   >
-                    <i class="fa-brands fa-github"></i>
+                    <i className="fa-brands fa-github"></i>
                   </div>
-                  <div class="py-2 text-black pl-2">
-                    <h5 class="font-[pitch-sans] font-semibold tracking-widest">
+                  <div className="py-2 text-black pl-2">
+                    <h5 className="font-[pitch-sans] font-semibold tracking-widest">
                       PHP Release
                     </h5>
-                    <p class="uppercase text-xs text-gray-700">contributor</p>
+                    <p className="uppercase text-xs text-gray-700">contributor</p>
                   </div>
                 </div>
               </a>
 
-              <div class="mt-1 ml-8">
+              <div className="mt-1 ml-8">
                 <h4
-                  class="text-black text-3xl leading-tight-2 2xl:text-4xl 2xl:leading-tight-2 font-[serif] font-[100] pb-2"
+                  className="text-black text-3xl leading-tight-2 2xl:text-4xl 2xl:leading-tight-2 font-[serif] font-[100] pb-2"
                 >
                   Rissa <br />Jackson
                 </h4>
                 <p
-                  class="uppercase text-gray-600 font-mono font-bold tracking-[0.1rem] text-[#65b722] text-sm tracking-widest"
+                  className="uppercase text-gray-600 font-mono font-bold tracking-[0.1rem] text-[#65b722] text-sm tracking-widest"
                 >
                   Apprentice Programer
                 </p>
@@ -2290,90 +2290,90 @@ export default function Team() {
           {/* <!-- 23 Member end -->
 
           <!-- 24 Member start --> */}
-          <div class="relative group cursor-pointer mt-8">
-            <div class="img">
+          <div className="relative group cursor-pointer mt-8">
+            <div className="img">
               <img
                 src="/Team-Page-img/24.jpg"
                 alt="Marcy"
                 title="Programer"
-                class="w-[100%] grayscale hover:grayscale-0 cursor-pointer"
+                className="w-[100%] grayscale hover:grayscale-0 cursor-pointer"
               />
             </div>
-            <div class="info">
-              <div class="flex justify-end mr-14 absolute top-4 right-0">
+            <div className="info">
+              <div className="flex justify-end mr-14 absolute top-4 right-0">
                 <img
                   src="/header-img/favicon.png"
                   alt="favicon img"
-                  class="w-8"
+                  className="w-8"
                 />
               </div>
               <div
-                class="absolute bottom-0 left-0 right-0 pl-8 pb-6 bg-gradient-to-t from-black to-transperent"
+                className="absolute bottom-0 left-0 right-0 pl-8 pb-6 bg-gradient-to-t from-black to-transperent"
               >
                 <h4
-                  class="text-3xl leading-tight-2 2xl:text-4xl 2xl:leading-tight-2 font-[serif] font-[100] mb-2"
+                  className="text-3xl leading-tight-2 2xl:text-4xl 2xl:leading-tight-2 font-[serif] font-[100] mb-2"
                 >
                   Sara <br />
                   Bine
                 </h4>
                 <p
-                  class="uppercase text-yellow-600 font-mono font-bold tracking-[0.1rem] text-[#65b722] text-sm"
+                  className="uppercase text-yellow-600 font-mono font-bold tracking-[0.1rem] text-[#65b722] text-sm"
                 >
                   Lead Programer
                 </p>
               </div>
             </div>
             <div
-              class="absolute -top-96 left-96 group-hover:block group-hover:top-0 group-hover:left-0 w-[100%] h-full transition-top duration-1000 right-8 bg-[#FFBC00] hidden group-hover:block"
+              className="absolute -top-96 left-96 group-hover:block group-hover:top-0 group-hover:left-0 w-[100%] h-full transition-top duration-1000 right-8 bg-[#FFBC00] hidden group-hover:block"
             >
               <div
-                class="w-4/5 mx-auto uppercase text-slate-600 font-sans text-sm py-4 overflow-hidden"
+                className="w-4/5 mx-auto uppercase text-slate-600 font-sans text-sm py-4 overflow-hidden"
               >
                 <h5>featured contributions</h5>
               </div>
               <a href="https://tighten.com/blog/the-great-tighten-experiment/">
                 <div
-                  class="border border-2 border-[#C97F09] w-4/5 mx-auto flex items-center"
+                  className="border border-2 border-[#C97F09] w-4/5 mx-auto flex items-center"
                 >
                   <div
-                    class="text-black text-2xl px-2 py-2 font-[100] border-r border-r-2 border-r-black"
+                    className="text-black text-2xl px-2 py-2 font-[100] border-r border-r-2 border-r-black"
                   >
-                    <i class="fa-brands fa-github"></i>
+                    <i className="fa-brands fa-github"></i>
                   </div>
-                  <div class="py-2 text-black pl-2">
-                    <h5 class="font-[pitch-sans] font-semibold tracking-widest">
+                  <div className="py-2 text-black pl-2">
+                    <h5 className="font-[pitch-sans] font-semibold tracking-widest">
                       Nova Stripe
                     </h5>
-                    <p class="uppercase text-xs text-gray-700">contributor</p>
+                    <p className="uppercase text-xs text-gray-700">contributor</p>
                   </div>
                 </div>
               </a>
               <a href="https://tighten.com/blog/the-great-tighten-experiment/">
                 <div
-                  class="border border-2 border-[#C97F09] w-4/5 mx-auto flex items-center my-4"
+                  className="border border-2 border-[#C97F09] w-4/5 mx-auto flex items-center my-4"
                 >
                   <div
-                    class="text-black text-2xl px-2 py-2 font-[100] border-r border-r-2 border-r-black"
+                    className="text-black text-2xl px-2 py-2 font-[100] border-r border-r-2 border-r-black"
                   >
-                    <i class="fa-brands fa-github"></i>
+                    <i className="fa-brands fa-github"></i>
                   </div>
-                  <div class="py-2 text-black pl-2">
-                    <h5 class="font-[pitch-sans] font-semibold tracking-widest">
+                  <div className="py-2 text-black pl-2">
+                    <h5 className="font-[pitch-sans] font-semibold tracking-widest">
                       PHP Release
                     </h5>
-                    <p class="uppercase text-xs text-gray-700">contributor</p>
+                    <p className="uppercase text-xs text-gray-700">contributor</p>
                   </div>
                 </div>
               </a>
 
-              <div class="mt-1 ml-8">
+              <div className="mt-1 ml-8">
                 <h4
-                  class="text-black text-3xl leading-tight-2 2xl:text-4xl 2xl:leading-tight-2 font-[serif] font-[100] pb-2"
+                  className="text-black text-3xl leading-tight-2 2xl:text-4xl 2xl:leading-tight-2 font-[serif] font-[100] pb-2"
                 >
                   Sara <br />Bine
                 </h4>
                 <p
-                  class="uppercase text-gray-600 font-mono font-bold tracking-[0.1rem] text-[#65b722] text-sm tracking-widest"
+                  className="uppercase text-gray-600 font-mono font-bold tracking-[0.1rem] text-[#65b722] text-sm tracking-widest"
                 >
                   Lead Programer
                 </p>
@@ -2383,90 +2383,90 @@ export default function Team() {
           {/* <!-- 24 Member end -->
 
           <!-- 25 Member start --> */}
-          <div class="relative group cursor-pointer mt-8">
-            <div class="img">
+          <div className="relative group cursor-pointer mt-8">
+            <div className="img">
               <img
                 src="/Team-Page-img/25.jpg"
                 alt="Shawn"
                 title="Programer"
-                class="w-[100%] grayscale hover:grayscale-0 cursor-pointer"
+                className="w-[100%] grayscale hover:grayscale-0 cursor-pointer"
               />
             </div>
-            <div class="info">
-              <div class="flex justify-end mr-14 absolute top-4 right-0">
+            <div className="info">
+              <div className="flex justify-end mr-14 absolute top-4 right-0">
                 <img
                   src="/header-img/favicon.png"
                   alt="favicon img"
-                  class="w-8"
+                  className="w-8"
                 />
               </div>
               <div
-                class="absolute bottom-0 left-0 right-0 pl-8 pb-6 bg-gradient-to-t from-black to-transperent"
+                className="absolute bottom-0 left-0 right-0 pl-8 pb-6 bg-gradient-to-t from-black to-transperent"
               >
                 <h4
-                  class="text-3xl leading-tight-2 2xl:text-4xl 2xl:leading-tight-2 font-[serif] font-[100] mb-2"
+                  className="text-3xl leading-tight-2 2xl:text-4xl 2xl:leading-tight-2 font-[serif] font-[100] mb-2"
                 >
                   Shawn <br />
                   Jones
                 </h4>
                 <p
-                  class="uppercase text-yellow-600 font-mono font-bold tracking-[0.1rem] text-[#65b722] text-sm"
+                  className="uppercase text-yellow-600 font-mono font-bold tracking-[0.1rem] text-[#65b722] text-sm"
                 >
                   Programer
                 </p>
               </div>
             </div>
             <div
-              class="absolute -top-96 left-96 group-hover:block group-hover:top-0 group-hover:left-0 w-[100%] h-full transition-top duration-1000 right-8 bg-[#FFBC00] hidden group-hover:block"
+              className="absolute -top-96 left-96 group-hover:block group-hover:top-0 group-hover:left-0 w-[100%] h-full transition-top duration-1000 right-8 bg-[#FFBC00] hidden group-hover:block"
             >
               <div
-                class="w-4/5 mx-auto uppercase text-slate-600 font-sans text-sm py-4 overflow-hidden"
+                className="w-4/5 mx-auto uppercase text-slate-600 font-sans text-sm py-4 overflow-hidden"
               >
                 <h5>featured contributions</h5>
               </div>
               <a href="https://tighten.com/blog/the-great-tighten-experiment/">
                 <div
-                  class="border border-2 border-[#C97F09] w-4/5 mx-auto flex items-center"
+                  className="border border-2 border-[#C97F09] w-4/5 mx-auto flex items-center"
                 >
                   <div
-                    class="text-black text-2xl px-2 py-2 font-[100] border-r border-r-2 border-r-black"
+                    className="text-black text-2xl px-2 py-2 font-[100] border-r border-r-2 border-r-black"
                   >
-                    <i class="fa-brands fa-github"></i>
+                    <i className="fa-brands fa-github"></i>
                   </div>
-                  <div class="py-2 text-black pl-2">
-                    <h5 class="font-[pitch-sans] font-semibold tracking-widest">
+                  <div className="py-2 text-black pl-2">
+                    <h5 className="font-[pitch-sans] font-semibold tracking-widest">
                       Nova Stripe
                     </h5>
-                    <p class="uppercase text-xs text-gray-700">contributor</p>
+                    <p className="uppercase text-xs text-gray-700">contributor</p>
                   </div>
                 </div>
               </a>
               <a href="https://tighten.com/blog/the-great-tighten-experiment/">
                 <div
-                  class="border border-2 border-[#C97F09] w-4/5 mx-auto flex items-center my-4"
+                  className="border border-2 border-[#C97F09] w-4/5 mx-auto flex items-center my-4"
                 >
                   <div
-                    class="text-black text-2xl px-2 py-2 font-[100] border-r border-r-2 border-r-black"
+                    className="text-black text-2xl px-2 py-2 font-[100] border-r border-r-2 border-r-black"
                   >
-                    <i class="fa-brands fa-github"></i>
+                    <i className="fa-brands fa-github"></i>
                   </div>
-                  <div class="py-2 text-black pl-2">
-                    <h5 class="font-[pitch-sans] font-semibold tracking-widest">
+                  <div className="py-2 text-black pl-2">
+                    <h5 className="font-[pitch-sans] font-semibold tracking-widest">
                       PHP Release
                     </h5>
-                    <p class="uppercase text-xs text-gray-700">contributor</p>
+                    <p className="uppercase text-xs text-gray-700">contributor</p>
                   </div>
                 </div>
               </a>
 
-              <div class="mt-1 ml-8">
+              <div className="mt-1 ml-8">
                 <h4
-                  class="text-black text-3xl leading-tight-2 2xl:text-4xl 2xl:leading-tight-2 font-[serif] font-[100] pb-2"
+                  className="text-black text-3xl leading-tight-2 2xl:text-4xl 2xl:leading-tight-2 font-[serif] font-[100] pb-2"
                 >
                   Shawn <br />Jones
                 </h4>
                 <p
-                  class="uppercase text-gray-600 font-mono font-bold tracking-[0.1rem] text-[#65b722] text-sm tracking-widest"
+                  className="uppercase text-gray-600 font-mono font-bold tracking-[0.1rem] text-[#65b722] text-sm tracking-widest"
                 >
                   Programer
                 </p>
@@ -2476,90 +2476,90 @@ export default function Team() {
           {/* <!-- 25 Member end -->
 
           <!-- 26 Member start --> */}
-          <div class="relative group cursor-pointer mt-8">
-            <div class="img">
+          <div className="relative group cursor-pointer mt-8">
+            <div className="img">
               <img
                 src="/Team-Page-img/26.jpg"
                 alt="Tammy"
                 title="Programer"
-                class="w-[100%] grayscale hover:grayscale-0 cursor-pointer"
+                className="w-[100%] grayscale hover:grayscale-0 cursor-pointer"
               />
             </div>
-            <div class="info">
-              <div class="flex justify-end mr-14 absolute top-4 right-0">
+            <div className="info">
+              <div className="flex justify-end mr-14 absolute top-4 right-0">
                 <img
                   src="/header-img/favicon.png"
                   alt="favicon img"
-                  class="w-8"
+                  className="w-8"
                 />
               </div>
               <div
-                class="absolute bottom-0 left-0 right-0 pl-8 pb-6 bg-gradient-to-t from-black to-transperent"
+                className="absolute bottom-0 left-0 right-0 pl-8 pb-6 bg-gradient-to-t from-black to-transperent"
               >
                 <h4
-                  class="text-3xl leading-tight-2 2xl:text-4xl 2xl:leading-tight-2 font-[serif] font-[100] mb-2"
+                  className="text-3xl leading-tight-2 2xl:text-4xl 2xl:leading-tight-2 font-[serif] font-[100] mb-2"
                 >
                   Tammy <br />
                   Robinson
                 </h4>
                 <p
-                  class="uppercase text-yellow-600 font-mono font-bold tracking-[0.1rem] text-[#65b722] text-sm"
+                  className="uppercase text-yellow-600 font-mono font-bold tracking-[0.1rem] text-[#65b722] text-sm"
                 >
                   Lead Programer
                 </p>
               </div>
             </div>
             <div
-              class="absolute -top-96 left-96 group-hover:block group-hover:top-0 group-hover:left-0 w-[100%] h-full transition-top duration-1000 right-8 bg-[#FFBC00] hidden group-hover:block"
+              className="absolute -top-96 left-96 group-hover:block group-hover:top-0 group-hover:left-0 w-[100%] h-full transition-top duration-1000 right-8 bg-[#FFBC00] hidden group-hover:block"
             >
               <div
-                class="w-4/5 mx-auto uppercase text-slate-600 font-sans text-sm py-4 overflow-hidden"
+                className="w-4/5 mx-auto uppercase text-slate-600 font-sans text-sm py-4 overflow-hidden"
               >
                 <h5>featured contributions</h5>
               </div>
               <a href="https://tighten.com/blog/the-great-tighten-experiment/">
                 <div
-                  class="border border-2 border-[#C97F09] w-4/5 mx-auto flex items-center"
+                  className="border border-2 border-[#C97F09] w-4/5 mx-auto flex items-center"
                 >
                   <div
-                    class="text-black text-2xl px-2 py-2 font-[100] border-r border-r-2 border-r-black"
+                    className="text-black text-2xl px-2 py-2 font-[100] border-r border-r-2 border-r-black"
                   >
-                    <i class="fa-brands fa-github"></i>
+                    <i className="fa-brands fa-github"></i>
                   </div>
-                  <div class="py-2 text-black pl-2">
-                    <h5 class="font-[pitch-sans] font-semibold tracking-widest">
+                  <div className="py-2 text-black pl-2">
+                    <h5 className="font-[pitch-sans] font-semibold tracking-widest">
                       Nova Stripe
                     </h5>
-                    <p class="uppercase text-xs text-gray-700">contributor</p>
+                    <p className="uppercase text-xs text-gray-700">contributor</p>
                   </div>
                 </div>
               </a>
               <a href="https://tighten.com/blog/the-great-tighten-experiment/">
                 <div
-                  class="border border-2 border-[#C97F09] w-4/5 mx-auto flex items-center my-4"
+                  className="border border-2 border-[#C97F09] w-4/5 mx-auto flex items-center my-4"
                 >
                   <div
-                    class="text-black text-2xl px-2 py-2 font-[100] border-r border-r-2 border-r-black"
+                    className="text-black text-2xl px-2 py-2 font-[100] border-r border-r-2 border-r-black"
                   >
-                    <i class="fa-brands fa-github"></i>
+                    <i className="fa-brands fa-github"></i>
                   </div>
-                  <div class="py-2 text-black pl-2">
-                    <h5 class="font-[pitch-sans] font-semibold tracking-widest">
+                  <div className="py-2 text-black pl-2">
+                    <h5 className="font-[pitch-sans] font-semibold tracking-widest">
                       PHP Release
                     </h5>
-                    <p class="uppercase text-xs text-gray-700">contributor</p>
+                    <p className="uppercase text-xs text-gray-700">contributor</p>
                   </div>
                 </div>
               </a>
 
-              <div class="mt-1 ml-8">
+              <div className="mt-1 ml-8">
                 <h4
-                  class="text-black text-3xl leading-tight-2 2xl:text-4xl 2xl:leading-tight-2 font-[serif] font-[100] pb-2"
+                  className="text-black text-3xl leading-tight-2 2xl:text-4xl 2xl:leading-tight-2 font-[serif] font-[100] pb-2"
                 >
                   Tammy <br />Robinson
                 </h4>
                 <p
-                  class="uppercase text-gray-600 font-mono font-bold tracking-[0.1rem] text-[#65b722] text-sm tracking-widest"
+                  className="uppercase text-gray-600 font-mono font-bold tracking-[0.1rem] text-[#65b722] text-sm tracking-widest"
                 >
                   Lead Programer
                 </p>
@@ -2569,90 +2569,90 @@ export default function Team() {
           {/* <!-- 26 Member end -->
 
           <!-- 27 Member start --> */}
-          <div class="relative group cursor-pointer mt-8">
-            <div class="img">
+          <div className="relative group cursor-pointer mt-8">
+            <div className="img">
               <img
                 src="/Team-Page-img/27.jpg"
                 alt="Tammy"
                 title="Programer"
-                class="w-[100%] grayscale hover:grayscale-0 cursor-pointer"
+                className="w-[100%] grayscale hover:grayscale-0 cursor-pointer"
               />
             </div>
-            <div class="info">
-              <div class="flex justify-end mr-14 absolute top-4 right-0">
+            <div className="info">
+              <div className="flex justify-end mr-14 absolute top-4 right-0">
                 <img
                   src="/header-img/favicon.png"
                   alt="favicon img"
-                  class="w-8"
+                  className="w-8"
                 />
               </div>
               <div
-                class="absolute bottom-0 left-0 right-0 pl-8 pb-6 bg-gradient-to-t from-black to-transperent"
+                className="absolute bottom-0 left-0 right-0 pl-8 pb-6 bg-gradient-to-t from-black to-transperent"
               >
                 <h4
-                  class="text-3xl leading-tight-2 2xl:text-4xl 2xl:leading-tight-2 font-[serif] font-[100] mb-2"
+                  className="text-3xl leading-tight-2 2xl:text-4xl 2xl:leading-tight-2 font-[serif] font-[100] mb-2"
                 >
                   Tony <br />
                   Messias
                 </h4>
                 <p
-                  class="uppercase text-yellow-600 font-mono font-bold tracking-[0.1rem] text-[#65b722] text-sm"
+                  className="uppercase text-yellow-600 font-mono font-bold tracking-[0.1rem] text-[#65b722] text-sm"
                 >
                   Programer
                 </p>
               </div>
             </div>
             <div
-              class="absolute -top-96 left-96 group-hover:block group-hover:top-0 group-hover:left-0 w-[100%] h-full transition-top duration-1000 right-8 bg-[#FFBC00] hidden group-hover:block"
+              className="absolute -top-96 left-96 group-hover:block group-hover:top-0 group-hover:left-0 w-[100%] h-full transition-top duration-1000 right-8 bg-[#FFBC00] hidden group-hover:block"
             >
               <div
-                class="w-4/5 mx-auto uppercase text-slate-600 font-sans text-sm py-4 overflow-hidden"
+                className="w-4/5 mx-auto uppercase text-slate-600 font-sans text-sm py-4 overflow-hidden"
               >
                 <h5>featured contributions</h5>
               </div>
               <a href="https://tighten.com/blog/the-great-tighten-experiment/">
                 <div
-                  class="border border-2 border-[#C97F09] w-4/5 mx-auto flex items-center"
+                  className="border border-2 border-[#C97F09] w-4/5 mx-auto flex items-center"
                 >
                   <div
-                    class="text-black text-2xl px-2 py-2 font-[100] border-r border-r-2 border-r-black"
+                    className="text-black text-2xl px-2 py-2 font-[100] border-r border-r-2 border-r-black"
                   >
-                    <i class="fa-brands fa-github"></i>
+                    <i className="fa-brands fa-github"></i>
                   </div>
-                  <div class="py-2 text-black pl-2">
-                    <h5 class="font-[pitch-sans] font-semibold tracking-widest">
+                  <div className="py-2 text-black pl-2">
+                    <h5 className="font-[pitch-sans] font-semibold tracking-widest">
                       Nova Stripe
                     </h5>
-                    <p class="uppercase text-xs text-gray-700">contributor</p>
+                    <p className="uppercase text-xs text-gray-700">contributor</p>
                   </div>
                 </div>
               </a>
               <a href="https://tighten.com/blog/the-great-tighten-experiment/">
                 <div
-                  class="border border-2 border-[#C97F09] w-4/5 mx-auto flex items-center my-4"
+                  className="border border-2 border-[#C97F09] w-4/5 mx-auto flex items-center my-4"
                 >
                   <div
-                    class="text-black text-2xl px-2 py-2 font-[100] border-r border-r-2 border-r-black"
+                    className="text-black text-2xl px-2 py-2 font-[100] border-r border-r-2 border-r-black"
                   >
-                    <i class="fa-brands fa-github"></i>
+                    <i className="fa-brands fa-github"></i>
                   </div>
-                  <div class="py-2 text-black pl-2">
-                    <h5 class="font-[pitch-sans] font-semibold tracking-widest">
+                  <div className="py-2 text-black pl-2">
+                    <h5 className="font-[pitch-sans] font-semibold tracking-widest">
                       PHP Release
                     </h5>
-                    <p class="uppercase text-xs text-gray-700">contributor</p>
+                    <p className="uppercase text-xs text-gray-700">contributor</p>
                   </div>
                 </div>
               </a>
 
-              <div class="mt-1 ml-8">
+              <div className="mt-1 ml-8">
                 <h4
-                  class="text-black text-3xl leading-tight-2 2xl:text-4xl 2xl:leading-tight-2 font-[serif] font-[100] pb-2"
+                  className="text-black text-3xl leading-tight-2 2xl:text-4xl 2xl:leading-tight-2 font-[serif] font-[100] pb-2"
                 >
                   Tony <br />Messias
                 </h4>
                 <p
-                  class="uppercase text-gray-600 font-mono font-bold tracking-[0.1rem] text-[#65b722] text-sm tracking-widest"
+                  className="uppercase text-gray-600 font-mono font-bold tracking-[0.1rem] text-[#65b722] text-sm tracking-widest"
                 >
                   Programer
                 </p>
@@ -2662,90 +2662,90 @@ export default function Team() {
           {/* <!-- 27 Member end -->
 
           <!-- 27 Member start --> */}
-          <div class="relative group cursor-pointer mt-8">
-            <div class="img">
+          <div className="relative group cursor-pointer mt-8">
+            <div className="img">
               <img
                 src="/Team-Page-img/28.jpg"
                 alt="Zuzana"
                 title="Programer"
-                class="w-[100%] grayscale hover:grayscale-0 cursor-pointer"
+                className="w-[100%] grayscale hover:grayscale-0 cursor-pointer"
               />
             </div>
-            <div class="info">
-              <div class="flex justify-end mr-14 absolute top-4 right-0">
+            <div className="info">
+              <div className="flex justify-end mr-14 absolute top-4 right-0">
                 <img
                   src="/header-img/favicon.png"
                   alt="favicon img"
-                  class="w-8"
+                  className="w-8"
                 />
               </div>
               <div
-                class="absolute bottom-0 left-0 right-0 pl-8 pb-6 bg-gradient-to-t from-black to-transperent"
+                className="absolute bottom-0 left-0 right-0 pl-8 pb-6 bg-gradient-to-t from-black to-transperent"
               >
                 <h4
-                  class="text-3xl leading-tight-2 2xl:text-4xl 2xl:leading-tight-2 font-[serif] font-[100] mb-2"
+                  className="text-3xl leading-tight-2 2xl:text-4xl 2xl:leading-tight-2 font-[serif] font-[100] mb-2"
                 >
                   Zuzana <br />
                   Kunckova
                 </h4>
                 <p
-                  class="uppercase text-yellow-600 font-mono font-bold tracking-[0.1rem] text-[#65b722] text-sm"
+                  className="uppercase text-yellow-600 font-mono font-bold tracking-[0.1rem] text-[#65b722] text-sm"
                 >
                   Programer
                 </p>
               </div>
             </div>
             <div
-              class="absolute -top-96 left-96 group-hover:block group-hover:top-0 group-hover:left-0 w-[100%] h-full transition-top duration-1000 right-8 bg-[#FFBC00] hidden group-hover:block"
+              className="absolute -top-96 left-96 group-hover:block group-hover:top-0 group-hover:left-0 w-[100%] h-full transition-top duration-1000 right-8 bg-[#FFBC00] hidden group-hover:block"
             >
               <div
-                class="w-4/5 mx-auto uppercase text-slate-600 font-sans text-sm py-4 overflow-hidden"
+                className="w-4/5 mx-auto uppercase text-slate-600 font-sans text-sm py-4 overflow-hidden"
               >
                 <h5>featured contributions</h5>
               </div>
               <a href="https://tighten.com/blog/the-great-tighten-experiment/">
                 <div
-                  class="border border-2 border-[#C97F09] w-4/5 mx-auto flex items-center"
+                  className="border border-2 border-[#C97F09] w-4/5 mx-auto flex items-center"
                 >
                   <div
-                    class="text-black text-2xl px-2 py-2 font-[100] border-r border-r-2 border-r-black"
+                    className="text-black text-2xl px-2 py-2 font-[100] border-r border-r-2 border-r-black"
                   >
-                    <i class="fa-brands fa-github"></i>
+                    <i className="fa-brands fa-github"></i>
                   </div>
-                  <div class="py-2 text-black pl-2">
-                    <h5 class="font-[pitch-sans] font-semibold tracking-widest">
+                  <div className="py-2 text-black pl-2">
+                    <h5 className="font-[pitch-sans] font-semibold tracking-widest">
                       Nova Stripe
                     </h5>
-                    <p class="uppercase text-xs text-gray-700">contributor</p>
+                    <p className="uppercase text-xs text-gray-700">contributor</p>
                   </div>
                 </div>
               </a>
               <a href="https://tighten.com/blog/the-great-tighten-experiment/">
                 <div
-                  class="border border-2 border-[#C97F09] w-4/5 mx-auto flex items-center my-4"
+                  className="border border-2 border-[#C97F09] w-4/5 mx-auto flex items-center my-4"
                 >
                   <div
-                    class="text-black text-2xl px-2 py-2 font-[100] border-r border-r-2 border-r-black"
+                    className="text-black text-2xl px-2 py-2 font-[100] border-r border-r-2 border-r-black"
                   >
-                    <i class="fa-brands fa-github"></i>
+                    <i className="fa-brands fa-github"></i>
                   </div>
-                  <div class="py-2 text-black pl-2">
-                    <h5 class="font-[pitch-sans] font-semibold tracking-widest">
+                  <div className="py-2 text-black pl-2">
+                    <h5 className="font-[pitch-sans] font-semibold tracking-widest">
                       PHP Release
                     </h5>
-                    <p class="uppercase text-xs text-gray-700">contributor</p>
+                    <p className="uppercase text-xs text-gray-700">contributor</p>
                   </div>
                 </div>
               </a>
 
-              <div class="mt-1 ml-8">
+              <div className="mt-1 ml-8">
                 <h4
-                  class="text-black text-3xl leading-tight-2 2xl:text-4xl 2xl:leading-tight-2 font-[serif] font-[100] pb-2"
+                  className="text-black text-3xl leading-tight-2 2xl:text-4xl 2xl:leading-tight-2 font-[serif] font-[100] pb-2"
                 >
                   Zuzana <br />Kunckova
                 </h4>
                 <p
-                  class="uppercase text-gray-600 font-mono font-bold tracking-[0.1rem] text-[#65b722] text-sm tracking-widest"
+                  className="uppercase text-gray-600 font-mono font-bold tracking-[0.1rem] text-[#65b722] text-sm tracking-widest"
                 >
                   Programer
                 </p>

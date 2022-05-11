@@ -1,18 +1,31 @@
 import styled from "styled-components"
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import Footer from "../components/Footer";
 import Script from 'next/script'
 import FooterCard from "../components/FooterCard";
 
-const Style = styled.div`
-    background:#000;
-`;
+// const Style = styled.div`
+//     background:#000;
+// `;
+const data = {
+  title:'Development in a  better perspective.'
+}
 
 export default function Hero() {
 
   const [showMe, setShowMe] = useState(false);
   const [showEmbed, setShowEmbed] = useState(false);
   const [showServices, setShowServices] = useState(false);
+
+  const [scroll, setScroll] = useState(false);
+  // #endregion state
+
+  // #endregion hook
+  useEffect(() => {
+    window.addEventListener('scroll', () => {
+      setScroll(window.scrollY > 10);
+    });
+  }, []);
 
   function toggle(){
     setShowMe(!showMe);
@@ -25,6 +38,19 @@ export default function Hero() {
   function services(){
     setShowServices(!showServices);
   }
+
+  const [click, setClick] = useState(false);
+  const [click1, setClick1] = useState(false);
+  const [click2, setClick2] = useState(false);
+    
+  
+    const handleClick = () => setClick(!click);
+    const handleClick1 = () => setClick1(!click1);
+    const handleClick2 = () => setClick2(!click2);
+
+  const scrollToTop = () => window.scrollTo({ top: 600, behavior:"smooth"})
+
+  // const scroll=()=>window.scroll({behavior:"smooth"})
 
   // const handleClick = (e) =>
   // {
@@ -91,6 +117,7 @@ export default function Hero() {
                     <div className="max-w-screen-2xl mx-auto md:pt-[114px]">
                     <h1 className="font-[signifier] 2xl:leading-[8.5rem] 2xl:font-[280] xl:text-[8rem] xl:leading-[8.5rem] xl:font-[280] 2xl:font-[100] lg:text-[8rem] lg:leading-[8.5rem] md:text-[6rem] md:leading-[6.375rem] sm:text-7xl text-[2.25rem] leading-[2.375rem] font-[100] mt-1 sm:mt-0">
                         Development <p/>in a better<p/>                  <span className="italic">perspective.</span>
+                        {/* {data.title} */}
                         </h1>
             
                         <div className="w-full text-sm sm:text-lg md:text-xl leading-loose md:leading-relaxed my-6 md:my-10">
@@ -115,8 +142,12 @@ export default function Hero() {
             
                         <div className="flex md:hidden justify-center items-center space-x-4 w-full mt-16 xs:mt-24 md:mt-16">
                         <div className="" aria-hidden="true">
-                            <svg className="svg-inline--fa fa-angle-down border text-[0.75rem] leading-1 px-3.5 py-3 mr-2 border-black rounded-full" aria-hidden="true" focusable="false" data-prefix="fas" data-icon="angle-down" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512" data-fa-i2svg=""><path fill="currentColor" d="M192 384c-8.188 0-16.38-3.125-22.62-9.375l-160-160c-12.5-12.5-12.5-32.75 0-45.25s32.75-12.5 45.25 0L192 306.8l137.4-137.4c12.5-12.5 32.75-12.5 45.25 0s12.5 32.75 0 45.25l-160 160C208.4 380.9 200.2 384 192 384z"></path></svg>
+                             <button onClick={() => scrollToTop()}>
+                            
+                             <i class="fa-solid fa-angle-down"></i>
+                            </button>
                         </div>
+                        
         
                         <div className="font-Yantramanav font-semibold text-xs uppercase leading-4 text-black tracking-wide">
                             Get to scrollin'
@@ -763,7 +794,7 @@ export default function Hero() {
 
 
                               {/* button 1 starts here */}
-                              <button   onClick={toggle}>
+                              <div>
                               
                                   {/*The bottom code should toggle on and off when the button is pressed*/}
                                   {/* <div style={{
@@ -779,21 +810,27 @@ export default function Hero() {
                                         Technical Advising
                                       </div>
                                       {/* below code is for button syblol which we have added in web (v) */}
-                                      <div className="mr-4 border rounded-full transition-colors text-[#585858] group-hover:text-[#585858] border-[#585858] group-hover:border-charcoal-30 text-charcoal-60 group-hover:text-charcoal-30 border-charcoal-60 text-charcoal-20 border-charcoal-20" >
-                                            <svg xmlns="http://www.w3.org/2000/svg" className="h-7 w-7 p-1.5 hidden" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth="2">
+                                      <div className="p-2 mr-4 border rounded-full transition-colors text-[#585858] group-hover:text-[#585858] border-[#585858] group-hover:border-charcoal-30 text-charcoal-60 group-hover:text-charcoal-30 border-charcoal-60 text-charcoal-20 border-charcoal-20" >
+                                            {/* <svg xmlns="http://www.w3.org/2000/svg" className="h-7 w-7 p-1.5 hidden" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth="2">
                                               <path strokeLinecap="round" strokeLinejoin="round" d="M9 5l7 7-7 7"></path>
                                             </svg>
                 
                                             <svg xmlns="http://www.w3.org/2000/svg" className="h-7 w-7 p-1.5" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth="2">
                                               <path strokeLinecap="round" strokeLinejoin="round" d="M19 9l-7 7-7-7"></path>
-                                            </svg>
+                                            </svg> */}
+                                            <button   onClick={toggle}>
+                                            <div className='menu-icon' onClick={handleClick}>
+                                                <i className={click ?  "fa-solid fa-angle-down": "fa-solid fa-angle-right" } />
+                                            </div>
+                                            </button>
                                       </div>
                                  </div>
-                                 
-                                 <div className="w-full">
+
+                                 <div className={scroll}>
+                                 <div className="flex   w-10 ">
                                  <div style={{
-                                    display: showMe?"block":"none" }}className="text-sm leading-loose lg:text-base lg:leading-loose text-[#c0bab0]" >
-                                    <div className="px-4 pb-8">
+                                    display: showMe?"block":"none" }}className=" text-sm leading-loose lg:text-base lg:leading-loose text-[#c0bab0]" >
+                                    <div className="px-4   pb-8 ">
                                       We will take stock of your issues and goals,
                                       carefully assess your needs,
                                       and custom-tailor a route forward in 
@@ -805,15 +842,16 @@ export default function Hero() {
                                   
 
                                  </div>
+                                 </div>
 
 
                                   </div>
                                   <div className="w-3 flex-none transition-opacity duration-200 bg-gradient-to-r from-teal-400 to-green-500 opacity-100" ></div>
                                 </div>
-                              </button>
+                              </div>
                               {/* button 1 ends here */}
                               {/* button 2 starts here */}
-                              <button onClick={embededTeams}>
+                              <div >
                                   <div className="flex text-left group">
                                     <div className="flex-grow pl-5 pr-3 transition-colors bg-charcoal" >
 
@@ -822,20 +860,26 @@ export default function Hero() {
                                               Embedded Teams
                                           </div>
                                           {/* below code is for button syblol which we have added in web (>) */}
-                                          <div className="mr-4 border rounded-full transition-colors text-[#585858] border-charcoal-20 text-charcoal-20 border-[#585858] text-charcoal-60 group-hover:text-charcoal-30 border-charcoal-60 group-hover:border-charcoal-30" >
-                                              <svg xmlns="http://www.w3.org/2000/svg" className="h-7 w-7 p-1.5 hidden" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth="2">
+                                          <div className="p-2 mr-4 border rounded-full transition-colors text-[#585858] border-charcoal-20 text-charcoal-20 border-[#585858] text-charcoal-60 group-hover:text-charcoal-30 border-charcoal-60 group-hover:border-charcoal-30" >
+                                              {/* <svg xmlns="http://www.w3.org/2000/svg" className="h-7 w-7 p-1.5 hidden" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth="2">
                                                   <path strokeLinecap="round" strokeLinejoin="round" d="M19 9l-7 7-7-7"></path>
                                                 </svg>
                                                     
                                                 <svg xmlns="http://www.w3.org/2000/svg" className="h-7 w-7 p-1.5" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth="2">
                                                   <path strokeLinecap="round" strokeLinejoin="round" d="M9 5l7 7-7 7"></path>
-                                                </svg>
+                                                </svg> */}
+                                                <button onClick={embededTeams}>
+                                                <div className='menu-icon' onClick={handleClick1}>
+                                                  <i className={click1 ?  "fa-solid fa-angle-down" : "fa-solid fa-angle-right" } />
+                                                </div>
+                                                </button>
                                             </div>
                                           </div>
-
-                                          <div className="w-full">
+                                          <div class="scroll-smooth">
+                                          <div className="w-10">
                                               <div style={{
                                                     display: showEmbed?"block":"none" }}className="text-sm leading-loose lg:text-base lg:leading-loose text-[#c0bab0]" >
+                                                
                                                 <div className="px-4 pb-8">
                                                 We'll be your expert development team 
                                                 for as long as you need us. If you opt
@@ -843,17 +887,18 @@ export default function Hero() {
                                                 framework for their success and help you 
                                                 make the move as pleasant as possible.
                                                 </div>
+                                                
                                               </div>                               
                                           </div>
-
+                                        </div>
                                     </div>
                                     <div className="w-3 flex-none transition-opacity duration-200 bg-gradient-to-r from-teal-400 to-green-500  opacity-100 " >
                                   </div>
                                   </div>
-                              </button>
+                              </div>
 
                               {/* button 3 */}
-                              <button onClick={services}>
+                              <div>
                                 <div className="flex text-left group">
                                 <div className="flex-grow pl-5 pr-3 transition-colors bg-charcoal" >
 
@@ -862,21 +907,26 @@ export default function Hero() {
                                           Sustained Service
                                       </div>
                                       {/* below code is for button syblol which we have added in web (>) */}
-                                      <div className="mr-4 border rounded-full transition-colors text-[#585858] border-charcoal-20 text-charcoal-20 border-[#585858] text-charcoal-60 group-hover:text-charcoal-30 border-charcoal-60 group-hover:border-charcoal-30" >
-                                          <svg xmlns="http://www.w3.org/2000/svg" className="h-7 w-7 p-1.5" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth="2">
+                                      <div className="p-2 mr-4 border rounded-full transition-colors text-[#585858] border-charcoal-20 text-charcoal-20 border-[#585858] text-charcoal-60 group-hover:text-charcoal-30 border-charcoal-60 group-hover:border-charcoal-30" >
+                                          {/* <svg xmlns="http://www.w3.org/2000/svg" className="h-7 w-7 p-1.5" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth="2">
                                             <path strokeLinecap="round" strokeLinejoin="round" d="M9 5l7 7-7 7"></path>
                                           </svg>
     
                                           <svg xmlns="http://www.w3.org/2000/svg" className="h-7 w-7 p-1.5 hidden" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth="2">
                                             <path strokeLinecap="round" strokeLinejoin="round" d="M19 9l-7 7-7-7"></path>
-                                          </svg>
+                                          </svg> */}
+                                          <button onClick={services}>
+                                            <div className='menu-icon' onClick={handleClick2}>
+                                                <i className={click2 ?  "fa-solid fa-angle-down": "fa-solid fa-angle-right" } />
+                                            </div>
+                                          </button>
                                         </div>
                                       </div>
 
-                                      <div className="w-full">
+                                      <div className="w-10">
                                           <div style={{
                                                 display: showServices?"block":"none" }}className="text-sm leading-loose lg:text-base lg:leading-loose text-[#c0bab0]" >
-                                            <div className="px-4 pb-8">
+                                            <div className="px-4 pb-8" style={{'scrollBehavior':"smooth"}}>
                                                 After our embedded team has completed their job,
                                                 our sustained support team is available to provide
                                                 guidance, work through a new feature, maintain your 
@@ -890,7 +940,7 @@ export default function Hero() {
                                   </div>
 
                                 </div>
-                              </button>
+                              </div>
                               {/* button 3 ends here */}
                                   
                                 
