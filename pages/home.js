@@ -144,7 +144,7 @@ export default function Hero() {
                         <div className="" aria-hidden="true">
                              <button onClick={() => scrollToTop()}>
                             
-                             <i class="fa-solid fa-angle-down"></i>
+                    <i className="fa-solid fa-angle-down"></i>
                             </button>
                         </div>
                         
@@ -875,7 +875,7 @@ export default function Hero() {
                                                 </button>
                                             </div>
                                           </div>
-                                          <div class="scroll-smooth">
+                              <div className="scroll-smooth">
                                           <div className="w-10">
                                               <div style={{
                                                     display: showEmbed?"block":"none" }}className="text-sm leading-loose lg:text-base lg:leading-loose text-[#c0bab0]" >

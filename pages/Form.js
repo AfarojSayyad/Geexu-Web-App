@@ -72,7 +72,7 @@ export default function Form({formSubmit}) {
                 <input className="signup-input bg-transparent border-b border-b-[#666666] pb-2 placeholder:text-white w-full outline-0 text-white" 
                        type="text" 
                        title="Please enter a valid Name."
-                       maxlength="30" 
+                        maxLength="30" 
                        id="first_name" 
                        name="first_name" 
                        placeholder="NAME"
@@ -88,7 +88,7 @@ export default function Form({formSubmit}) {
               <div className="relative col-span-2 lg:col-span-1 basis-[50%] focus-within:text-[#65b722]">
                 <input className="signup-input bg-transparent border-b border-b-[#666666] pb-2 placeholder:text-white w-full outline-0 text-white" 
                        type="number"
-                       maxlength="10" 
+                       maxLength="10" 
                        pattern="[789][0-9]{9}" 
                        id="phone_no" 
                        name="phone_no" 

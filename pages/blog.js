@@ -25,7 +25,7 @@ export default function Blog() {
               type="image/x-icon"
         />
         <meta charset="UTF-8" />
-        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta httpEquiv="X-UA-Compatible" content="IE=edge" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
         {/* Mono font link */}
@@ -137,7 +137,7 @@ export default function Blog() {
           
       
                         <div className="flex items-center space-x-4 md:space-x-8 font-mono font-bold text-sm sm:text-base uppercase tracking-wider word-spacing-tight text-[#808080]   pt-0.5">
-                          <div><time datetime="2022-03-01">Mar 1</time></div>
+                          <div><time dateTime="2022-03-01">Mar 1</time></div>
       
       
                           <div>5 minute read</div>
@@ -206,7 +206,7 @@ export default function Blog() {
    
   
                       <div className="flex items-center space-x-4 md:space-x-8 font-mono font-bold text-sm sm:text-base uppercase tracking-wider word-spacing-tight text-[#808080]  pt-0.5">
-                          <div><time datetime="2022-02-04">Feb 4</time></div>
+                          <div><time dateTime="2022-02-04">Feb 4</time></div>
       
       
                           <div>6 minute read</div>
@@ -262,7 +262,7 @@ export default function Blog() {
         
         
                         <div className="flex items-center space-x-4 md:space-x-8 font-mono font-bold text-sm sm:text-base uppercase tracking-wider word-spacing-tight text-[#808080]  pt-0.5">
-                            <div><time datetime="2021-12-17">Dec 17, 2021</time></div>
+                            <div><time dateTime="2021-12-17">Dec 17, 2021</time></div>
         
         
                             <div>34 minute read</div>
@@ -315,7 +315,7 @@ export default function Blog() {
                             </div>
               
                             <div className="flex items-center space-x-4 md:space-x-8 font-mono font-bold text-sm sm:text-base uppercase tracking-wider word-spacing-tight text-[#808080]  pt-0.5">
-                                <div><time datetime="2021-10-27">Oct 27, 2021</time></div>
+                                <div><time dateTime="2021-10-27">Oct 27, 2021</time></div>
             
             
                                 <div>3 minute read</div>
@@ -369,7 +369,7 @@ export default function Blog() {
    
   
                           <div className="flex items-center space-x-4 md:space-x-8 font-mono font-bold text-sm sm:text-base uppercase tracking-wider word-spacing-tight text-[#808080]  pt-0.5">
-                           <div><time datetime="2021-09-20">Sep 20, 2021</time></div>
+                           <div><time dateTime="2021-09-20">Sep 20, 2021</time></div>
    
   
                            <div>8 minute read</div>
@@ -423,7 +423,7 @@ export default function Blog() {
    
   
                           <div className="flex items-center space-x-4 md:space-x-8 font-mono font-bold text-sm sm:text-base uppercase tracking-wider word-spacing-tight text-[#808080]  pt-0.5">
-                           <div><time datetime="2021-09-20">May 6, 2021</time></div>
+                           <div><time dateTime="2021-09-20">May 6, 2021</time></div>
    
   
                            <div>5 minute read</div>
@@ -477,7 +477,7 @@ export default function Blog() {
    
   
                           <div className="flex items-center space-x-4 md:space-x-8 font-mono font-bold text-sm sm:text-base uppercase tracking-wider word-spacing-tight text-[#808080]  pt-0.5">
-                           <div><time datetime="2021-09-20">May 15, 2021</time></div>
+                           <div><time dateTime="2021-09-20">May 15, 2021</time></div>
    
   
                            <div>9 minute read</div>
@@ -532,7 +532,7 @@ export default function Blog() {
    
   
                           <div className="flex items-center space-x-4 md:space-x-8 font-mono font-bold text-sm sm:text-base uppercase tracking-wider word-spacing-tight text-[#808080]  pt-0.5">
-                           <div><time datetime="2021-09-20">Feb 1, 2021</time></div>
+                           <div><time dateTime="2021-09-20">Feb 1, 2021</time></div>
    
   
                            <div>2 minute read</div>
@@ -587,7 +587,7 @@ export default function Blog() {
    
   
                             <div className="flex items-center space-x-4 md:space-x-8 font-mono font-bold text-sm sm:text-base uppercase tracking-wider word-spacing-tight text-[#808080]  pt-0.5">
-                                <div><time datetime="2020-12-22">Dec 22, 2020</time></div>
+                                <div><time dateTime="2020-12-22">Dec 22, 2020</time></div>
             
             
                                 <div>2 minute read</div>
@@ -643,7 +643,7 @@ export default function Blog() {
    
   
                             <div className="flex items-center space-x-4 md:space-x-8 font-mono font-bold text-sm sm:text-base uppercase tracking-wider word-spacing-tight text-[#808080]  pt-0.5">
-                                <div><time datetime="2020-12-22">Sep 24, 2020</time></div>
+                                <div><time dateTime="2020-12-22">Sep 24, 2020</time></div>
             
             
                                 <div>3 minute read</div>
@@ -698,7 +698,7 @@ export default function Blog() {
    
   
                             <div className="flex items-center space-x-4 md:space-x-8 font-mono font-bold text-sm sm:text-base uppercase tracking-wider word-spacing-tight text-[#808080]  pt-0.5">
-                                <div><time datetime="2020-12-22">Aug 9, 2020</time></div>
+                                <div><time dateTime="2020-12-22">Aug 9, 2020</time></div>
             
             
                                 <div>12 minute read</div>
@@ -753,7 +753,7 @@ export default function Blog() {
    
   
                             <div className="flex items-center space-x-4 md:space-x-8 font-mono font-bold text-sm sm:text-base uppercase tracking-wider word-spacing-tight text-[#808080]  pt-0.5">
-                                <div><time datetime="2020-12-22">Jul 28, 2020</time></div>
+                                <div><time dateTime="2020-12-22">Jul 28, 2020</time></div>
             
             
                                 <div>19 minute read</div>
@@ -808,7 +808,7 @@ export default function Blog() {
    
   
                             <div className="flex items-center space-x-4 md:space-x-8 font-mono font-bold text-sm sm:text-base uppercase tracking-wider word-spacing-tight text-[#808080]  pt-0.5">
-                                <div><time datetime="2020-12-22">Jul 15, 2020</time></div>
+                                <div><time dateTime="2020-12-22">Jul 15, 2020</time></div>
             
             
                                 <div>4 minute read</div>
@@ -863,7 +863,7 @@ export default function Blog() {
    
   
                             <div className="flex items-center space-x-4 md:space-x-8 font-mono font-bold text-sm sm:text-base uppercase tracking-wider word-spacing-tight text-[#808080]  pt-0.5">
-                                <div><time datetime="2020-12-22">Jun 9, 2020</time></div>
+                                <div><time dateTime="2020-12-22">Jun 9, 2020</time></div>
             
             
                                 <div>6 minute read</div>
@@ -921,7 +921,7 @@ export default function Blog() {
    
   
                             <div className="flex items-center space-x-4 md:space-x-8 font-mono font-bold text-sm sm:text-base uppercase tracking-wider word-spacing-tight text-[#808080]  pt-0.5">
-                                <div><time datetime="2020-12-22">May 15, 2020</time></div>
+                                <div><time dateTime="2020-12-22">May 15, 2020</time></div>
             
             
                                 <div>7 minute read</div>
@@ -976,7 +976,7 @@ export default function Blog() {
    
   
                             <div className="flex items-center space-x-4 md:space-x-8 font-mono font-bold text-sm sm:text-base uppercase tracking-wider word-spacing-tight text-[#808080]  pt-0.5">
-                                <div><time datetime="2020-12-22">Apr 27, 2020</time></div>
+                                <div><time dateTime="2020-12-22">Apr 27, 2020</time></div>
             
             
                                 <div>6 minute read</div>
@@ -1031,7 +1031,7 @@ export default function Blog() {
    
   
                             <div className="flex items-center space-x-4 md:space-x-8 font-mono font-bold text-sm sm:text-base uppercase tracking-wider word-spacing-tight text-[#808080]  pt-0.5">
-                                <div><time datetime="2020-12-22">Mar 16, 2020</time></div>
+                                <div><time dateTime="2020-12-22">Mar 16, 2020</time></div>
             
             
                                 <div>5 minute read</div>
@@ -1086,7 +1086,7 @@ export default function Blog() {
    
   
                             <div className="flex items-center space-x-4 md:space-x-8 font-mono font-bold text-sm sm:text-base uppercase tracking-wider word-spacing-tight text-[#808080]  pt-0.5">
-                                <div><time datetime="2020-12-22">Jan 31, 2020</time></div>
+                                <div><time dateTime="2020-12-22">Jan 31, 2020</time></div>
             
             
                                 <div>2 minute read</div>
@@ -1143,7 +1143,7 @@ export default function Blog() {
    
   
                             <div className="flex items-center space-x-4 md:space-x-8 font-mono font-bold text-sm sm:text-base uppercase tracking-wider word-spacing-tight text-[#808080]  pt-0.5">
-                                <div><time datetime="2020-12-22">Jan 10, 2020</time></div>
+                                <div><time dateTime="2020-12-22">Jan 10, 2020</time></div>
             
             
                                 <div>5 minute read</div>
