@@ -11,39 +11,39 @@ export default function Home() {
   return (
     <div >
       <Head>
-      <title>
-        Tighten | Software Development</title>
+        <title>
+          Tighten | Software Development</title>
         <meta charset="UTF-8" />
         <link
-        rel="shortcut icon"
-        href="/header-img/favicon.png"
-        type="image/x-icon"
-      />
-        
-        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+          rel="shortcut icon"
+          href="/header-img/favicon.png"
+          type="image/x-icon"
+        />
+
+        <meta httpEquiv="X-UA-Compatible" content="IE=edge" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         {/* <!-- Font Link Goes Here --> */}
-            <link rel="preconnect" href="https://fonts.googleapis.com" />
-            <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-            <link
-              href="https://fonts.googleapis.com/css2?family=Nanum+Myeongjo&display=swap"
-              rel="stylesheet"
-            />
-            <link
-              href="https://fonts.googleapis.com/css2?family=Source+Serif+Pro:wght@300&display=swap"
-              rel="stylesheet"
-            />
-            <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" />
-            <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" />
-            <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/tw-elements/dist/css/index.min.css" />
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin />
+        <link
+          href="https://fonts.googleapis.com/css2?family=Nanum+Myeongjo&display=swap"
+          rel="stylesheet"
+        />
+        <link
+          href="https://fonts.googleapis.com/css2?family=Source+Serif+Pro:wght@300&display=swap"
+          rel="stylesheet"
+        />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" />
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" />
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/tw-elements/dist/css/index.min.css" />
 
-            <script
-              defer=""
-              src="https://tighten.com/assets/build/js/main.js?id=b0b646e36cc5d7106b59"
-            ></script>
+        <script
+          defer=""
+          src="https://tighten.com/assets/build/js/main.js?id=b0b646e36cc5d7106b59"
+        ></script>
 
-              <script src="https://cdn.tailwindcss.com"></script>
-              {/* <script>
+        <script src="https://cdn.tailwindcss.com"></script>
+        {/* <script>
                 tailwind.config = {
                   theme: {
                     extend: {
@@ -55,44 +55,44 @@ export default function Home() {
                 }
               </script> */}
 
-            {/* <!-- Fontawsome Link Start Here --> */}
-            <link
-              rel="stylesheet"
-              href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
-            />
-            <script  type="module"
-                src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js">
+        {/* <!-- Fontawsome Link Start Here --> */}
+        <link
+          rel="stylesheet"
+          href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+        />
+        <script type="module"
+          src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js">
 
-            </script>
-            <script
-              nomodule
-              src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
-            ></script>
+        </script>
+        <script
+          nomodule
+          src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+        ></script>
 
-            {/* <!-- Tailwind Css Script Tag Here--> */}
-                <script src="https://cdn.tailwindcss.com"></script>
+        {/* <!-- Tailwind Css Script Tag Here--> */}
+        <script src="https://cdn.tailwindcss.com"></script>
 
-                {/* <!-- Slick Slider Start Link Start Here --> */}
-                <link
-                  // href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.css"
-                  rel="stylesheet"
-                />
-                <link
-                  // href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.css"
-                  rel="stylesheet"
-                />
-                <link rel="stylesheet"  />
-                {/* <!-- Slick Slider End Link End Here --> */}
+        {/* <!-- Slick Slider Start Link Start Here --> */}
+        <link
+          // href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.css"
+          rel="stylesheet"
+        />
+        <link
+          // href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.css"
+          rel="stylesheet"
+        />
+        <link rel="stylesheet" />
+        {/* <!-- Slick Slider End Link End Here --> */}
 
-                {/* Link for AOS library */}
-                <link rel="stylesheet" href="bower_components/aos/dist/aos.css" />
-                {/* script for AOS library */}
-                <script src="bower_components/aos/dist/aos.js"></script>
-                <script>
-                  AOS.init();
-                </script>
+        {/* Link for AOS library */}
+        <link rel="stylesheet" href="bower_components/aos/dist/aos.css" />
+        {/* script for AOS library */}
+        <script src="bower_components/aos/dist/aos.js"></script>
+        <script>
+          AOS.init();
+        </script>
 
-            
+
 
 
 
@@ -100,7 +100,7 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" /> */}
 
       </Head>
-      <Hero/>
+      <Hero />
       {/* <h1>home page</h1> */}
       {/* <Image src='/logo.png' width='10px' height= '10px'/> */}
       {/* <Image URL=""/> src="/assets/images/header-img/logo.png"*/}
