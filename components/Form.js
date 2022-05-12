@@ -1,7 +1,7 @@
 import Head from 'next/head'
 import styled from 'styled-components';
-import Footer from '../components/Footer';
-import FooterCard from '../components/FooterCard';
+import Footer from './Footer';
+import FooterCard from './FooterCard';
 import UseForm from './UseForm';
 import validate from './validateInfo';
 

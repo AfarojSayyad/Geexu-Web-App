@@ -3,8 +3,8 @@ import Head from 'next/head'
 import styled from 'styled-components';
 import Footer from '../components/Footer';
 import FooterCard from '../components/FooterCard';
-import Form from './Form';
-import FormSuccess from './FormSuccess';
+import Form from '../components/Form';
+import FormSuccess from '../components/FormSuccess';
 
 export default function Contact() {
   const [isSubmitted, setIsSubmitted] = useState(false);
