@@ -34,12 +34,14 @@ const FooterCard = () =>
                                 </div>
                     
                                 <div className="flex">
-                                  <a className="rounded-full" aria-label="Contact us" href="/contact">
+                                  <Link  href="/contact">
+                                  <a className="rounded-full" aria-label="Contact us">
                                     <div className="text-sm md:text-base box-border transition-colors duration-300 font-mono word-spacing-tight font-bold tracking-widest rounded-full py-3 px-6 uppercase leading-none
                                         bg-[#65b722] hover:bg-white text-white hover:text-black">
                                         Drop us a line
                                     </div>
                                   </a>
+                                  </Link>
                                 </div>
                     
                           </div>

@@ -133,23 +133,35 @@ const Navbar = () =>
             <ul className="bg-[#1A1A1A] list-none md:flex items-center 2xl:space-x-[3.563rem] xl:space-x-[3.580rem] lg:space-x-[2.570rem] md:space-x-[20px] md:static absolute w-full -top-[500px] left-0 duration-1000 text-white hover:text-gray-400 text-right md:text-center pb-[2.5rem] sm:pb-[2.625rem] md:pb-0 pr-8 md:pr-0 lg:mr-7 2xl:mr-10 2xl:-mt-0 mt-0 lg:h-full">
               
               <li className="h-full md:mt-0 mt-7">
-                <a href="/method" className="h-full font-mono font-bold hover:text-white uppercase border-b-[5px] border-t-[5px] border-t-transparent border-t-transparent border-b-transparent hover:border-b-[#65b722] lg:text-[1rem] lg:leading-[0.710rem] md:text-sm text-[1.125rem] leading-[1.75rem] tracking-[3px] pb-0 lg:flex lg:items-center md:flex md:items-center">Method</a>
+                <Link href="/method" >
+                <a className="h-full font-mono font-bold hover:text-white uppercase border-b-[5px] border-t-[5px] border-t-transparent border-t-transparent border-b-transparent hover:border-b-[#65b722] lg:text-[1rem] lg:leading-[0.710rem] md:text-sm text-[1.125rem] leading-[1.75rem] tracking-[3px] pb-0 lg:flex lg:items-center md:flex md:items-center">Method</a>
+                </Link>
               </li>
               <li className="h-full md:mt-0 mt-7">
-                <a href="/work" className="h-full font-mono font-bold hover:text-white uppercase border-b-[5px] border-t-[5px] border-t-transparent border-t-transparent border-b-transparent hover:border-b-[#65b722] lg:text-[1rem] lg:leading-[0.710rem] md:text-sm text-[1.125rem] leading-[1.75rem] tracking-[3px] pb-0 lg:flex lg:items-center md:flex md:items-center">WORK</a>
+                <Link href="/work">
+                <a  className="h-full font-mono font-bold hover:text-white uppercase border-b-[5px] border-t-[5px] border-t-transparent border-t-transparent border-b-transparent hover:border-b-[#65b722] lg:text-[1rem] lg:leading-[0.710rem] md:text-sm text-[1.125rem] leading-[1.75rem] tracking-[3px] pb-0 lg:flex lg:items-center md:flex md:items-center">WORK</a>
+                </Link>
               </li>
               <li className="h-full md:mt-0 mt-7">
-                <a href="/blog" className="h-full font-mono font-bold hover:text-white uppercase border-b-[5px] border-t-[5px] border-t-transparent border-t-transparent border-b-transparent hover:border-b-[#65b722] lg:text-[1rem] lg:leading-[0.710rem] md:text-sm text-[1.125rem] leading-[1.75rem] tracking-[3px] pb-0 lg:flex lg:items-center md:flex md:items-center">BLOG</a>
+                <Link href="/blog">
+                <a  className="h-full font-mono font-bold hover:text-white uppercase border-b-[5px] border-t-[5px] border-t-transparent border-t-transparent border-b-transparent hover:border-b-[#65b722] lg:text-[1rem] lg:leading-[0.710rem] md:text-sm text-[1.125rem] leading-[1.75rem] tracking-[3px] pb-0 lg:flex lg:items-center md:flex md:items-center">BLOG</a>
+                </Link>
               </li>
               <li className="h-full md:mt-0 mt-7">
-                <a href="/team" className="h-full font-mono font-bold hover:text-white uppercase border-b-[5px] border-t-[5px] border-t-transparent border-t-transparent border-b-transparent hover:border-b-[#65b722] lg:text-[1rem] lg:leading-[0.710rem] md:text-sm text-[1.125rem] leading-[1.75rem] tracking-[3px] pb-0 lg:flex lg:items-center md:flex md:items-center">TEAM</a>
+                <Link href="/team">
+                <a  className="h-full font-mono font-bold hover:text-white uppercase border-b-[5px] border-t-[5px] border-t-transparent border-t-transparent border-b-transparent hover:border-b-[#65b722] lg:text-[1rem] lg:leading-[0.710rem] md:text-sm text-[1.125rem] leading-[1.75rem] tracking-[3px] pb-0 lg:flex lg:items-center md:flex md:items-center">TEAM</a>
+                </Link>
               </li>
               <li className="h-full md:mt-0 mt-7">
-                <a href="/about" className="h-full font-mono font-bold hover:text-white uppercase border-b-[5px] border-t-[5px] border-t-transparent border-t-transparent border-b-transparent hover:border-b-[#65b722] lg:text-[1rem] lg:leading-[0.710rem] md:text-sm text-[1.125rem] leading-[1.75rem] tracking-[3px] pb-0 lg:flex lg:items-center md:flex md:items-center">ABOUT</a>
+                <Link href="/about">
+                <a  className="h-full font-mono font-bold hover:text-white uppercase border-b-[5px] border-t-[5px] border-t-transparent border-t-transparent border-b-transparent hover:border-b-[#65b722] lg:text-[1rem] lg:leading-[0.710rem] md:text-sm text-[1.125rem] leading-[1.75rem] tracking-[3px] pb-0 lg:flex lg:items-center md:flex md:items-center">ABOUT</a>
+                </Link>
               </li>
 
-              <a href="/contact" className="mt-7 md:mt-0 btn  inline-block  border border-white rounded-full text-white font-mono font-bold lg:text-[1rem] lg:leading-[1.5rem] lg:font-[700] md:text-[14px] text-[0.875rem] leading-[0.875rem] tracking-[4px] hover:bg-gradient-to-r from-[#68ccd9] to-[#62bd64] hover:text-white hover:border-transparent shadow-button-inner-gray border-white bg-origin-border hover:border-transparent
+              <Link href="/contact">
+              <a  className="mt-7 md:mt-0 btn  inline-block  border border-white rounded-full text-white font-mono font-bold lg:text-[1rem] lg:leading-[1.5rem] lg:font-[700] md:text-[14px] text-[0.875rem] leading-[0.875rem] tracking-[4px] hover:bg-gradient-to-r from-[#68ccd9] to-[#62bd64] hover:text-white hover:border-transparent shadow-button-inner-gray border-white bg-origin-border hover:border-transparent
               py-3 lg:py-2.5 px-5 uppercase text-white border ">CONTACT</a>
+              </Link>
            
             </ul>
             {/* toggle start here */}

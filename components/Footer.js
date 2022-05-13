@@ -30,28 +30,34 @@ const Footer = () =>
                         </div>
                         <div className="flex space-x-4 sm:flex md:hidden lg:hidden">
                             <div>
+                            <Link href="https://twitter.com/">
                             <a
-                                href="https://twitter.com/"
+                                
                                 className="text-[22px] text-[#9b9b97] hover:text-white"
                             >
                                 <i className="fab fa-twitter"></i>
                             </a>
+                            </Link>
                             </div>
                             <div>
+                            <Link href="https://github.com/">
                             <a
-                                href="https://github.com/"
+                                
                                 className="text-[22px] text-[#9b9b97] hover:text-white"
                             >
                                 <i className="fab fa-github"></i>
                             </a>
+                            </Link>
                             </div>
                             <div>
+                            <Link href="https://www.linkedin.com/">
                             <a
-                                href="https://www.linkedin.com/"
+                                
                                 className="text-[22px] text-[#9b9b97] hover:text-white"
                             >
                                 <i className="fab fa-linkedin-in"></i>
                             </a>
+                            </Link>
                             </div>
                         </div>
                         </div>
@@ -65,59 +71,73 @@ const Footer = () =>
                         </div>
 
                         <div className="mb-[10px]">
+                        <Link href="tel:+91 20 46 7506 40">
                         <a
-                            href="tel:+91 20 46 7506 40"
+                            
                             className="border-b-transparent hover:border-b hover:border-yellow-600 text-[#9b9b97] text-[14px] font-mono tracking-widest word-spacing-tight font-bold"
                         >
-                            IND: +91 20 46 7506 40 /</a
-                        >
+                            IND: +91 20 46 7506 40 /
+                        </a>
+                        </Link>
+                        <Link href="tel:+91 20 46 7506 40">
                         <a
-                            href="tel:+91 20 46 7506 40"
+                            
                             className="border-b-transparent hover:border-b hover:border-yellow-600 text-[#9b9b97] text-[14px] font-mono tracking-widest word-spacing-tight font-bold"
                         >
-                            +91 9130 036 036</a
-                        >
+                            +91 9130 036 036
+                        </a>
+                        </Link>
                         </div>
                         <div className="mb-[10px]">
+                        <Link href="tel:1 860 967 0120">
                         <a
-                            href="tel:1 860 967 0120"
+                            
                             className="border-b-transparent hover:border-b hover:border-yellow-600 text-[#9b9b97] text-[14px] font-mono tracking-widest word-spacing-tight font-bold"
                         >
                             USA: 1 860 967 0120
                         </a>
+                        </Link>
                         </div>
                         <div className="mb-[20px]">
+                        <Link href="mailto:hello@geexu.in">
                         <a
-                            href="mailto:hello@geexu.in"
+                            
                             className="border-b-transparent hover:border-b hover:border-yellow-600 text-[#9b9b97] text-[14px] font-mono tracking-widest font-bold"
                         >
-                            hello@geexu.in</a
-                        >
+                            hello@geexu.in
+                        </a>
+                        </Link>
                         </div>
                         <div className="flex space-x-6 hidden sm:hidden md:flex lg:flex">
                         <div>
+                            <Link href="https://www.linkedin.com/company/geexu/">
                             <a
-                            href="https://www.linkedin.com/company/geexu/"
+                            
                             className="text-[22px] text-[#9b9b97] hover:text-white"
                             >
                             <i className="fab fa-linkedin-in"></i>
                             </a>
+                            </Link>
                         </div>
                         <div>
+                            <Link href="https://www.facebook.com/geexu.org/">
                             <a
-                            href="https://www.facebook.com/geexu.org/"
+                            
                             className="text-[22px] text-[#9b9b97] hover:text-white"
                             >
                             <i className="fa-brands fa-facebook-f"></i>
                             </a>
+                            </Link>
                         </div>
                         <div>
+                            <Link href="https://www.instagram.com/geexu.co.in/">
                             <a
-                            href="https://www.instagram.com/geexu.co.in/"
+                            
                             className="text-[22px] text-[#9b9b97] hover:text-white"
                             >
                             <i className="fa-brands fa-instagram"></i>
                             </a>
+                            </Link>
                         </div>
                         </div>
                     </div>
@@ -135,24 +155,30 @@ const Footer = () =>
                             Work
                         </h4>
                         <div>
+                            <Link href="/method">
                             <a
-                            href="/method"
+                           
                             className="border-b-transparent hover:border-b hover:border-[#65b722] text-[#9b9b97] font-mono word-spacing-tight"
-                            >METHOD</a
-                            >
+                            >METHOD
+                            </a>
+                            </Link>
                         </div>
                         <div>
+                            <Link href="https://tighten.com/manifesto/">
                             <a
-                            href="https://tighten.com/manifesto/"
+                            
                             className="border-b-transparent hover:border-b hover:border-[#65b722] text-[#9b9b97] font-mono word-spacing-tight"
-                            >MANIFESTO</a
-                            >
+                            >MANIFESTO
+                            </a>
+                            </Link>
                         </div>
                         <div>
+                            <Link href="#">
                             <a
-                            href="#"
+                            
                             className="border-b-transparent hover:border-b hover:border-[#65b722] text-[#9b9b97] font-mono word-spacing-tight"
                             >CASE STUDIES</a>
+                            </Link>
                             
                         </div>
                         </div>
@@ -163,42 +189,54 @@ const Footer = () =>
                             Company
                         </h4>
                         <div>
+                            <Link href="/about">
                             <a
-                            href="/about"
+                            
                             className="border-b-transparent hover:border-b hover:border-[#65b722] text-[#9b9b97] font-mono text-[16px] tracking-widest"
                             >ABOUT
                             </a>
+                            </Link>
                         </div>
                         <div>
+                            <Link href="/team">
                             <a
-                            href="/team"
+                            
                             className="border-b-transparent hover:border-b hover:border-[#65b722] text-[#9b9b97] font-mono text-[16px] tracking-widest"
                             >TEAM
                             </a>
+                            </Link>
                         </div>
                         <div>
+                            <Link href="/blog">
                             <a
-                            href="/blog"
+                            
                             className="border-b-transparent hover:border-b hover:border-[#65b722] text-[#9b9b97] font-mono text-[14px] tracking-widest"
                             >BLOG
-                            </a>            
+                            </a> 
+                            </Link>           
                         </div>
                         <div>
+                            <Link href="/workWithUs">
                             <a
-                            href="/workWithUs"
+                           
                             className="border-b-transparent hover:border-b hover:border-[#65b722] text-[#9b9b97] font-mono text-[14px] tracking-widest"
                             >WORK WITH US
                             </a>
+                            </Link>
                         </div>
                         <div>
+                            <Link href="/contact">
                             <a
-                            href="/contact"
+                            
                             className="border-b-transparent hover:border-b hover:border-[#65b722] text-[#9b9b97] font-mono text-[14px] tracking-widest"
                             >CONTACT
                             </a>
+                            </Link>
                         </div>
                         <div>
-                        <a href = 'https://app.pyjamahr.com/careers?company=geexu&company_uuid=E908CB82CF' className="border-b-transparent hover:border-b hover:border-[#65b722] text-[#9b9b97] font-mono text-[14px] tracking-widest">CAREER</a>
+                        <Link href = 'https://app.pyjamahr.com/careers?company=geexu&company_uuid=E908CB82CF'>
+                        <a  className="border-b-transparent hover:border-b hover:border-[#65b722] text-[#9b9b97] font-mono text-[14px] tracking-widest">CAREER</a>
+                        </Link>
                         </div>
 
                         </div>
@@ -211,38 +249,48 @@ const Footer = () =>
                             Community
                         </h4>
                         <div>
+                            <Link href="#">
                             <a
-                            href="#"
+                            
                             className="border-b-transparent hover:border-b hover:border-[#65b722] text-[#9b9b97] font-mono tracking-widest"
                             >THE LARAVEL PODCAST</a>
+                            </Link>
                             
                         </div>
                         <div>
+                            <Link  href="https://twentypercent.fm/">
                             <a
-                            href="https://twentypercent.fm/"
+                           
                             className="border-b-transparent hover:border-b hover:border-[#65b722] text-[#9b9b97] font-mono tracking-widest"
                             >TWENTY PERCENT TIME PODECAST</a>
+                            </Link>
                             
                         </div>
                         <div>
+                            <Link href="https://onramp.dev/en">
                             <a
-                            href="https://onramp.dev/en"
+                            
                             className="border-b-transparent hover:border-b hover:border-[#65b722] text-[#9b9b97] font-mono tracking-widest"
                             >LARAVEL ONRAMP</a>
+                            </Link>
                             
                         </div>
                         <div>
+                            <Link href="https://novapackages.com/">
                             <a
-                            href="https://novapackages.com/"
+                            
                             className="border-b-transparent hover:border-b hover:border-[#65b722] text-[#9b9b97] font-mono tracking-widest"
-                            >NOVA PACKAGES</a
-                            >
+                            >NOVA PACKAGES
+                            </a>
+                            </Link>
                         </div>
                         <div>
+                            <Link href="https://laravel-tricks.com/tricks">
                             <a
-                            href="https://laravel-tricks.com/tricks"
+                            
                             className="border-b-transparent hover:border-b hover:border-[#65b722] text-[#9b9b97] font-mono tracking-widest"
                             >LARAVEL TRICKS</a>
+                            </Link>
                             
                         </div>
                         </div>

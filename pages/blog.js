@@ -2,6 +2,8 @@ import Head from 'next/head'
 import styled from 'styled-components';
 import FooterCard from '../components/FooterCard';
 import Footer from '../components/Footer';
+import { BlogDetails } from './BlogDetails';
+import BlogCard from './BlogCard';
 // const Hero = styled.div`
 //   height: 90vh;
 //   display: flex;
@@ -158,6 +160,11 @@ export default function Blog() {
         <div className="px-6 md:px-16 lg:px-28 py-10 md:py-16 lg:py-24 bg-[#1a1a1a]">
           <div className="max-w-screen-xl mx-auto">
             <div className="flex flex-col space-y-16 md:space-y-20">
+              {BlogDetails.map((items)=>
+                {
+                  return<BlogCard {...items}/>
+                }
+              )}
 
               {/* 1 starts */}
               <div className="w-full group hover:cursor-pointer">
@@ -229,7 +236,8 @@ export default function Blog() {
                       <div className="flex-shrink-0">
                         <a href="https://tighten.com/blog/how-to-train-your-keyboard">
                           <div className="w-32 h-32 sm:w-32 sm:h-32 md:w-56 md:h-56 mt-1.5 md:mt-0">
-                            <div className="w-full h-full bg-center bg-cover md:bg-contain lazyloaded" data-bg="https://tighten.com/assets/images/blog/how-to-train-your-keyboard-preview-image.png" 
+                            <div className="w-full h-full bg-center bg-cover md:bg-contain lazyloaded" 
+                                 data-bg="https://tighten.com/assets/images/blog/how-to-train-your-keyboard-preview-image.png" 
                                  style={{'background': 'url("https://tighten.com/assets/images/blog/how-to-train-your-keyboard-preview-image.png")',
                                 //  backgroundImage: "url(" + `${require("./path-to-the-image")}` + ")",
                                       'width': "100%",
@@ -283,7 +291,8 @@ export default function Blog() {
                       <div className="flex-shrink-0">
                         <a href="https://tighten.com/blog/flying-solo-my-experience-as-the-only-designer-at-a-programming-agency">
                           <div className="w-32 h-32 sm:w-32 sm:h-32 md:w-56 md:h-56 mt-1.5 md:mt-0">
-                            <div className="w-full h-full bg-center bg-cover md:bg-contain lazyloaded" data-bg="https://tighten.com/assets/images/blog/flying-solo-preview-image.png" 
+                            <div className="w-full h-full bg-center bg-cover md:bg-contain lazyloaded" 
+                                 data-bg="https://tighten.com/assets/images/blog/flying-solo-preview-image.png" 
                                  style={{'background': 'url("https://tighten.com/assets/images/blog/flying-solo-preview-image.png")',
                                 //  backgroundImage: "url(" + `${require("./path-to-the-image")}` + ")",
                                       'width': "100%",

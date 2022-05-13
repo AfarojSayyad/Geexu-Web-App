@@ -2,6 +2,8 @@ import Head from 'next/head'
 import styled from 'styled-components';
 import Footer from '../components/Footer';
 import FooterCard from '../components/FooterCard';
+import AboutCard from './AboutCard';
+import { AboutDetails } from './AboutDetails';
 
 export default function About() {
   return (
@@ -105,129 +107,15 @@ export default function About() {
             <div className="relative z-10 pb-6 font-[signifier] text-5xl text-white md:text-7xl font-[100] sm:pb-12 lg:pb-24">
               <h3>Our core values</h3>
             </div>
-            <div className="z-10 md:pl-8 md:pr-16 lg:pl-12 lg:pr-24 xl:pl-12 xl:pr-32 2xl:pl-28 2xl:pr-48">
-              <div className="2xl:pr-28 pr-0">
-                <div className="py-6 lg:py-8">
-                  <h3 className="text-3xl lg:text-4xl text-[#65b722] font-[signifier] font-[100] pb-4 lg:pb-8">
-                    <span className="hidden sm:inline font-[Pitch-Sans] word-spacing-tight font-semibold text-base text-gray-400 w-12">01</span>
-                    We prioritize trust
-                  </h3>
-                  <p className="text-[#D1D1D1] md:pl-8 lg:pl-12 xl:pl-20 2xl:text-[1.125rem] 2xl:leading-[2.125rem] xl:text-[1.125rem] xl:leading-[2.125rem] lg:text-[1.125rem] lg:leading-[2.125rem] md:text-[1.125rem] md:leading-[2.125rem]">
-                  Making the decision to do business together involves extending mutual trust.
-                  No amount of due diligence can eliminate the uncertainty that comes with starting a new relationship; 
-                  trusting someone is a matter of faith, and we want to work with people who are willing to take that risk. 
-                  We extend the presumption of good faith in all interactions based on trust, 
-                  and we expect it in return.
-                  </p>
-                </div>
+            <div>
+                { AboutDetails.map((items)=>
+                {
+                  return<AboutCard{...items}/>
+                }
+                )}
               </div>
-              <div className="py-6 lg:py-8">
-                <h3 className="text-3xl lg:text-4xl text-[#65b722] font-[signifier] font-[100] pb-4 lg:pb-8">
-                  <span className="hidden sm:inline font-[Pitch-Sans] word-spacing-tight font-semibold text-base text-gray-400 w-12">02</span>
-                  Empathize relentlessly
-                </h3>
-                <p className="text-[#D1D1D1] md:pl-8 lg:pl-12 xl:pl-20 2xl:text-[1.125rem] 2xl:leading-[2.125rem] xl:text-[1.125rem] xl:leading-[2.125rem] lg:text-[1.125rem] lg:leading-[2.125rem] md:text-[1.125rem] md:leading-[2.125rem]">
-                People-first is business-first,
-                and showing empathy and building an extraordinary company are inextricably linked. 
-                Active listening, giving space, responding with intention, 
-                and pushing through surface conversations to the heart of the matter are all aspects
-                  that illustrate this value.
-                  Uncomfortable conversations become opportunities for mutual growth when your goal is 
-                  to understand and care for someone.
 
-                </p>
-              </div>
-              <div className="py-6 lg:py-8">
-                <h3 className="text-3xl lg:text-4xl text-[#65b722] font-[signifier] font-[100] pb-4 lg:pb-8">
-                  <span className="hidden sm:inline font-[Pitch-Sans] word-spacing-tight font-semibold text-base text-gray-400 w-12">03</span>
-                  Practice benevolent ambition
-                </h3>
-                <p className="text-[#D1D1D1] md:pl-8 lg:pl-12 xl:pl-20 2xl:text-[1.125rem] 2xl:leading-[2.125rem] xl:text-[1.125rem] xl:leading-[2.125rem] lg:text-[1.125rem] lg:leading-[2.125rem] md:text-[1.125rem] md:leading-[2.125rem]">
-                  We strive to improve ourselves not so that we can get a bigger slice of the pie,
-                  but so that we can pay it forward and inspire others to do the same.
-                  We all know that mentoring benefits both the mentor and the mentee.
-                  Similarly, our apprenticeships, conference talks,
-                  and open-source work contribute to the strength of our 
-                  community while also providing a venue for us to keep our skills sharp and our 
-                  minds occupied.
-
-                </p>
-              </div>
-              <div className="py-6 lg:py-8">
-                <h3 className="text-3xl lg:text-4xl text-[#65b722] font-[signifier] font-[100] pb-4 lg:pb-8">
-                  <span className="hidden sm:inline font-[Pitch-Sans] word-spacing-tight font-semibold text-base text-gray-400 w-12">04</span>
-                  Be compassionate, speak truth, and don’t put it off
-                </h3>
-                <p className="text-[#D1D1D1] md:pl-8 lg:pl-12 xl:pl-20 2xl:text-[1.125rem] 2xl:leading-[2.125rem] xl:text-[1.125rem] xl:leading-[2.125rem] lg:text-[1.125rem] lg:leading-[2.125rem] md:text-[1.125rem] md:leading-[2.125rem]">
-                We're kind and considerate, but we also try to tell the truth,
-                even if it's difficult. There's a time to be light and airy, 
-                and then there's a time to take someone aside and be honest about something important. 
-                The longer you wait, the more difficult it will become, so be direct, be specific,
-                and act now.
-
-                </p>
-              </div>
-              <div className="py-6 lg:py-8">
-                <h3 className="text-3xl lg:text-4xl text-[#65b722] font-[signifier] font-[100] pb-4 lg:pb-8">
-                  <span className="hidden sm:inline font-[Pitch-Sans] word-spacing-tight font-semibold text-base text-gray-400 w-12">05</span>
-                  Avoid hustle culture
-                </h3>
-                <p className="text-[#D1D1D1] md:pl-8 lg:pl-12 xl:pl-20 2xl:text-[1.125rem] 2xl:leading-[2.125rem] xl:text-[1.125rem] xl:leading-[2.125rem] lg:text-[1.125rem] lg:leading-[2.125rem] md:text-[1.125rem] md:leading-[2.125rem]">
-                Our society's deification of "hard work" must be put to rest once and for all.
-                Work is a crucial part of life, but it does not have to be painful.
-                That person who was "first to arrive, last to leave" should get a therapist 
-                or a dog instead of a trophy. We aim higher: show up, put in a good and focused day's work,
-                move on to something else, and then show up rested and ready the next day.
-                If you think sending an email at 3 a.m. is a sign of dedication,
-                you're probably not a good fit for Geexu, either as an employee or as a client.
-
-                </p>
-              </div>
-              <div className="py-6 lg:py-8">
-                <h3 className="text-3xl lg:text-4xl text-[#65b722] font-[signifier] font-[100] pb-4 lg:pb-8">
-                  <span className="hidden sm:inline font-[Pitch-Sans] word-spacing-tight font-semibold text-base text-gray-400 w-12">06</span>
-                  Bizarre means captivating
-                </h3>
-                <p className="text-[#D1D1D1] md:pl-8 lg:pl-12 xl:pl-20 2xl:text-[1.125rem] 2xl:leading-[2.125rem] xl:text-[1.125rem] xl:leading-[2.125rem] lg:text-[1.125rem] lg:leading-[2.125rem] md:text-[1.125rem] md:leading-[2.125rem]">
-                Geexu actively recruit people who add spice to our lives.
-                Work is a lot more fun when you're surrounded by fabulous weirdos who aren't 
-                afraid to bring their entire selves to work, including (especially) the nerdy parts. 
-                We appreciate it when they are willing to teach us about their interests, 
-                and we make time for this exchange of ideas during company hours.
-
-                </p>
-              </div>
-              <div className="py-6 lg:py-8">
-                <h3 className="text-3xl lg:text-4xl text-[#65b722] font-[signifier] font-[100] pb-4 lg:pb-8">
-                  <span className="hidden sm:inline font-[Pitch-Sans] word-spacing-tight font-semibold text-base text-gray-400 w-12">07</span>
-                  You’ve already made it
-                </h3>
-                <p className="text-[#D1D1D1] md:pl-8 lg:pl-12 xl:pl-20 2xl:text-[1.125rem] 2xl:leading-[2.125rem] xl:text-[1.125rem] xl:leading-[2.125rem] lg:text-[1.125rem] lg:leading-[2.125rem] md:text-[1.125rem] md:leading-[2.125rem]">
-                Being an expert does not imply knowing all of the answers.
-                It entails having the knowledge, experience, and confidence to ask probing questions
-                and apply your knowledge creatively. When an unfamiliar term or acronym comes up in 
-                conversation, don't ignore it because you're afraid asking for clarification will
-                make you look foolish. Creating a shared understanding is far more important than
-                proving your intelligence. That is something we already know about you.
-
-                </p>
-              </div>
-              <div className="py-6 lg:py-8">
-                <h3 className="text-3xl lg:text-4xl text-[#65b722] font-[signifier] font-[100] pb-4 lg:pb-8">
-                  <span className="hidden sm:inline font-[Pitch Sans] word-spacing-tight font-semibold text-base text-gray-400 w-12">08</span>
-                  Wellness is a collaborative process 
-                </h3>
-                <p className="text-[#D1D1D1] md:pl-8 lg:pl-12 xl:pl-20 2xl:text-[1.125rem] 2xl:leading-[2.125rem] xl:text-[1.125rem] xl:leading-[2.125rem] lg:text-[1.125rem] lg:leading-[2.125rem] md:text-[1.125rem] md:leading-[2.125rem]">
-                  It's sometimes easier to help someone else than it is to help yourself.
-                  Rather than fighting this perverse tendency, we use it to our advantage by
-                  normalizing the instinct to care for and protect our peers. When we notice 
-                  someone is struggling, we reach out to them while respecting their privacy and autonomy.
-                  Whether you have the flu or a bad mental health day, the treatment is the same: take 
-                  a break, rest, and return to work when you're feeling better.
-
-                </p>
-              </div>
-            </div>
+     
           </div>
         </div>
       </div>
