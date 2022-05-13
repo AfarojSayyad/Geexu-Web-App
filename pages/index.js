@@ -105,6 +105,7 @@ export default function Home() {
       {/* <Image src='/logo.png' width='10px' height= '10px'/> */}
       {/* <Image URL=""/> src="/assets/images/header-img/logo.png"*/}
       {/* <Image url=''  height='100px' width='100px' alt='logo'/> */}
+      
     </div>
   )
 }

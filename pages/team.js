@@ -2,8 +2,8 @@ import Head from 'next/head'
 import styled from 'styled-components';
 import Footer from '../components/Footer';
 import FooterCard from '../components/FooterCard';
-import TeamCard from './TeamCard';
-import { TeamDetails } from './TeamDetails';
+import TeamCard from './Team/TeamCard';
+import { TeamDetails } from './Team/TeamDetails';
 const Hero = styled.div`
   height: 90vh;
   display: flex;
@@ -109,6 +109,7 @@ export default function Team() {
                   return<TeamCard {...items}/>
                 }
               )}
+              
               
               {/* 1 member starts here */}
               {/* <div className="relative group cursor-pointer">

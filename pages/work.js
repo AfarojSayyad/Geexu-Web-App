@@ -4,6 +4,11 @@ import Image from 'next/image';
 import FooterCard from '../components/FooterCard';
 import Footer from '../components/Footer';
 
+import WorkCard from './Work/WorkCard';
+import { QuoteDetails } from './Work/QuoteDetails';
+import { Quote } from './Work/Quote';
+
+
 export default function Work() {
   return (
     <>
@@ -80,66 +85,25 @@ export default function Work() {
       {/* Second section starts here */}
       <div className="w-full mx-auto pt-5  py-5 md:py-14 lg:py-14 xl:pb-14 xl:pt-[6.5rem] xl:px-28 px-6 md:px-16 bg-zinc-900">
         <div className="flex flex-wrap justify-evenly  gap-14 md:flex-wrap lg:flex-nowrap  max-w-screen-2xl mx-auto bg-zinc-900 -mt-24 lg:-mt-40">
+           <WorkCard 
+            image="/work/four.jpg"
+            title="Genentech + Roche"
+            label1="Laravel"
+            label2="Vanilla JS"
+            text="Over the past 15 years, we've partnered on a wide array of groundbreaking digital projects."
+            learn="Learn More"
 
-          {/* image 1 */}
-          <div className="w-full">
-            <div style={{ backgroundImage: "url('/work/four.jpg')" }} className=" hover:shadow-[10px_20px_40px_0px_rgba(46,204,113,0.1)] scale-100 hover:scale-105 duration-300 relative h-64 lg:h-80 xl:h-80 w-full flex items-end justify-start text-left bg-cover bg-center">
-              <div className="absolute top-0 mt-20 right-0 bottom-0 left-0 bg-gradient-to-b from-transparent to-gray-900"></div>
+          />
 
-              <div className="absolute flex flex-col justify-end inset-0 p-4 sm:p-6">
-                <div className="text-white hidden sm:block flex font-serif font-light text-shadow tracking-wide text-2xl xs:text-3xl lg:text-4xl">
-                  Genentech + Roche
-                </div>
-
-                <div className="text-white hidden sm:flex flex-wrap">
-                  <div className=" font-mono word-spacing-tight font-bold text-xs uppercase bg-[#65b722] text-white mr-3 mt-3 py-1 px-3">Laravel</div>
-                  <div className="font-mono word-spacing-tight font-bold text-xs uppercase bg-[#65b722] text-white mr-3 mt-3 py-1 px-3">Vanilla JS</div>
-                </div>
-              </div>
-            </div>
-
-            <div className="leading-loose sm:leading-loose lg:leading-loose text-white mt-4 sm:mt-8 text-base sm:text-lg">
-              Over the past 15 years, we've partnered on a wide array of groundbreaking digital projects.
-            </div>
-            <div className="flex items-center font-mono word-spacing-tight font-bold text-xs sm:text-base text-[#65b722] uppercase tracking-widest mt-2">
-              Learn More
-              <svg className="h-4 w-6 text-[#65b722]" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M9 5l7 7-7 7"></path>
-              </svg>
-            </div>
-          </div>
-          {/* image 1 ends */}
-
-          {/* image 2 starts */}
-          <div className="w-full">
-            <div style={{ backgroundImage: "url('/work/three.jpg')" }} className="hover:shadow-[10px_20px_40px_0px_rgba(46,204,113,0.1)] scale-100 hover:scale-105 duration-300 relative h-64 lg:h-80 xl:h-80  w-full flex items-end justify-start text-left bg-cover bg-center">
-              <div className="absolute top-0 mt-20 right-0 bottom-0 left-0 bg-gradient-to-b from-transparent to-gray-900"></div>
-
-              <div className="absolute flex flex-col justify-end inset-0 p-4 sm:p-6">
-                <div className="text-white hidden sm:block flex font-serif font-light text-shadow tracking-wide text-2xl xs:text-3xl lg:text-4xl">
-                  Sweetwater Sound
-                </div>
-
-                <div className="text-white hidden sm:flex flex-wrap">
-                  <div className=" font-mono word-spacing-tight font-bold text-xs uppercase bg-[#65b722] text-white mr-3 mt-3 py-1 px-3">Laravel</div>
-                  <div className="font-mono word-spacing-tight font-bold text-xs uppercase bg-[#65b722] text-white mr-3 mt-3 py-1 px-3">Vanilla JS</div>
-                </div>
-              </div>
-
-            </div>
-            <div className="leading-loose sm:leading-loose lg:leading-loose text-white mt-4 sm:mt-8 text-base sm:text-lg">
-
-              Our enduring partnership has helped solidify Sweetwater as the industry leader in music and pro audio gear.
-
-            </div>
-            <div className="flex items-center font-mono word-spacing-tight font-bold text-xs sm:text-base text-[#65b722] uppercase tracking-widest mt-2">
-              Learn More
-              <svg className="h-4 w-6 text-[#65b722]" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M9 5l7 7-7 7"></path>
-              </svg>
-            </div>
-          </div>
-          {/* image 2 ends */}
+          <WorkCard 
+            image="/work/three.jpg"
+            title="Sweetwater Sound"
+            label1="Laravel"
+            label2="Vanilla JS"
+            text="Our enduring partnership has helped solidify Sweetwater as the industry leader in music and pro audio gear."
+            learn="Learn More"
+          />
+          
 
         </div>
       </div>
@@ -165,63 +129,28 @@ export default function Work() {
             </a>
           </div>
         </div>
+        
+        
 
         <div className="w-full mx-auto pt-5  py-5 md:py-14 lg:py-14  xl:px-28 px-6">
           <div className="flex flex-wrap justify-evenly md-mx-1  gap-14 md:flex-wrap lg:flex-nowrap max-w-screen-2xl mx-auto ">
-            <div className="w-full">
-              <div style={{ backgroundImage: "url('/work/three.jpg')" }}
-                className="hover:shadow-[10px_20px_40px_0px_rgba(46,204,113,0.1)] scale-100 hover:scale-105 duration-300 relative h-64 lg:h-80 xl:h-80 w-full flex items-end justify-start text-left bg-cover bg-center">
-                <div className="absolute top-0 mt-20 right-0 bottom-0 left-0 bg-gradient-to-b from-transparent to-gray-900"></div>
+            <WorkCard 
+            image="/work/three.jpg"
+            title="Genentech + Roche"
+            label1="Laravel"
+            label2="Vanilla JS"
+            text=" Over the past 15 years, we've partnered on a wide array of groundbreaking digital projects."
+            learn="Learn More"
+          />
 
-                <div className="absolute flex flex-col justify-end inset-0 p-4 sm:p-6">
-                  <div className="text-white hidden sm:block flex font-serif font-light text-shadow tracking-wide text-2xl xs:text-3xl lg:text-4xl">
-                    Genentech + Roche
-                  </div>
-
-                  <div className="text-white hidden sm:flex flex-wrap">
-                    <div className=" font-mono word-spacing-tight font-bold text-xs uppercase bg-[#65b722] text-white mr-3 mt-3 py-1 px-3">Laravel</div>
-                    <div className="font-mono word-spacing-tight font-bold text-xs uppercase bg-[#65b722] text-white mr-3 mt-3 py-1 px-3">Vanilla JS</div>
-                  </div>
-                </div>
-
-              </div>
-              <div className="leading-loose sm:leading-loose lg:leading-loose text-white mt-4 sm:mt-8 text-base sm:text-lg">
-                Over the past 15 years, we've partnered on a wide array of groundbreaking digital projects.
-              </div>
-              <div className="flex items-center font-mono word-spacing-tight font-bold text-xs sm:text-base text-[#65b722] uppercase tracking-widest mt-2">
-                Learn More
-                <svg className="h-4 w-6 text-[#65b722]" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M9 5l7 7-7 7"></path>
-                </svg>
-              </div>
-            </div>
-
-            <div className="w-full">
-              <div style={{ backgroundImage: "url('/work/four.jpg')" }} className=" hover:shadow-[10px_20px_40px_0px_rgba(46,204,113,0.1)] scale-100 hover:scale-105 duration-300 relative h-64 lg:h-80 xl:h-80 w-full flex items-end justify-start text-left bg-cover bg-center">
-                <div className="absolute top-0 mt-20 right-0 bottom-0 left-0 bg-gradient-to-b from-transparent to-gray-900"></div>
-
-                <div className="absolute flex flex-col justify-end inset-0 p-4 sm:p-6">
-                  <div className="text-white hidden sm:block flex font-serif font-light text-shadow tracking-wide text-2xl xs:text-3xl lg:text-4xl">
-                    Sweetwater Sound
-                  </div>
-
-                  <div className="text-white hidden sm:flex flex-wrap">
-                    <div className=" font-mono word-spacing-tight font-bold text-xs uppercase bg-[#65b722] text-white mr-3 mt-3 py-1 px-3">Laravel</div>
-                    <div className="font-mono word-spacing-tight font-bold text-xs uppercase bg-[#65b722] text-white mr-3 mt-3 py-1 px-3">Vanilla JS</div>
-                  </div>
-                </div>
-
-              </div>
-              <div className="leading-loose sm:leading-loose lg:leading-loose text-white mt-4 sm:mt-8 text-base sm:text-lg">
-                Our enduring partnership has helped solidify Sweetwater as the industry leader in music and pro audio gear.
-              </div>
-              <div className="flex items-center font-mono word-spacing-tight font-bold text-xs sm:text-base text-[#65b722] uppercase tracking-widest mt-2">
-                Learn More
-                <svg className="h-4 w-6 text-[#65b722]" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M9 5l7 7-7 7"></path>
-                </svg>
-              </div>
-            </div>
+          <WorkCard 
+            image="/work/four.jpg"
+            title="Sweetwater Sound"
+            label1="Laravel"
+            label2="Vanilla JS"
+            text="Our enduring partnership has helped solidify Sweetwater as the industry leader in music and pro audio gear."
+            learn="Learn More"
+          />
 
           </div>
         </div>
@@ -229,6 +158,15 @@ export default function Work() {
       {/* <!-- third Section End Here --> */}
 
       {/* fourth section [customer review section] starts here */}
+      {/* <div>
+        {QuoteDetails.map((items)=>
+          {
+            return<Quote {...items}/>
+          }
+      )}
+
+      </div> */}
+        
       <div className="container-fluid px-6 md:px-16 lg:px-28  text-white  bg-zinc-900">
         <div className="container mx-auto py-36 md:py-40 lg:py-40 2xl:py-[11.80rem] ">
           <h3 className="font-[signifier] font-[100] italic text-[2.25rem] leading-[2.813rem] lg:text-6xl lg:leading-[4.688rem] md:text-[3.75rem] md:leading-[4.688rem]">
