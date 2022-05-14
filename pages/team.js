@@ -2,8 +2,9 @@ import Head from 'next/head'
 import styled from 'styled-components';
 import Footer from '../components/Footer';
 import FooterCard from '../components/FooterCard';
-import TeamCard from './Team/TeamCard';
-import { TeamDetails } from './Team/TeamDetails';
+import TeamCard from '../components/Team/TeamCard';
+import { TeamDetails } from '../components/Team/TeamDetails';
+
 const Hero = styled.div`
   height: 90vh;
   display: flex;
@@ -103,7 +104,7 @@ export default function Team() {
         <div className="container-fluid bg-black text-white px-6 md:px-16 lg:px-28 lg:pt-40 pt-10 pb-10 md:pb-16 lg:pb-32">
           <div className="container mx-auto">
             <div className="gap-[20px] grid 2xl:grid-cols-4 xl:grid-cols-3 lg:grid-cols-2 md:grid-cols-2 sm:grid-cols-1">
-              
+            
               {TeamDetails.map((items)=>
                 {
                   return<TeamCard {...items}/>
@@ -221,7 +222,8 @@ export default function Team() {
             </div>
 
 
-              </div> */}                   
+              </div> */}  
+                               
 
           </div>
           </div>

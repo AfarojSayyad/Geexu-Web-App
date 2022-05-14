@@ -2,8 +2,9 @@ import Head from 'next/head'
 import styled from 'styled-components';
 import FooterCard from '../components/FooterCard';
 import Footer from '../components/Footer';
-import { BlogDetails } from './Blog/BlogDetails';
-import BlogCard from './Blog/BlogCard';
+import { BlogDetails } from '../components/Blog/BlogDetails';
+import BlogCard from '../components/Blog/BlogCard';
+
 // const Hero = styled.div`
 //   height: 90vh;
 //   display: flex;
@@ -170,6 +171,7 @@ export default function Blog() {
 
 
             </div>
+            
           </div>
         </div>
         {/* fourth container ends here */}

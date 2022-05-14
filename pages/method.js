@@ -5,6 +5,9 @@ import styled from 'styled-components';
 import "aos/dist/aos.css"
 import Footer from '../components/Footer';
 import FooterCard from '../components/FooterCard';
+import { MethodDetails } from '../components/Method/MethodDetails';
+import MethodCard from '../components/Method/MethodCard';
+
 
 export default function Method() {
   return (
@@ -374,8 +377,13 @@ export default function Method() {
             <div
               className="flex md:flex-row sm:justify-between flex-col block all-info mt-14"
             >
+              {MethodDetails.map((items)=>
+                {
+                  return<MethodCard {...items}/>
+                }
+              )}
               {/* <!-- Technical Info Here --> */}
-              <div className="text-white 2xl:w-[24.5rem] xl:w-[15rem] lg:w-[35rem]">
+              {/* <div className="text-white 2xl:w-[24.5rem] xl:w-[15rem] lg:w-[35rem]">
                 <div>
                   <h4
                     className="text-[#65b722] font-Pitch-Sans tracking-widest 2xl:text-[1.125rem] 2xl:leading-[1.75rem] 2xl:pb-3 sm:text-[1rem] sm:leading-[1.5rem] pb-2"
@@ -385,7 +393,7 @@ export default function Method() {
                 </div>
                 <div>
                   <p
-                    className="text-[#c0c0c0] 2xl:text-[1.125rem] 2xl:leading-[2.125rem] xl:text-xl xl:leading-normal lg:text-lg md:text-base md:leading-loose sm:text-[1rem] sm:leading-[1.5rem] leading-[1.875rem]"
+                    className="text-[#c0c0c0] 2xl:text-[1.125rem] 2xl:leading-[2.125rem] xl:text-[1.25rem] xl:leading-[2.125rem] lg:text-lg md:text-base md:leading-loose sm:text-[1rem] sm:leading-[1.5rem] leading-[1.875rem]"
                   >
 
                     We will take stock of your issues and goals,
@@ -409,13 +417,13 @@ export default function Method() {
                     />your organization.
                   </p>
                 </div>
-              </div>
+              </div> */}
               {/* <!-- Technical Info Here --> */}
 
               <div></div>
 
               {/* <!-- Embedded Team Info Here --> */}
-              <div
+              {/* <div
                 className="2xl:w-[33rem] 2xl:px-14 xl:w-[20rem] lg:w-[60rem] md:pl-10 md:pr-18 lg:pl-0 lg:pr-0 md:my-0 my-10 "
               >
                 <div>
@@ -449,13 +457,13 @@ export default function Method() {
                     sucess and help you make the move as pleasant as possible.
                   </p>
                 </div>
-              </div>
+              </div> */}
               {/* <!-- Embedded Team Info Here --> */}
 
               <div></div>
 
               {/* <!-- Sustained Info Here --> */}
-              <div
+              {/* <div
                 className="2xl:w-[24.5rem] xl:w-[15rem] lg:w-[35rem] md:pl-0 lg:pl-0 pl-0"
               >
                 <div>
@@ -493,7 +501,7 @@ export default function Method() {
                     or resolve a problematic blog.
                   </p>
                 </div>
-              </div>
+              </div> */}
               {/* <!-- Sustained Info Here --> */}
             </div>
             {/* <!-- 2nd Line Container Start Here --> */}
@@ -501,7 +509,7 @@ export default function Method() {
         </div>
         {/* fouth container ends here */}
 
-
+              
 
       </div>
       <FooterCard />

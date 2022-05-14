@@ -2,12 +2,12 @@ import Head from 'next/head'
 import styled from 'styled-components';
 import Footer from '../components/Footer';
 import FooterCard from '../components/FooterCard';
-import AboutCard from './About/AboutCard';
-import { AboutDetails } from './About/AboutDetails';
-import Community from './About/Community';
-import { CommunityDetails } from './About/CommunityDetails';
-import Company from './About/Company';
-import { CompanyDetails } from './About/CompanyDetails';
+import AboutCard from '../components/About/AboutCard';
+import { AboutDetails } from '../components/About/AboutDetails';
+import Community from '../components/About/Community';
+import { CommunityDetails } from '../components/About/CommunityDetails';
+import Company from '../components/About/Company';
+import { CompanyDetails } from '../components/About/CompanyDetails';
 
 
 export default function About() {

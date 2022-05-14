@@ -4,9 +4,11 @@ import Image from 'next/image';
 import FooterCard from '../components/FooterCard';
 import Footer from '../components/Footer';
 
-import WorkCard from './Work/WorkCard';
-import { QuoteDetails } from './Work/QuoteDetails';
-import { Quote } from './Work/Quote';
+import WorkCard from '../components/Work/WorkCard';
+import { QuoteDetails } from '../components/Work/QuoteDetails';
+import Quote from '../components/Work/Quote';
+// import { QuoteDetails } from './Work/QuoteDetails';
+// import { Quote } from './Work/Quote';
 
 
 export default function Work() {
@@ -158,46 +160,14 @@ export default function Work() {
       {/* <!-- third Section End Here --> */}
 
       {/* fourth section [customer review section] starts here */}
-      {/* <div>
+      <div>
+        
         {QuoteDetails.map((items)=>
           {
             return<Quote {...items}/>
           }
       )}
 
-      </div> */}
-        
-      <div className="container-fluid px-6 md:px-16 lg:px-28  text-white  bg-zinc-900">
-        <div className="container mx-auto py-36 md:py-40 lg:py-40 2xl:py-[11.80rem] ">
-          <h3 className="font-[signifier] font-[100] italic text-[2.25rem] leading-[2.813rem] lg:text-6xl lg:leading-[4.688rem] md:text-[3.75rem] md:leading-[4.688rem]">
-
-            "Folks at Geexu are  true
-            <br className="md:block lg:hidden xl:hidden 2xl:hidden" />
-            professionals. <br className="2xl:hidden xl:block lg:block block" />
-            They're <br className="2xl:hidden xl:hidden lg:hidden md:hidden hidden" />
-            calm under <br className="2xl:block hidden" />
-            pressure.They're <br className="2xl:hidden xl:block lg:block hidden" />
-            the <br className="2xl:hidden xl:hidden lg:hidden md:block hidden" />
-            kind
-            <br className="2xl:hidden xl:hidden lg:hidden md:hidden sm:block hidden" />
-            of people you want to  hang out
-            <br className="2xl:block xl:block lg:block hidden" />
-            with in the event of a natural
-            <br className="2xl:hidden xl:hidden lg:hidden md:hidden sm:block hidden" />
-            disaster." <br className="lg:hidden md:block block" />
-
-          </h3>
-          <div className="flex flex-col justify-start items-end">
-            <div className="mt-8 mr-0 md:mr-28">
-              <h4 className="text-[#65b722] font-mono sm:text-left text-right font-semibold tracking-widest md:text-[0.875rem] text-[0.875rem] leading-[1.25rem]">
-                Harish Boke
-              </h4>
-              <p className="font-mono text-[#b3b3b3] tracking-widest text-[0.875rem] leading-[1.25rem]">
-                president
-              </p>
-            </div>
-          </div>
-        </div>
       </div>
       <FooterCard />
       <Footer />
