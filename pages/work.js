@@ -162,9 +162,9 @@ export default function Work() {
       {/* fourth section [customer review section] starts here */}
       <div>
         
-        {QuoteDetails.map((items)=>
+        {QuoteDetails.map((items,index)=>
           {
-            return<Quote {...items}/>
+            return<Quote {...items} key={index}/>
           }
       )}
 

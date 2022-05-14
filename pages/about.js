@@ -114,9 +114,9 @@ export default function About() {
             </div>
             <div>
               
-                {AboutDetails.map((items)=>
+                {AboutDetails.map((items,index)=>
                 {
-                  return<AboutCard{...items}/>
+                  return<AboutCard{...items} key={index}/>
                 }
                 
                 )}
@@ -188,9 +188,9 @@ export default function About() {
         <div
           className="grid gap-12 sm:grid-cols-3 sm:gap-6 md:gap-8 lg:gap-12 xl:gap-16"
         >         
-                {CommunityDetails.map((items)=>
+                {CommunityDetails.map((items,index)=>
                   {
-                    return<Community{...items}/>
+                    return<Community{...items} key={index}/>
                   }
                 )}
        
@@ -208,9 +208,9 @@ export default function About() {
           
           </div>
         <div className="grid gap-12 sm:grid-cols-3 sm:gap-6 md:gap-8 lg:gap-12 xl:gap-16">
-          {CompanyDetails.map((items)=>
+          {CompanyDetails.map((items,index)=>
             {
-            return<Company{...items}/>
+            return<Company{...items} key={index}/>
             }
           )}
 

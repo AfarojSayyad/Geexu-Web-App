@@ -377,9 +377,9 @@ export default function Method() {
             <div
               className="flex md:flex-row sm:justify-between flex-col block all-info mt-14"
             >
-              {MethodDetails.map((items)=>
+              {MethodDetails.map((items, index)=>
                 {
-                  return<MethodCard {...items}/>
+                  return<MethodCard {...items} key={index}/>
                 }
               )}
               {/* <!-- Technical Info Here --> */}

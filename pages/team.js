@@ -105,9 +105,9 @@ export default function Team() {
           <div className="container mx-auto">
             <div className="gap-[20px] grid 2xl:grid-cols-4 xl:grid-cols-3 lg:grid-cols-2 md:grid-cols-2 sm:grid-cols-1">
             
-              {TeamDetails.map((items)=>
+              {TeamDetails.map((items,index)=>
                 {
-                  return<TeamCard {...items}/>
+                  return<TeamCard {...items} key={index}/>
                 }
               )}
               

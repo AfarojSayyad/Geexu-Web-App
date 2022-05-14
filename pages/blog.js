@@ -161,9 +161,9 @@ export default function Blog() {
         <div className="px-6 md:px-16 lg:px-28 py-10 md:py-16 lg:py-24 bg-[#1a1a1a]">
           <div className="max-w-screen-xl mx-auto">
             <div className="flex flex-col space-y-16 md:space-y-20">
-              {BlogDetails.map((items)=>
+              {BlogDetails.map((items,index)=>
                 {
-                  return<BlogCard {...items}/>
+                  return<BlogCard {...items} key={index}/>
                 }
               )}
                          

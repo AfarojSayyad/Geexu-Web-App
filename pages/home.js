@@ -222,9 +222,10 @@ export default function Hero() {
       {/* Third container (with images) start here */}
       <div className="container-fluid bg-[#1A1A1A] h-[auto] px-6 md:px-16 lg:px-28 -mt-1">
         <div className="container mx-auto">
-        <div className="grid grid-cols-1 sm:grid-cols-3 sm:gap-6 md:grid-cols-3 lg:grid-cols-3 2xl:gap-16 xl:gap-16 lg:gap-[3rem] md:gap-8">          {TechDetails.map((items)=>
+        <div className="grid grid-cols-1 sm:grid-cols-3 sm:gap-6 md:grid-cols-3 lg:grid-cols-3 2xl:gap-16 xl:gap-16 lg:gap-[3rem] md:gap-8">          
+        {TechDetails.map((items,index)=>
             {
-              return<TechExperties{...items}/>
+              return <TechExperties{...items} key={index}/>
             }
           )}
           </div>
@@ -237,9 +238,9 @@ export default function Hero() {
             <h2 className="text-white text-4xl xl:text-[3rem] xl:leading-[3rem] lg:text-[2.25rem] md:text-[2.25rem] md:leading-[2.5rem] sm:text-[2.25rem] sm:text-[2.25rem] sm:leading-[2.5rem] font-[signifier] font-extralight mb-4 sm:mb-0">
               Our complete list of service is available here.
             </h2>
-            {ServiceDetails.map((items)=>
+            {ServiceDetails.map((items,index)=>
               {
-                return<Service{...items}/>
+                return<Service{...items} key={index}/>
               }
             )}
             
@@ -280,9 +281,9 @@ export default function Hero() {
           {/* try to soleve this error */}
           {/*  */}
           <div className="ml-[-21px] md:ml-0 mt-20 mb-8 center space-x-6 slick-slider flex">
-            {ClientDetails.map((items)=>
+            {ClientDetails.map((items, index)=>
               {
-                return<Clients{...items}/>
+                return<Clients{...items} key={index}/>
               }
             )}
           </div>
@@ -600,9 +601,9 @@ export default function Hero() {
 
       {/* fifth container starts here */}
       <div>
-        {WriteQuote.map((items)=>
+        {WriteQuote.map((items, index)=>
           {
-            return<Quotes{...items}/>
+            return<Quotes{...items} key={index}/>
           }
         )}
       </div>
